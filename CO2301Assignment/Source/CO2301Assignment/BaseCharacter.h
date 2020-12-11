@@ -35,4 +35,9 @@ private:
 		USpringArmComponent* SpringArm;
 	UPROPERTY(EditAnywhere)
 		UCameraComponent* Camera;
+
+	void MoveForwards(float AxisValue);
+	void Strafe(float AxisValue);
+	void LookUp(float AxisValue);
+	void Turn(float AxisValue);
 };

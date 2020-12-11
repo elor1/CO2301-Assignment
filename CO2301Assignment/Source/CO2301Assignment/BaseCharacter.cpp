@@ -44,5 +44,30 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis(TEXT("MoveForwards"), this, &ABaseCharacter::MoveForwards);
+	PlayerInputComponent->BindAxis(TEXT("Strafe"), this, &ABaseCharacter::Strafe);
+	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &ABaseCharacter::LookUp);
+	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ABaseCharacter::Turn);
+	PlayerInputComponent->BindAction(TEXT("Jump"), IE_Pressed, this, &ACharacter::Jump);
+}
+
+void ABaseCharacter::MoveForwards(float AxisValue)
+{
+	AddMovementInput(GetActorForwardVector() * AxisValue);
+}
+
+void ABaseCharacter::Strafe(float AxisValue)
+{
+	AddMovementInput(GetActorRightVector() * AxisValue);
+}
+
+void ABaseCharacter::LookUp(float AxisValue)
+{
+	AddControllerPitchInput(AxisValue);
+}
+
+void ABaseCharacter::Turn(float AxisValue)
+{
+	AddControllerYawInput(AxisValue);
 }
 
