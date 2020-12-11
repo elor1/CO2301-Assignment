@@ -1,0 +1,2 @@
+C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\Definitions.CO2301Assignment.h
+c:\users\emma\documents\github\co2301-assignment\co2301assignment\source\co2301assignment\CO2301Assignment.h
