@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CO2301Assignment.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1899B247-4859-480D-8CD9-22344294C5A8}</UniqueIdentifier>
+      <UniqueIdentifier>{735BCB72-4555-4EB3-9144-94398BDEA8A8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CO2301Assignment.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{392AC228-1C13-4FEB-AC18-FC71059E0452}</UniqueIdentifier>
+      <UniqueIdentifier>{F04A81C8-3217-4236-834C-D24BC771778F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CO2301Assignment">
-      <UniqueIdentifier>{FD10FCC2-C86E-4DE2-9EE3-5DF346629553}</UniqueIdentifier>
+      <UniqueIdentifier>{0C550545-E07E-4C50-B973-D215BE56788C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\CO2301Assignment\BaseCharacter.cpp">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CO2301Assignment\BaseCharacter.h">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClInclude>
     <None Include="..\..\Source\CO2301Assignment\CO2301Assignment.Build.cs">
       <Filter>Source\CO2301Assignment</Filter>
     </None>
