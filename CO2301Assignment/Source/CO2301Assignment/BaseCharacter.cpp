@@ -30,6 +30,9 @@ void ABaseCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	Gun = GetWorld()->SpawnActor<AGun>(GunClass);
+	Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("weapon_r"));
+	Gun->SetOwner(this);
 }
 
 // Called every frame
@@ -49,6 +52,7 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &ABaseCharacter::LookUp);
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ABaseCharacter::Turn);
 	PlayerInputComponent->BindAction(TEXT("Jump"), IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Pressed, this, &ABaseCharacter::Shoot);
 }
 
 void ABaseCharacter::MoveForwards(float AxisValue)
@@ -69,5 +73,10 @@ void ABaseCharacter::LookUp(float AxisValue)
 void ABaseCharacter::Turn(float AxisValue)
 {
 	AddControllerYawInput(AxisValue);
+}
+
+void ABaseCharacter::Shoot()
+{
+	Gun->Shoot();
 }
 

@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Gun.h"
 #include "BaseCharacter.generated.h"
 
 UCLASS()
@@ -35,9 +36,14 @@ private:
 		USpringArmComponent* SpringArm;
 	UPROPERTY(EditAnywhere)
 		UCameraComponent* Camera;
+	UPROPERTY(EditDefaultsOnly)
+		TSubclassOf<AGun> GunClass;
+	UPROPERTY()
+		AGun* Gun;
 
 	void MoveForwards(float AxisValue);
 	void Strafe(float AxisValue);
 	void LookUp(float AxisValue);
 	void Turn(float AxisValue);
+	void Shoot();
 };
