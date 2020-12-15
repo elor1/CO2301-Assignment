@@ -10,4 +10,6 @@ C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+c:\users\emma\documents\github\co2301-assignment\co2301assignment\source\co2301assignment\Gun.h
+c:\users\emma\documents\github\co2301-assignment\co2301assignment\intermediate\build\win64\ue4editor\inc\co2301assignment\Gun.generated.h
 c:\users\emma\documents\github\co2301-assignment\co2301assignment\intermediate\build\win64\ue4editor\inc\co2301assignment\BaseCharacter.generated.h
