@@ -2,6 +2,7 @@
 
 
 #include "Gun.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 AGun::AGun()
@@ -14,12 +15,32 @@ AGun::AGun()
 
 	Mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(Root);
-	Mesh->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));
+	//Mesh->SetRelativeRotation(FRotator(-250.0f, -30.0f, 150.0f));
 }
 
 void AGun::Shoot()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Shoot"));
+
+	APawn* OwnerPawn = Cast<APawn>(GetOwner());
+	if (OwnerPawn) {
+		AController* OwnerController = OwnerPawn->GetController();
+		if (OwnerController) {
+			FVector Location;
+			FRotator Rotation;
+			OwnerController->GetPlayerViewPoint(Location, Rotation);
+
+			FVector EndPoint = MaxRange * Rotation.Vector() + Location;
+			
+			FHitResult Hit;
+			bool bHitObject = GetWorld()->LineTraceSingleByChannel(Hit, Location, EndPoint, ECollisionChannel::ECC_GameTraceChannel1);
+
+			if (bHitObject) {
+				DrawDebugPoint(GetWorld(), Hit.Location, 20.0f, FColor::Red, true);
+			}
+		}
+	}
+	
 }
 
 // Called when the game starts or when spawned

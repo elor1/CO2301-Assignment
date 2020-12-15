@@ -31,7 +31,7 @@ void ABaseCharacter::BeginPlay()
 	Super::BeginPlay();
 	
 	Gun = GetWorld()->SpawnActor<AGun>(GunClass);
-	Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("weapon_r"));
+	Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("weapon_l"));
 	Gun->SetOwner(this);
 }
 

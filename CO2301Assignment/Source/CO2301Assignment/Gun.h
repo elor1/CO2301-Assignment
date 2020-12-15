@@ -31,4 +31,6 @@ private:
 		USceneComponent* Root;
 	UPROPERTY(VisibleAnywhere)
 		USkeletalMeshComponent* Mesh;
+	UPROPERTY(EditAnywhere)
+		float MaxRange = 1000.0f;
 };
