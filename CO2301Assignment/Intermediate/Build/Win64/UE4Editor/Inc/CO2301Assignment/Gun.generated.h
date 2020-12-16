@@ -61,7 +61,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGun); \
 #define CO2301Assignment_Source_CO2301Assignment_Gun_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Root() { return STRUCT_OFFSET(AGun, Root); } \
 	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AGun, Mesh); } \
-	FORCEINLINE static uint32 __PPO__MaxRange() { return STRUCT_OFFSET(AGun, MaxRange); }
+	FORCEINLINE static uint32 __PPO__MaxRange() { return STRUCT_OFFSET(AGun, MaxRange); } \
+	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(AGun, Damage); } \
+	FORCEINLINE static uint32 __PPO__ShootTimer() { return STRUCT_OFFSET(AGun, ShootTimer); } \
+	FORCEINLINE static uint32 __PPO__RateOfFire() { return STRUCT_OFFSET(AGun, RateOfFire); } \
+	FORCEINLINE static uint32 __PPO__bCanShoot() { return STRUCT_OFFSET(AGun, bCanShoot); }
 
 
 #define CO2301Assignment_Source_CO2301Assignment_Gun_h_10_PROLOG

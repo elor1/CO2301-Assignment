@@ -20,26 +20,38 @@ AGun::AGun()
 
 void AGun::Shoot()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Shoot"));
+	if (bCanShoot) {
+		DisableShoot();
+		GetWorld()->GetTimerManager().SetTimer(ShootTimer, this, &AGun::EnableShoot, RateOfFire, false);
+		UE_LOG(LogTemp, Warning, TEXT("Shoot"));
 
-	APawn* OwnerPawn = Cast<APawn>(GetOwner());
-	if (OwnerPawn) {
-		AController* OwnerController = OwnerPawn->GetController();
-		if (OwnerController) {
-			FVector Location;
-			FRotator Rotation;
-			OwnerController->GetPlayerViewPoint(Location, Rotation);
+		APawn* OwnerPawn = Cast<APawn>(GetOwner());
+		if (OwnerPawn) {
+			AController* OwnerController = OwnerPawn->GetController();
+			if (OwnerController) {
+				FVector Location;
+				FRotator Rotation;
+				OwnerController->GetPlayerViewPoint(Location, Rotation);
 
-			FVector EndPoint = MaxRange * Rotation.Vector() + Location;
-			
-			FHitResult Hit;
-			bool bHitObject = GetWorld()->LineTraceSingleByChannel(Hit, Location, EndPoint, ECollisionChannel::ECC_GameTraceChannel1);
+				FVector EndPoint = MaxRange * Rotation.Vector() + Location;
 
-			if (bHitObject) {
-				DrawDebugPoint(GetWorld(), Hit.Location, 20.0f, FColor::Red, true);
+				FHitResult Hit;
+				bool bHitObject = GetWorld()->LineTraceSingleByChannel(Hit, Location, EndPoint, ECollisionChannel::ECC_GameTraceChannel1);
+
+				if (bHitObject) {
+					FVector ShotDirection = -Rotation.Vector();
+					DrawDebugPoint(GetWorld(), Hit.Location, 20.0f, FColor::Red, true);
+
+					AActor* ActorHit = Hit.GetActor();
+					if (ActorHit) {
+						FPointDamageEvent DamageEvent(Damage, Hit, ShotDirection, nullptr);
+						ActorHit->TakeDamage(Damage, DamageEvent, OwnerController, this);
+					}
+				}
 			}
 		}
 	}
+	
 	
 }
 
@@ -48,6 +60,7 @@ void AGun::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	bCanShoot = true;
 }
 
 // Called every frame
@@ -55,5 +68,15 @@ void AGun::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AGun::EnableShoot()
+{
+	bCanShoot = true;
+}
+
+void AGun::DisableShoot()
+{
+	bCanShoot = false;
 }
 
