@@ -33,6 +33,7 @@ void ABaseCharacter::BeginPlay()
 	Gun = GetWorld()->SpawnActor<AGun>(GunClass);
 	Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("weapon_l"));
 	Gun->SetOwner(this);
+	bCurrentlyShooting = false;
 }
 
 // Called every frame
@@ -40,6 +41,9 @@ void ABaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (bCurrentlyShooting) {
+		Gun->Shoot();
+	}
 }
 
 // Called to bind functionality to input
@@ -53,6 +57,7 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ABaseCharacter::Turn);
 	PlayerInputComponent->BindAction(TEXT("Jump"), IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Pressed, this, &ABaseCharacter::Shoot);
+	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Released, this, &ABaseCharacter::StopShoot);
 }
 
 void ABaseCharacter::MoveForwards(float AxisValue)
@@ -77,6 +82,11 @@ void ABaseCharacter::Turn(float AxisValue)
 
 void ABaseCharacter::Shoot()
 {
-	Gun->Shoot();
+	bCurrentlyShooting = true;
+}
+
+void ABaseCharacter::StopShoot()
+{
+	bCurrentlyShooting = false;
 }
 

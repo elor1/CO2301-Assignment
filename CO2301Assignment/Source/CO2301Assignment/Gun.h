@@ -33,4 +33,15 @@ private:
 		USkeletalMeshComponent* Mesh;
 	UPROPERTY(EditAnywhere)
 		float MaxRange = 1000.0f;
+	UPROPERTY(EditAnywhere)
+		float Damage = 10.0f;
+	UPROPERTY()
+		FTimerHandle ShootTimer;
+	UPROPERTY(EditAnywhere)
+		float RateOfFire = 0.1f; //Time between each bullet fired
+	UPROPERTY()
+		bool bCanShoot;
+
+	void EnableShoot();
+	void DisableShoot();
 };

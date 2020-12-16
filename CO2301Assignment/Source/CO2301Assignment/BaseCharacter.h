@@ -40,10 +40,13 @@ private:
 		TSubclassOf<AGun> GunClass;
 	UPROPERTY()
 		AGun* Gun;
+	UPROPERTY()
+		bool bCurrentlyShooting;
 
 	void MoveForwards(float AxisValue);
 	void Strafe(float AxisValue);
 	void LookUp(float AxisValue);
 	void Turn(float AxisValue);
 	void Shoot();
+	void StopShoot();
 };

@@ -62,7 +62,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseCharacter); \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ABaseCharacter, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ABaseCharacter, Camera); } \
 	FORCEINLINE static uint32 __PPO__GunClass() { return STRUCT_OFFSET(ABaseCharacter, GunClass); } \
-	FORCEINLINE static uint32 __PPO__Gun() { return STRUCT_OFFSET(ABaseCharacter, Gun); }
+	FORCEINLINE static uint32 __PPO__Gun() { return STRUCT_OFFSET(ABaseCharacter, Gun); } \
+	FORCEINLINE static uint32 __PPO__bCurrentlyShooting() { return STRUCT_OFFSET(ABaseCharacter, bCurrentlyShooting); }
 
 
 #define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_12_PROLOG
