@@ -34,6 +34,7 @@ void ABaseCharacter::BeginPlay()
 	Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("weapon_l"));
 	Gun->SetOwner(this);
 	bCurrentlyShooting = false;
+	bCurrentlyThrowing = false;
 }
 
 // Called every frame
@@ -41,7 +42,10 @@ void ABaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (bCurrentlyShooting) {
+	if (bCurrentlyThrowing) {
+
+	}
+	else if (bCurrentlyShooting) {
 		Gun->Shoot();
 	}
 }
