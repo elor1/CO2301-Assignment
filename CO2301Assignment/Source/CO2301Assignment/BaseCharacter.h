@@ -7,6 +7,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Gun.h"
+#include "Grenade.h"
 #include "BaseCharacter.generated.h"
 
 UCLASS()
@@ -32,6 +33,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bCurrentlyThrowing;
 
+	UFUNCTION(BlueprintCallable)
+		void ThrowGrenade();
+	UFUNCTION(BlueprintCallable)
+		void SpawnGrenade();
 private:
 	/*UPROPERTY(EditAnywhere)
 		USkeletalMeshComponent* CharacterMesh;*/
@@ -43,6 +48,10 @@ private:
 		TSubclassOf<AGun> GunClass;
 	UPROPERTY()
 		AGun* Gun;
+	UPROPERTY(EditDefaultsOnly)
+		TSubclassOf<AGrenade> GrenadeClass;
+	UPROPERTY()
+		AGrenade* Grenade;
 	UPROPERTY()
 		bool bCurrentlyShooting;
 	
@@ -53,4 +62,5 @@ private:
 	void Turn(float AxisValue);
 	void Shoot();
 	void StopShoot();
+	
 };
