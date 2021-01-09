@@ -34,15 +34,17 @@ void ABaseCharacter::BeginPlay()
 	Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("weapon_l"));
 	Gun->SetOwner(this);
 	bCurrentlyShooting = false;
+	bCurrentlyThrowing = false;
 }
 
 // Called every frame
 void ABaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	if (bCurrentlyShooting) {
-		Gun->Shoot();
+	if (Gun) {
+		if (bCurrentlyShooting) {
+			Gun->Shoot();
+		}
 	}
 }
 
@@ -58,16 +60,21 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction(TEXT("Jump"), IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Pressed, this, &ABaseCharacter::Shoot);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Released, this, &ABaseCharacter::StopShoot);
+	//PlayerInputComponent->BindAction(TEXT("ThrowGrenade"), IE_Pressed, this, &ABaseCharacter::SpawnGrenade);
 }
 
 void ABaseCharacter::MoveForwards(float AxisValue)
 {
-	AddMovementInput(GetActorForwardVector() * AxisValue);
+	if (!bCurrentlyThrowing) {
+		AddMovementInput(GetActorForwardVector() * AxisValue);
+	}
 }
 
 void ABaseCharacter::Strafe(float AxisValue)
 {
-	AddMovementInput(GetActorRightVector() * AxisValue);
+	if (!bCurrentlyThrowing) {
+		AddMovementInput(GetActorRightVector() * AxisValue);
+	}
 }
 
 void ABaseCharacter::LookUp(float AxisValue)
@@ -89,4 +96,19 @@ void ABaseCharacter::StopShoot()
 {
 	bCurrentlyShooting = false;
 }
+
+void ABaseCharacter::SpawnGrenade()
+{
+	Grenade = GetWorld()->SpawnActor<AGrenade>(GrenadeClass);
+	Grenade->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("weapon_r"));
+	Grenade->SetOwner(this);
+}
+
+void ABaseCharacter::ThrowGrenade()
+{
+	if (Grenade) {
+		Grenade->LaunchGrenade();
+	}
+}
+
 
