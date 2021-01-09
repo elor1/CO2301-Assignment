@@ -6,6 +6,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "GameFramework/Actor.h"
+#include "Kismet/GameplayStatics.h"
 #include "Grenade.generated.h"
 
 UCLASS()
@@ -34,4 +35,15 @@ private:
 		UStaticMeshComponent* Mesh;
 	UPROPERTY()
 		UProjectileMovementComponent* ProjectileMovement;
+	UPROPERTY(EditAnywhere)
+		float Damage = 70.0f;
+	UPROPERTY(EditAnywhere)
+		float DamageRadius = 150.0f;
+
+	UPROPERTY()
+		FTimerHandle GrenadeTimer;
+	UPROPERTY(EditAnywhere)
+		float ExplodeTime = 3.5f; //Seconds from grenade spawn to explosion
+
+	void Explode();
 };

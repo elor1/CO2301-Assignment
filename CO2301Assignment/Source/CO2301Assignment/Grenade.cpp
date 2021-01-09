@@ -15,7 +15,7 @@ AGrenade::AGrenade()
 	ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement"));
 	ProjectileMovement->MaxSpeed = MovementSpeed;
 	ProjectileMovement->InitialSpeed = MovementSpeed;
-	InitialLifeSpan = 5.0f;
+	InitialLifeSpan = ExplodeTime;
 	ProjectileMovement->bSimulationEnabled = false;
 }
 
@@ -37,6 +37,15 @@ void AGrenade::LaunchGrenade()
 {
 	Mesh->SetSimulatePhysics(true);
 	ProjectileMovement->bSimulationEnabled = true;
-	
+
+	GetWorld()->GetTimerManager().SetTimer(GrenadeTimer, this, &AGrenade::Explode, ExplodeTime, false);
+}
+
+void AGrenade::Explode()
+{
+	//UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), )
+	TArray<AActor*> GrenadeActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AGrenade::StaticClass(), GrenadeActors);
+	UGameplayStatics::ApplyRadialDamage(this, Damage, GetActorLocation(), DamageRadius, nullptr, GrenadeActors, GetOwner(), GetOwner()->GetInstigatorController(), false, ECollisionChannel::ECC_GameTraceChannel1);
 }
 
