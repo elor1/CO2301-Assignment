@@ -15,7 +15,6 @@ AGrenade::AGrenade()
 	ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement"));
 	ProjectileMovement->MaxSpeed = MovementSpeed;
 	ProjectileMovement->InitialSpeed = MovementSpeed;
-	InitialLifeSpan = ExplodeTime;
 	ProjectileMovement->bSimulationEnabled = false;
 }
 
@@ -24,6 +23,7 @@ void AGrenade::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	OnActorHit.AddDynamic(this, &AGrenade::OnHit);
 }
 
 // Called every frame
@@ -37,15 +37,25 @@ void AGrenade::LaunchGrenade()
 {
 	Mesh->SetSimulatePhysics(true);
 	ProjectileMovement->bSimulationEnabled = true;
-
-	GetWorld()->GetTimerManager().SetTimer(GrenadeTimer, this, &AGrenade::Explode, ExplodeTime, false);
+	Mesh->SetNotifyRigidBodyCollision(true);
 }
 
-void AGrenade::Explode()
+void AGrenade::OnHit(AActor * SelfActor, AActor * OtherActor, FVector NormalImpulse, const FHitResult & Hit)
 {
-	//UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), )
+	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ExplosionEffect, GetActorLocation(), GetActorRotation());
+
 	TArray<AActor*> GrenadeActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AGrenade::StaticClass(), GrenadeActors);
 	UGameplayStatics::ApplyRadialDamage(this, Damage, GetActorLocation(), DamageRadius, nullptr, GrenadeActors, GetOwner(), GetOwner()->GetInstigatorController(), false, ECollisionChannel::ECC_GameTraceChannel1);
+
+	Destroy();
 }
+
+//void AGrenade::Explode()
+//{
+//	//UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), )
+//	TArray<AActor*> GrenadeActors;
+//	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AGrenade::StaticClass(), GrenadeActors);
+//	UGameplayStatics::ApplyRadialDamage(this, Damage, GetActorLocation(), DamageRadius, nullptr, GrenadeActors, GetOwner(), GetOwner()->GetInstigatorController(), false, ECollisionChannel::ECC_GameTraceChannel1);
+//}
 

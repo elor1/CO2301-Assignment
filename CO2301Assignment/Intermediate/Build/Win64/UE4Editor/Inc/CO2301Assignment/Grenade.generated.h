@@ -8,15 +8,26 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef CO2301ASSIGNMENT_Grenade_generated_h
 #error "Grenade.generated.h already included, missing '#pragma once' in Grenade.h"
 #endif
 #define CO2301ASSIGNMENT_Grenade_generated_h
 
-#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_SPARSE_DATA
-#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_RPC_WRAPPERS
-#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_INCLASS_NO_PURE_DECLS \
+#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_SPARSE_DATA
+#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
+#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
+#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGrenade(); \
 	friend struct Z_Construct_UClass_AGrenade_Statics; \
@@ -25,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(AGrenade)
 
 
-#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_INCLASS \
+#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAGrenade(); \
 	friend struct Z_Construct_UClass_AGrenade_Statics; \
@@ -34,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(AGrenade)
 
 
-#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_STANDARD_CONSTRUCTORS \
+#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGrenade(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGrenade) \
@@ -47,7 +58,7 @@ private: \
 public:
 
 
-#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_ENHANCED_CONSTRUCTORS \
+#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGrenade(AGrenade&&); \
@@ -58,37 +69,36 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGrenade); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGrenade)
 
 
-#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_PRIVATE_PROPERTY_OFFSET \
+#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MovementSpeed() { return STRUCT_OFFSET(AGrenade, MovementSpeed); } \
 	FORCEINLINE static uint32 __PPO__Mesh() { return STRUCT_OFFSET(AGrenade, Mesh); } \
 	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(AGrenade, ProjectileMovement); } \
 	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(AGrenade, Damage); } \
 	FORCEINLINE static uint32 __PPO__DamageRadius() { return STRUCT_OFFSET(AGrenade, DamageRadius); } \
-	FORCEINLINE static uint32 __PPO__GrenadeTimer() { return STRUCT_OFFSET(AGrenade, GrenadeTimer); } \
-	FORCEINLINE static uint32 __PPO__ExplodeTime() { return STRUCT_OFFSET(AGrenade, ExplodeTime); }
+	FORCEINLINE static uint32 __PPO__ExplosionEffect() { return STRUCT_OFFSET(AGrenade, ExplosionEffect); }
 
 
-#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_12_PROLOG
-#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_GENERATED_BODY_LEGACY \
+#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_13_PROLOG
+#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_PRIVATE_PROPERTY_OFFSET \
-	CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_SPARSE_DATA \
-	CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_RPC_WRAPPERS \
-	CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_INCLASS \
-	CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_STANDARD_CONSTRUCTORS \
+	CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_PRIVATE_PROPERTY_OFFSET \
+	CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_SPARSE_DATA \
+	CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_RPC_WRAPPERS \
+	CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_INCLASS \
+	CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_GENERATED_BODY \
+#define CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_PRIVATE_PROPERTY_OFFSET \
-	CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_SPARSE_DATA \
-	CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_INCLASS_NO_PURE_DECLS \
-	CO2301Assignment_Source_CO2301Assignment_Grenade_h_15_ENHANCED_CONSTRUCTORS \
+	CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_PRIVATE_PROPERTY_OFFSET \
+	CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_SPARSE_DATA \
+	CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_INCLASS_NO_PURE_DECLS \
+	CO2301Assignment_Source_CO2301Assignment_Grenade_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

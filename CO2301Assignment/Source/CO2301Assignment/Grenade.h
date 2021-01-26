@@ -6,6 +6,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "GameFramework/Actor.h"
+#include "Particles/ParticleSystem.h"
 #include "Kismet/GameplayStatics.h"
 #include "Grenade.generated.h"
 
@@ -40,10 +41,11 @@ private:
 	UPROPERTY(EditAnywhere)
 		float DamageRadius = 150.0f;
 
-	UPROPERTY()
-		FTimerHandle GrenadeTimer;
 	UPROPERTY(EditAnywhere)
-		float ExplodeTime = 3.5f; //Seconds from grenade spawn to explosion
+		UParticleSystem* ExplosionEffect;
+
+	UFUNCTION()
+		void OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit);
 
 	void Explode();
 };
