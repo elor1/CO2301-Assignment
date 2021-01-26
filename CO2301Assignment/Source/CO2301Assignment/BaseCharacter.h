@@ -30,6 +30,8 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	virtual float TakeDamage(float DamageAmount, FDamageEvent const &DamageEvent, class AController *EventInstigator, AActor *DamageCauser) override;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bCurrentlyThrowing;
 
@@ -54,7 +56,10 @@ private:
 		AGrenade* Grenade;
 	UPROPERTY()
 		bool bCurrentlyShooting;
-	
+	UPROPERTY(EditDefaultsOnly)
+		float MaxHealth = 100.0f;
+	UPROPERTY(VisibleAnywhere)
+		float Health;
 
 	void MoveForwards(float AxisValue);
 	void Strafe(float AxisValue);

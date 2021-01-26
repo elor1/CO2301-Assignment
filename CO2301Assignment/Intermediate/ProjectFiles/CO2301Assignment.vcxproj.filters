@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CO2301Assignment.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F5A66908-583F-4A3B-9D07-358BE8BA2D7B}</UniqueIdentifier>
+      <UniqueIdentifier>{7A0153B1-F40D-4BB4-943D-38CF8A62428D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CO2301Assignment.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{146F9193-7272-4907-8433-F0B0969E4F65}</UniqueIdentifier>
+      <UniqueIdentifier>{EB5CFA17-E8B3-443C-AC42-B34D134D4570}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CO2301Assignment">
-      <UniqueIdentifier>{FDB24AF7-647D-49E9-A6F1-3B36C1D7A38D}</UniqueIdentifier>
+      <UniqueIdentifier>{0CB29B9C-5760-4094-B7EC-41745C75B4CA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\CO2301Assignment\BaseCharacter.cpp">
       <Filter>Source\CO2301Assignment</Filter>
@@ -48,6 +48,12 @@
       <Filter>Source\CO2301Assignment</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CO2301Assignment\CO2301AssignmentGameModeBase.h">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CO2301Assignment\EnemyAIController.cpp">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CO2301Assignment\EnemyAIController.h">
       <Filter>Source\CO2301Assignment</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\CO2301Assignment\Grenade.cpp">

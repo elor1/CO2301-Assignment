@@ -35,6 +35,8 @@ void ABaseCharacter::BeginPlay()
 	Gun->SetOwner(this);
 	bCurrentlyShooting = false;
 	bCurrentlyThrowing = false;
+
+	Health = MaxHealth;
 }
 
 // Called every frame
@@ -61,6 +63,15 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Pressed, this, &ABaseCharacter::Shoot);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Released, this, &ABaseCharacter::StopShoot);
 	//PlayerInputComponent->BindAction(TEXT("ThrowGrenade"), IE_Pressed, this, &ABaseCharacter::SpawnGrenade);
+}
+
+float ABaseCharacter::TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser)
+{
+	float DamageApplied = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+	DamageApplied = FMath::Min(Health, DamageApplied);
+	Health -= DamageApplied;
+	UE_LOG(LogTemp, Warning, TEXT("Health left %f"), Health);
+	return DamageApplied;
 }
 
 void ABaseCharacter::MoveForwards(float AxisValue)

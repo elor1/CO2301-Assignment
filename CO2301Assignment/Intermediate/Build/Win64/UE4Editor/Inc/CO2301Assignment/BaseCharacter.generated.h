@@ -75,7 +75,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseCharacter); \
 	FORCEINLINE static uint32 __PPO__Gun() { return STRUCT_OFFSET(ABaseCharacter, Gun); } \
 	FORCEINLINE static uint32 __PPO__GrenadeClass() { return STRUCT_OFFSET(ABaseCharacter, GrenadeClass); } \
 	FORCEINLINE static uint32 __PPO__Grenade() { return STRUCT_OFFSET(ABaseCharacter, Grenade); } \
-	FORCEINLINE static uint32 __PPO__bCurrentlyShooting() { return STRUCT_OFFSET(ABaseCharacter, bCurrentlyShooting); }
+	FORCEINLINE static uint32 __PPO__bCurrentlyShooting() { return STRUCT_OFFSET(ABaseCharacter, bCurrentlyShooting); } \
+	FORCEINLINE static uint32 __PPO__MaxHealth() { return STRUCT_OFFSET(ABaseCharacter, MaxHealth); } \
+	FORCEINLINE static uint32 __PPO__Health() { return STRUCT_OFFSET(ABaseCharacter, Health); }
 
 
 #define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_13_PROLOG
