@@ -14,16 +14,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CO2301ASSIGNMENT_EnemyAIController_generated_h
 
 #define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_25_SPARSE_DATA
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_25_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execSetToPatrol);
-
-
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execSetToPatrol);
-
-
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_25_RPC_WRAPPERS
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_25_RPC_WRAPPERS_NO_PURE_DECLS
 #define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_25_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyAIController(); \
@@ -69,10 +61,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyAIController); \
 
 
 #define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_25_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__AIBehaviour() { return STRUCT_OFFSET(AEnemyAIController, AIBehaviour); } \
-	FORCEINLINE static uint32 __PPO__State() { return STRUCT_OFFSET(AEnemyAIController, State); } \
-	FORCEINLINE static uint32 __PPO__InvestigateTimer() { return STRUCT_OFFSET(AEnemyAIController, InvestigateTimer); } \
-	FORCEINLINE static uint32 __PPO__InvestigateTime() { return STRUCT_OFFSET(AEnemyAIController, InvestigateTime); }
+	FORCEINLINE static uint32 __PPO__AIBehaviour() { return STRUCT_OFFSET(AEnemyAIController, AIBehaviour); }
 
 
 #define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_22_PROLOG
@@ -106,8 +95,4 @@ template<> CO2301ASSIGNMENT_API UClass* StaticClass<class AEnemyAIController>();
 #define CURRENT_FILE_ID CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h
 
 
-#define FOREACH_ENUM_EAISTATE(op) \
-	op(Follow) \
-	op(Investigate) \
-	op(Patrol) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

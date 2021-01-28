@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CO2301Assignment.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7A0153B1-F40D-4BB4-943D-38CF8A62428D}</UniqueIdentifier>
+      <UniqueIdentifier>{4661A305-B236-418D-8768-80C7DC73F6CC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CO2301Assignment.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{EB5CFA17-E8B3-443C-AC42-B34D134D4570}</UniqueIdentifier>
+      <UniqueIdentifier>{4175C4BC-A026-4AFC-B9CD-42A6F52965BC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,36 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CO2301Assignment">
-      <UniqueIdentifier>{0CB29B9C-5760-4094-B7EC-41745C75B4CA}</UniqueIdentifier>
+      <UniqueIdentifier>{2CD64863-8855-4B9C-9127-96C85AAA8082}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\CO2301Assignment\BaseCharacter.cpp">
       <Filter>Source\CO2301Assignment</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CO2301Assignment\BaseCharacter.h">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CO2301Assignment\BTService_FollowPlayerLocation.cpp">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CO2301Assignment\BTService_FollowPlayerLocation.h">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CO2301Assignment\BTService_PlayerLocation.cpp">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CO2301Assignment\BTService_PlayerLocation.h">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CO2301Assignment\BTTask_ClearBlackboardValue.cpp">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CO2301Assignment\BTTask_ClearBlackboardValue.h">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CO2301Assignment\BTTask_Shoot.cpp">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CO2301Assignment\BTTask_Shoot.h">
       <Filter>Source\CO2301Assignment</Filter>
     </ClInclude>
     <None Include="..\..\Source\CO2301Assignment\CO2301Assignment.Build.cs">

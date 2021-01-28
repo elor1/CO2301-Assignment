@@ -9,12 +9,12 @@
 #include "AIController.h"
 #include "EnemyAIController.generated.h"
 
-UENUM(BlueprintType)
-enum EAIState {
-	Follow,
-	Investigate,
-	Patrol
-};
+//UENUM(BlueprintType)
+//enum EAIState {
+//	Follow,
+//	Investigate,
+//	Patrol
+//};
 
 /**
  * 
@@ -33,18 +33,4 @@ protected:
 private:
 	UPROPERTY(EditAnywhere)
 		UBehaviorTree* AIBehaviour;
-
-
-	
-
-	UPROPERTY(EditDefaultsOnly)
-		TEnumAsByte<EAIState> State = Patrol;
-
-	UPROPERTY()
-		FTimerHandle InvestigateTimer;
-	UPROPERTY(EditAnywhere)
-		float InvestigateTime = 3.0f; //Time before enemy will return to patrol
-
-	UFUNCTION()
-		void SetToPatrol();
 };

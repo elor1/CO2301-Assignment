@@ -32,6 +32,8 @@ public:
 
 	virtual float TakeDamage(float DamageAmount, FDamageEvent const &DamageEvent, class AController *EventInstigator, AActor *DamageCauser) override;
 
+	void Shoot();
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bCurrentlyThrowing;
 
@@ -65,7 +67,6 @@ private:
 	void Strafe(float AxisValue);
 	void LookUp(float AxisValue);
 	void Turn(float AxisValue);
-	void Shoot();
 	void StopShoot();
 	
 };

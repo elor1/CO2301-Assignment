@@ -16,33 +16,13 @@ void AEnemyAIController::BeginPlay() {
 
 		APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
 		GetBlackboardComponent()->SetValueAsVector(TEXT("StartLocation"), GetPawn()->GetActorLocation());
-		GetBlackboardComponent()->SetValueAsVector(TEXT("PlayerLocation"), PlayerPawn->GetActorLocation());
+		GetBlackboardComponent()->SetValueAsVector(TEXT("PatrolLocation"), GetPawn()->GetActorLocation() + FVector(0.0f, 500.0f, 0.0f));
+		GetBlackboardComponent()->SetValueAsObject(TEXT("PlayerPawn"), PlayerPawn);
 	}
 }
 
 void AEnemyAIController::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
-	
-	GetBlackboardComponent()->SetValueAsEnum(TEXT("AIState"), State);
-
-	APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
-	if (LineOfSightTo(PlayerPawn)) {
-		State = Follow;
-		GetBlackboardComponent()->SetValueAsVector(TEXT("PlayerLocation"), PlayerPawn->GetActorLocation());
-		GetBlackboardComponent()->SetValueAsVector(TEXT("LastSeenPlayerLocation"), PlayerPawn->GetActorLocation());
-	}
-	else {
-		State = Investigate;
-		//GetBlackboardComponent()->ClearValue(TEXT("PlayerLocation"));
-	}
-
-	if (State == Investigate && FVector::Distance(PlayerPawn->GetActorLocation(), GetPawn()->GetActorLocation()) < 1.0f){
-		GetWorld()->GetTimerManager().SetTimer(InvestigateTimer, this, &AEnemyAIController::SetToPatrol, InvestigateTime, false);
-	}
 
 }
 
-void AEnemyAIController::SetToPatrol()
-{
-	State = Patrol;
-}
