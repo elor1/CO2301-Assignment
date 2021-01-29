@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
 #include "Gun.h"
 #include "Grenade.h"
 #include "BaseCharacter.generated.h"
@@ -30,6 +31,10 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	virtual float TakeDamage(float DamageAmount, FDamageEvent const &DamageEvent, class AController *EventInstigator, AActor *DamageCauser) override;
+
+	void Shoot();
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bCurrentlyThrowing;
 
@@ -37,6 +42,8 @@ public:
 		void ThrowGrenade();
 	UFUNCTION(BlueprintCallable)
 		void SpawnGrenade();
+	UFUNCTION(BlueprintPure)
+		bool IsDead() const;
 private:
 	/*UPROPERTY(EditAnywhere)
 		USkeletalMeshComponent* CharacterMesh;*/
@@ -54,13 +61,15 @@ private:
 		AGrenade* Grenade;
 	UPROPERTY()
 		bool bCurrentlyShooting;
-	
+	UPROPERTY(EditDefaultsOnly)
+		float MaxHealth = 100.0f;
+	UPROPERTY(VisibleAnywhere)
+		float Health;
 
 	void MoveForwards(float AxisValue);
 	void Strafe(float AxisValue);
 	void LookUp(float AxisValue);
 	void Turn(float AxisValue);
-	void Shoot();
 	void StopShoot();
 	
 };

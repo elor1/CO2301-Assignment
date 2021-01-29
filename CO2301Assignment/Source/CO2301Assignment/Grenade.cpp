@@ -51,11 +51,3 @@ void AGrenade::OnHit(AActor * SelfActor, AActor * OtherActor, FVector NormalImpu
 	Destroy();
 }
 
-//void AGrenade::Explode()
-//{
-//	//UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), )
-//	TArray<AActor*> GrenadeActors;
-//	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AGrenade::StaticClass(), GrenadeActors);
-//	UGameplayStatics::ApplyRadialDamage(this, Damage, GetActorLocation(), DamageRadius, nullptr, GrenadeActors, GetOwner(), GetOwner()->GetInstigatorController(), false, ECollisionChannel::ECC_GameTraceChannel1);
-//}
-
