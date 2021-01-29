@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
 #include "Gun.h"
 #include "Grenade.h"
 #include "BaseCharacter.generated.h"
@@ -41,6 +42,8 @@ public:
 		void ThrowGrenade();
 	UFUNCTION(BlueprintCallable)
 		void SpawnGrenade();
+	UFUNCTION(BlueprintPure)
+		bool IsDead() const;
 private:
 	/*UPROPERTY(EditAnywhere)
 		USkeletalMeshComponent* CharacterMesh;*/
