@@ -73,8 +73,18 @@ float ABaseCharacter::TakeDamage(float DamageAmount, FDamageEvent const & Damage
 	UE_LOG(LogTemp, Warning, TEXT("Health left %f"), Health);
 
 	if (IsDead()) {
+		//Check if player is dead
+		APlayerController* PlayerController = Cast<APlayerController>(GetController());
+		if (PlayerController) {
+			ACO2301AssignmentGameModeBase* GameMode = GetWorld()->GetAuthGameMode<ACO2301AssignmentGameModeBase>();
+			if (GameMode) {
+				GameMode->EndGame(PlayerController, false);
+			}
+		}
+
 		DetachFromControllerPendingDestroy();
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+		
 	}
 
 	return DamageApplied;

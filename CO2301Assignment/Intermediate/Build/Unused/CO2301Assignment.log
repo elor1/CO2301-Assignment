@@ -2,11 +2,11 @@
   Building CO2301AssignmentEditor...
   Using Visual Studio 2017 14.16.27038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 16 processes...
-    [1/4] EnemyAIController.cpp
+    [1/4] CustomPlayerController.cpp
     [2/4] UE4Editor-CO2301Assignment.lib
        Creating library C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment.lib and object C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment.exp
     [3/4] UE4Editor-CO2301Assignment.dll
        Creating library C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment.suppressed.lib and object C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment.suppressed.exp
     [4/4] CO2301AssignmentEditor.target
-  Total time in Parallel executor: 2.37 seconds
-  Total execution time: 2.73 seconds
+  Total time in Parallel executor: 3.59 seconds
+  Total execution time: 3.96 seconds

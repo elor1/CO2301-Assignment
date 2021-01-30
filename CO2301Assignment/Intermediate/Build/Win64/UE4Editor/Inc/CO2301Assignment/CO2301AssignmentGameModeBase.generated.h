@@ -8,14 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class APlayerController;
 #ifdef CO2301ASSIGNMENT_CO2301AssignmentGameModeBase_generated_h
 #error "CO2301AssignmentGameModeBase.generated.h already included, missing '#pragma once' in CO2301AssignmentGameModeBase.h"
 #endif
 #define CO2301ASSIGNMENT_CO2301AssignmentGameModeBase_generated_h
 
 #define CO2301Assignment_Source_CO2301Assignment_CO2301AssignmentGameModeBase_h_15_SPARSE_DATA
-#define CO2301Assignment_Source_CO2301Assignment_CO2301AssignmentGameModeBase_h_15_RPC_WRAPPERS
-#define CO2301Assignment_Source_CO2301Assignment_CO2301AssignmentGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define CO2301Assignment_Source_CO2301Assignment_CO2301AssignmentGameModeBase_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execEndGame); \
+	DECLARE_FUNCTION(execStartGame);
+
+
+#define CO2301Assignment_Source_CO2301Assignment_CO2301AssignmentGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execEndGame); \
+	DECLARE_FUNCTION(execStartGame);
+
+
 #define CO2301Assignment_Source_CO2301Assignment_CO2301AssignmentGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACO2301AssignmentGameModeBase(); \
