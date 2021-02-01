@@ -6,6 +6,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "BehaviorTree/BehaviorTree.h"
 #include "BehaviorTree/BlackboardComponent.h"
+#include "BaseCharacter.h"
 #include "AIController.h"
 #include "EnemyAIController.generated.h"
 
@@ -23,7 +24,7 @@ UCLASS()
 class CO2301ASSIGNMENT_API AEnemyAIController : public AAIController
 {
 	GENERATED_BODY()
-	
+
 protected:
 	virtual void BeginPlay() override;
 

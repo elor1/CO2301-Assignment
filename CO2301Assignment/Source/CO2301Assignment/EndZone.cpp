@@ -33,6 +33,15 @@ void AEndZone::Tick(float DeltaTime)
 
 void AEndZone::OnOverLapBegin(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	GameModeRef->EndGame(GetWorld()->GetFirstPlayerController(), true);
+	APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+	if (PlayerPawn) {
+		AActor* PlayerActor = Cast<AActor>(PlayerPawn);
+		if (PlayerActor) {
+			if (PlayerActor == OtherActor) {
+				GameModeRef->EndGame(GetWorld()->GetFirstPlayerController(), true);
+			}
+		}
+	}
+	
 }
 

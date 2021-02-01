@@ -19,7 +19,7 @@ void ACustomPlayerController::GameHasEnded(class AActor *EndGameFocus, bool bIsW
 void ACustomPlayerController::DisplayEndScreen(TSubclassOf<UUserWidget> EndScreenClass)
 {
 	UUserWidget* EndScreen = CreateWidget(this, EndScreenClass);
-	if (EndScreenClass) {
+	if (EndScreen) {
 		EndScreen->AddToViewport();
 		bShowMouseCursor = true;
 		bEnableClickEvents = true;
