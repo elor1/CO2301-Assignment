@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "EngineUtils.h"
 #include "CO2301AssignmentGameModeBase.generated.h"
 
 /**

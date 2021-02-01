@@ -11,6 +11,13 @@ void ACO2301AssignmentGameModeBase::EndGame(APlayerController* PlayerController,
 {
 	UE_LOG(LogTemp, Warning, TEXT("END"));
 
-	PlayerController->GameHasEnded(nullptr, false);
-	
+	for (AController* Controller : TActorRange<AController>(GetWorld())) {
+		bool bIsPlayerController = Controller->IsPlayerController();
+		if (bIsPlayerController) {
+			Controller->GameHasEnded(Controller->GetPawn(), bHasWon);
+		}
+		else {
+			Controller->GameHasEnded(Controller->GetPawn(), !bHasWon);
+		}
+	}
 }

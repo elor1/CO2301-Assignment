@@ -61,7 +61,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACustomPlayerController); \
 
 
 #define CO2301Assignment_Source_CO2301Assignment_CustomPlayerController_h_16_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__LoseScreenClass() { return STRUCT_OFFSET(ACustomPlayerController, LoseScreenClass); }
+	FORCEINLINE static uint32 __PPO__LoseScreenClass() { return STRUCT_OFFSET(ACustomPlayerController, LoseScreenClass); } \
+	FORCEINLINE static uint32 __PPO__WinScreenClass() { return STRUCT_OFFSET(ACustomPlayerController, WinScreenClass); }
 
 
 #define CO2301Assignment_Source_CO2301Assignment_CustomPlayerController_h_13_PROLOG

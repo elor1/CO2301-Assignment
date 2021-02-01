@@ -8,9 +8,19 @@ void ACustomPlayerController::GameHasEnded(class AActor *EndGameFocus, bool bIsW
 	Super::GameHasEnded(EndGameFocus, bIsWinner);
 	UE_LOG(LogTemp, Warning, TEXT("Finished"));
 
-	UUserWidget* LoseScreen = CreateWidget(this, LoseScreenClass);
-	if (LoseScreen) {
-		LoseScreen->AddToViewport();
+	if (!bIsWinner) {
+		DisplayEndScreen(LoseScreenClass);
+	}
+	else {
+		DisplayEndScreen(WinScreenClass);
+	}
+}
+
+void ACustomPlayerController::DisplayEndScreen(TSubclassOf<UUserWidget> EndScreenClass)
+{
+	UUserWidget* EndScreen = CreateWidget(this, EndScreenClass);
+	if (EndScreenClass) {
+		EndScreen->AddToViewport();
 		bShowMouseCursor = true;
 		bEnableClickEvents = true;
 		bEnableMouseOverEvents = true;

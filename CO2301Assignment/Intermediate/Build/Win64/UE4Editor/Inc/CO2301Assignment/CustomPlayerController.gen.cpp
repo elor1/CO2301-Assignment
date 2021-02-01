@@ -34,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeCustomPlayerController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WinScreenClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_WinScreenClass;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LoseScreenClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_LoseScreenClass;
@@ -54,6 +58,13 @@ void EmptyLinkFunctionForGeneratedCodeCustomPlayerController() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACustomPlayerController_Statics::NewProp_WinScreenClass_MetaData[] = {
+		{ "Category", "CustomPlayerController" },
+		{ "ModuleRelativePath", "CustomPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACustomPlayerController_Statics::NewProp_WinScreenClass = { "WinScreenClass", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACustomPlayerController, WinScreenClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACustomPlayerController_Statics::NewProp_WinScreenClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACustomPlayerController_Statics::NewProp_WinScreenClass_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACustomPlayerController_Statics::NewProp_LoseScreenClass_MetaData[] = {
 		{ "Category", "CustomPlayerController" },
 		{ "ModuleRelativePath", "CustomPlayerController.h" },
@@ -61,6 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCustomPlayerController() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACustomPlayerController_Statics::NewProp_LoseScreenClass = { "LoseScreenClass", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACustomPlayerController, LoseScreenClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACustomPlayerController_Statics::NewProp_LoseScreenClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACustomPlayerController_Statics::NewProp_LoseScreenClass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACustomPlayerController_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACustomPlayerController_Statics::NewProp_WinScreenClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACustomPlayerController_Statics::NewProp_LoseScreenClass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACustomPlayerController_Statics::StaticCppClassTypeInfo = {
@@ -90,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeCustomPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACustomPlayerController, 2679630267);
+	IMPLEMENT_CLASS(ACustomPlayerController, 3124449738);
 	template<> CO2301ASSIGNMENT_API UClass* StaticClass<ACustomPlayerController>()
 	{
 		return ACustomPlayerController::StaticClass();
