@@ -9,6 +9,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Gun.h"
 #include "Grenade.h"
+#include "CO2301AssignmentGameModeBase.h"
 #include "BaseCharacter.generated.h"
 
 UCLASS()

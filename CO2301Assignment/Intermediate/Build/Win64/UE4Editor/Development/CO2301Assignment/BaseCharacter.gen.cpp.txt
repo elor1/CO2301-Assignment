@@ -36,4 +36,11 @@ c:\program files\epic games\ue_4.25\engine\source\runtime\engine\classes\kismet\
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 c:\users\emma\documents\github\co2301-assignment\co2301assignment\intermediate\build\win64\ue4editor\inc\co2301assignment\Grenade.generated.h
+c:\users\emma\documents\github\co2301-assignment\co2301assignment\source\co2301assignment\CO2301AssignmentGameModeBase.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Public\EngineUtils.h
+c:\users\emma\documents\github\co2301-assignment\co2301assignment\intermediate\build\win64\ue4editor\inc\co2301assignment\CO2301AssignmentGameModeBase.generated.h
 c:\users\emma\documents\github\co2301-assignment\co2301assignment\intermediate\build\win64\ue4editor\inc\co2301assignment\BaseCharacter.generated.h

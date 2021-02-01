@@ -32,7 +32,7 @@ private:
 	UPROPERTY(VisibleAnywhere)
 		USkeletalMeshComponent* Mesh;
 	UPROPERTY(EditAnywhere)
-		float MaxRange = 1000.0f;
+		float MaxRange = 3000.0f;
 	UPROPERTY(EditAnywhere)
 		float Damage = 10.0f;
 	UPROPERTY()
