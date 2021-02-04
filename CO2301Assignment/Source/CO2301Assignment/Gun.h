@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "Kismet/GameplayStatics.h"
 #include "GameFramework/Actor.h"
 #include "Gun.generated.h"
 
@@ -38,10 +39,16 @@ private:
 	UPROPERTY()
 		FTimerHandle ShootTimer;
 	UPROPERTY(EditAnywhere)
-		float RateOfFire = 0.1f; //Time between each bullet fired
+		float RateOfFire = 0.15f; //Time between each bullet fired
 	UPROPERTY()
 		bool bCanShoot;
+	UPROPERTY(EditAnywhere)
+		USoundBase* ShootSound;
+	UPROPERTY(EditAnywhere)
+		USoundBase* ImpactSound;
 
 	void EnableShoot();
 	void DisableShoot();
+	bool GunTrace(FHitResult& Hit, FVector& ShotDirection);
+	AController* GetOwnerController() const;
 };

@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "BaseCharacter.h"
 #include "Grenade.h"
 
 // Sets default values
@@ -38,14 +38,23 @@ void AGrenade::LaunchGrenade()
 	Mesh->SetSimulatePhysics(true);
 	ProjectileMovement->bSimulationEnabled = true;
 	Mesh->SetNotifyRigidBodyCollision(true);
+
+	ABaseCharacter* PlayerCharacter = Cast<ABaseCharacter>(GetOwner());
+	if (PlayerCharacter)
+	{
+		Mesh->IgnoreActorWhenMoving(PlayerCharacter, true);
+		Mesh->IgnoreActorWhenMoving(PlayerCharacter->Gun, true);
+	}
 }
 
 void AGrenade::OnHit(AActor * SelfActor, AActor * OtherActor, FVector NormalImpulse, const FHitResult & Hit)
 {
 	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ExplosionEffect, GetActorLocation(), GetActorRotation());
-
+	UGameplayStatics::PlaySoundAtLocation(GetWorld(), ExplosionSound, Hit.Location);
+	
 	TArray<AActor*> GrenadeActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AGrenade::StaticClass(), GrenadeActors);
+	GrenadeActors.Add(GetOwner());
 	UGameplayStatics::ApplyRadialDamage(this, Damage, GetActorLocation(), DamageRadius, nullptr, GrenadeActors, GetOwner(), GetOwner()->GetInstigatorController(), false, ECollisionChannel::ECC_GameTraceChannel1);
 
 	Destroy();

@@ -39,10 +39,14 @@ private:
 	UPROPERTY(EditAnywhere)
 		float Damage = 90.0f;
 	UPROPERTY(EditAnywhere)
-		float DamageRadius = 150.0f;
+		float DamageRadius = 500.0f;
 
 	UPROPERTY(EditAnywhere)
 		UParticleSystem* ExplosionEffect;
+	UPROPERTY(EditAnywhere)
+		USoundBase* PinSound;
+	UPROPERTY(EditAnywhere)
+		USoundBase* ExplosionSound;
 
 	UFUNCTION()
 		void OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit);
