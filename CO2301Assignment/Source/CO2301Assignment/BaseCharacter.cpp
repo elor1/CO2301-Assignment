@@ -44,7 +44,7 @@ void ABaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	if (Gun) {
-		if (bCurrentlyShooting) {
+		if (bCurrentlyShooting && !IsDead()) {
 			Gun->Shoot();
 		}
 	}
