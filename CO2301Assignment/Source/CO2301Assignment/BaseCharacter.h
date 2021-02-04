@@ -38,7 +38,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bCurrentlyThrowing;
-
+	UPROPERTY()
+		AGun* Gun;
+	
 	UFUNCTION(BlueprintCallable)
 		void ThrowGrenade();
 	UFUNCTION(BlueprintCallable)
@@ -54,8 +56,6 @@ private:
 		UCameraComponent* Camera;
 	UPROPERTY(EditDefaultsOnly)
 		TSubclassOf<AGun> GunClass;
-	UPROPERTY()
-		AGun* Gun;
 	UPROPERTY(EditDefaultsOnly)
 		TSubclassOf<AGrenade> GrenadeClass;
 	UPROPERTY()

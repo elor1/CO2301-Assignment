@@ -75,7 +75,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGrenade); \
 	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(AGrenade, ProjectileMovement); } \
 	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(AGrenade, Damage); } \
 	FORCEINLINE static uint32 __PPO__DamageRadius() { return STRUCT_OFFSET(AGrenade, DamageRadius); } \
-	FORCEINLINE static uint32 __PPO__ExplosionEffect() { return STRUCT_OFFSET(AGrenade, ExplosionEffect); }
+	FORCEINLINE static uint32 __PPO__ExplosionEffect() { return STRUCT_OFFSET(AGrenade, ExplosionEffect); } \
+	FORCEINLINE static uint32 __PPO__PinSound() { return STRUCT_OFFSET(AGrenade, PinSound); } \
+	FORCEINLINE static uint32 __PPO__ExplosionSound() { return STRUCT_OFFSET(AGrenade, ExplosionSound); }
 
 
 #define CO2301Assignment_Source_CO2301Assignment_Grenade_h_13_PROLOG
