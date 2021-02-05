@@ -16,6 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_SPARSE_DATA
 #define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execIsDead); \
 	DECLARE_FUNCTION(execSpawnGrenade); \
 	DECLARE_FUNCTION(execThrowGrenade);
@@ -23,6 +24,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execIsDead); \
 	DECLARE_FUNCTION(execSpawnGrenade); \
 	DECLARE_FUNCTION(execThrowGrenade);
