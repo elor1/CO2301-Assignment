@@ -38,7 +38,7 @@ void AGrenade::LaunchGrenade()
 	Mesh->SetSimulatePhysics(true);
 	ProjectileMovement->bSimulationEnabled = true;
 	Mesh->SetNotifyRigidBodyCollision(true);
-
+	
 	ABaseCharacter* PlayerCharacter = Cast<ABaseCharacter>(GetOwner());
 	if (PlayerCharacter)
 	{
