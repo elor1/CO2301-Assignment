@@ -23,6 +23,13 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ABaseCharacter::execGetHealthPercent)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->GetHealthPercent();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ABaseCharacter::execIsDead)
 	{
 		P_FINISH;
@@ -48,11 +55,44 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 	{
 		UClass* Class = ABaseCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "GetHealthPercent", &ABaseCharacter::execGetHealthPercent },
 			{ "IsDead", &ABaseCharacter::execIsDead },
 			{ "SpawnGrenade", &ABaseCharacter::execSpawnGrenade },
 			{ "ThrowGrenade", &ABaseCharacter::execThrowGrenade },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ABaseCharacter_GetHealthPercent_Statics
+	{
+		struct BaseCharacter_eventGetHealthPercent_Parms
+		{
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABaseCharacter_GetHealthPercent_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(BaseCharacter_eventGetHealthPercent_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABaseCharacter_GetHealthPercent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABaseCharacter_GetHealthPercent_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABaseCharacter_GetHealthPercent_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "BaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABaseCharacter_GetHealthPercent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABaseCharacter, nullptr, "GetHealthPercent", nullptr, nullptr, sizeof(BaseCharacter_eventGetHealthPercent_Parms), Z_Construct_UFunction_ABaseCharacter_GetHealthPercent_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_GetHealthPercent_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABaseCharacter_GetHealthPercent_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABaseCharacter_GetHealthPercent_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABaseCharacter_GetHealthPercent()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABaseCharacter_GetHealthPercent_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ABaseCharacter_IsDead_Statics
 	{
@@ -197,6 +237,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CO2301Assignment,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ABaseCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABaseCharacter_GetHealthPercent, "GetHealthPercent" }, // 2617727919
 		{ &Z_Construct_UFunction_ABaseCharacter_IsDead, "IsDead" }, // 2056241265
 		{ &Z_Construct_UFunction_ABaseCharacter_SpawnGrenade, "SpawnGrenade" }, // 1688557406
 		{ &Z_Construct_UFunction_ABaseCharacter_ThrowGrenade, "ThrowGrenade" }, // 1687519977
@@ -326,7 +367,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseCharacter, 3800067049);
+	IMPLEMENT_CLASS(ABaseCharacter, 342707115);
 	template<> CO2301ASSIGNMENT_API UClass* StaticClass<ABaseCharacter>()
 	{
 		return ABaseCharacter::StaticClass();

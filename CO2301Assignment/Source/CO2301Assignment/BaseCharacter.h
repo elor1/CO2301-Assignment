@@ -47,6 +47,8 @@ public:
 		void SpawnGrenade();
 	UFUNCTION(BlueprintPure)
 		bool IsDead() const;
+	UFUNCTION(BlueprintPure)
+		float GetHealthPercent() const;
 private:
 	/*UPROPERTY(EditAnywhere)
 		USkeletalMeshComponent* CharacterMesh;*/

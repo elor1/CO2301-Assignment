@@ -142,3 +142,8 @@ bool ABaseCharacter::IsDead() const
 {
 	return Health <= 0;
 }
+
+float ABaseCharacter::GetHealthPercent() const
+{
+	return Health / MaxHealth;
+}
