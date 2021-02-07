@@ -90,6 +90,7 @@
 "C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
 "C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\GameplayTasks\UE4Editor-GameplayTasks.lib"
 "C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Development\UMG\UE4Editor-UMG.lib"
+"C:\Program Files\Epic Games\UE_4.25\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Development\Paper2D\UE4Editor-Paper2D.lib"
 /OUT:"C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Binaries\Win64\UE4Editor-CO2301Assignment.dll"
 /IMPLIB:"C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment.suppressed.lib"
 /PDB:"C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Binaries\Win64\UE4Editor-CO2301Assignment.pdb"

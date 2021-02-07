@@ -13073,7 +13073,8 @@
 				"Engine",
 				"InputCore",
 				"GameplayTasks",
-				"UMG"
+				"UMG",
+				"Paper2D"
 			],
 			"PrivateDependencyModules": [
 				"Engine",
