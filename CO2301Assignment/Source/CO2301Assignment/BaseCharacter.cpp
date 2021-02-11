@@ -23,6 +23,12 @@ ABaseCharacter::ABaseCharacter()
 	//Setup camera
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm);
+
+	//Setup map icon
+	MapIcon = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Map Icon"));
+	MapIcon->SetupAttachment(GetCapsuleComponent());
+	MapIcon->SetRelativeLocation(FVector(0.0f, 0.0f, 130.0f));
+	MapIcon->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));
 }
 
 // Called when the game starts or when spawned
@@ -73,6 +79,8 @@ float ABaseCharacter::TakeDamage(float DamageAmount, FDamageEvent const & Damage
 	UE_LOG(LogTemp, Warning, TEXT("Health left %f"), Health);
 
 	if (IsDead()) {
+		MapIcon->UnregisterComponent();
+		
 		//Check if player is dead
 		APlayerController* PlayerController = Cast<APlayerController>(GetController());
 		if (PlayerController) {

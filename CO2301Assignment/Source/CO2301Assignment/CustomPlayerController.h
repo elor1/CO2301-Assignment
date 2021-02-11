@@ -18,6 +18,9 @@ class CO2301ASSIGNMENT_API ACustomPlayerController : public APlayerController
 public:
 	virtual void GameHasEnded(class AActor *EndGameFocus = nullptr, bool bIsWinner = false) override;
 
+	UPROPERTY(BlueprintReadOnly)
+		UUserWidget* HUD;
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -30,9 +33,6 @@ private:
 		TSubclassOf <class UUserWidget> LoseScreenClass;
 	UPROPERTY(EditAnywhere)
 		TSubclassOf <class UUserWidget> WinScreenClass;
-
-	UPROPERTY()
-	UUserWidget* HUD;
 
 	void DisplayEndScreen(TSubclassOf<UUserWidget> EndScreenClass);
 };

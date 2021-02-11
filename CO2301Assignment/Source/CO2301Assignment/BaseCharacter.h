@@ -9,6 +9,8 @@
 #include "Components/CapsuleComponent.h"
 #include "Gun.h"
 #include "Grenade.h"
+#include "Components/SceneCaptureComponent2D.h"
+#include "PaperSpriteComponent.h"
 #include "CO2301AssignmentGameModeBase.h"
 #include "BaseCharacter.generated.h"
 
@@ -68,6 +70,8 @@ private:
 		float MaxHealth = 100.0f;
 	UPROPERTY(VisibleAnywhere)
 		float Health;
+	UPROPERTY(EditAnywhere)
+		UStaticMeshComponent* MapIcon;
 
 	void MoveForwards(float AxisValue);
 	void Strafe(float AxisValue);

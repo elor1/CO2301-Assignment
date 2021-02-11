@@ -232,6 +232,10 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Inc\CO2301Assignment
 /I C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Source
+/I ..\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Inc\Paper2D
+/I ..\Plugins\2D\Paper2D\Source
+/I ..\Plugins\2D\Paper2D\Source\Paper2D\Classes
+/I ..\Plugins\2D\Paper2D\Source\Paper2D\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
