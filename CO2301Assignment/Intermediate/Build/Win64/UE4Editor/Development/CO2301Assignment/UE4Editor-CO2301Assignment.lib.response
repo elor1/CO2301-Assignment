@@ -19,6 +19,7 @@
 "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\EnemyAIController.cpp.obj"
 "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\Grenade.cpp.obj"
 "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\Gun.cpp.obj"
+"C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\Minimap.cpp.obj"
 "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\BaseCharacter.gen.cpp.obj"
 "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\BTService_FollowPlayerLocation.gen.cpp.obj"
 "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\BTService_PlayerLocation.gen.cpp.obj"
@@ -31,6 +32,7 @@
 "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\EnemyAIController.gen.cpp.obj"
 "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\Grenade.gen.cpp.obj"
 "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\Gun.gen.cpp.obj"
+"C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\Minimap.gen.cpp.obj"
 "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\Default.rc2.res"
 /OUT:"C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment.lib"
 /INCLUDE:IMPLEMENT_MODULE_CO2301Assignment

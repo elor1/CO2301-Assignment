@@ -71,11 +71,7 @@ private:
 	UPROPERTY(VisibleAnywhere)
 		float Health;
 	UPROPERTY(EditAnywhere)
-		USpringArmComponent* MapArm;
-	UPROPERTY(EditAnywhere)
-		USceneCaptureComponent2D* MapCamera;
-	/*UPROPERTY(EditAnywhere)
-		UPaperSpriteComponent* Sprite;*/
+		UStaticMeshComponent* MapIcon;
 
 	void MoveForwards(float AxisValue);
 	void Strafe(float AxisValue);

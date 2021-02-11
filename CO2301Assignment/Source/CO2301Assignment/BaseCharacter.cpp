@@ -24,21 +24,11 @@ ABaseCharacter::ABaseCharacter()
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm);
 
-	//Setup spring arm for mini map
-	MapArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Map Arm"));
-	MapArm->SetupAttachment(RootComponent);
-	MapArm->SetRelativeRotation(FRotator(-90.0f, 0.0f, 0.0f));
-	MapArm->TargetArmLength = 900.0f;
-
-	//Set up scene capture
-	MapCamera = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("Map Camera"));
-	MapCamera->SetupAttachment(MapArm);
-
-	//Set up character sprite
-	/*Sprite = CreateDefaultSubobject<UPaperSpriteComponent>(TEXT("Sprite"));
-	Sprite->SetupAttachment(MapArm);
-	Sprite->SetRelativeRotation(FRotator(0.0f, -90.0f, 0.0f));
-	Sprite->SetRelativeLocation(FVector(0.0f, -0.5f, 0.0f));*/
+	//Setup map icon
+	MapIcon = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Map Icon"));
+	MapIcon->SetupAttachment(GetCapsuleComponent());
+	MapIcon->SetRelativeLocation(FVector(0.0f, 0.0f, 130.0f));
+	MapIcon->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));
 }
 
 // Called when the game starts or when spawned

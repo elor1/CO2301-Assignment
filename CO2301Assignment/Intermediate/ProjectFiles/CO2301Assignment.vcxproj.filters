@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CO2301Assignment.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8AD31400-2EDB-49A5-8910-CE5AA90DB5BE}</UniqueIdentifier>
+      <UniqueIdentifier>{2931BD7C-B4D6-45F9-887B-7ECE0CE05C9A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CO2301Assignment.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4C33E582-C509-400B-B370-73DE9A293786}</UniqueIdentifier>
+      <UniqueIdentifier>{AEFD4B3E-C033-4674-86B6-5E602BC30885}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CO2301Assignment">
-      <UniqueIdentifier>{7997732F-CD2B-49D4-9659-0A66F48F89B3}</UniqueIdentifier>
+      <UniqueIdentifier>{2C2B67B6-C3D5-414B-A964-6A38F29481B2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\CO2301Assignment\BaseCharacter.cpp">
       <Filter>Source\CO2301Assignment</Filter>
@@ -102,6 +102,12 @@
       <Filter>Source\CO2301Assignment</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CO2301Assignment\Gun.h">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CO2301Assignment\Minimap.cpp">
+      <Filter>Source\CO2301Assignment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CO2301Assignment\Minimap.h">
       <Filter>Source\CO2301Assignment</Filter>
     </ClInclude>
   </ItemGroup>
