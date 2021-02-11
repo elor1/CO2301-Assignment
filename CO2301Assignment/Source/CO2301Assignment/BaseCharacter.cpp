@@ -79,6 +79,8 @@ float ABaseCharacter::TakeDamage(float DamageAmount, FDamageEvent const & Damage
 	UE_LOG(LogTemp, Warning, TEXT("Health left %f"), Health);
 
 	if (IsDead()) {
+		MapIcon->UnregisterComponent();
+		
 		//Check if player is dead
 		APlayerController* PlayerController = Cast<APlayerController>(GetController());
 		if (PlayerController) {

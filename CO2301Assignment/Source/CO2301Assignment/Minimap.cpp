@@ -30,7 +30,7 @@ void AMinimap::BeginPlay()
 	{
 		FAttachmentTransformRules Rules(EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, true);
 		AttachToComponent(PlayerPawn->GetRootComponent(), Rules);
-		SetActorRelativeLocation(FVector(0.0f, 0.0f, 400.0f));
+		SetActorRelativeLocation(FVector(0.0f, 0.0f, 1000.0f));
 		SetActorRelativeRotation(FRotator(-90.0f, 0.0f, 0.0f));
 	}
 	
