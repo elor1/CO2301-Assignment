@@ -9,9 +9,11 @@ AGrenade::AGrenade()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	//Setup static mesh
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	RootComponent = Mesh;
 
+	//Setup projectile movement
 	ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement"));
 	ProjectileMovement->MaxSpeed = MovementSpeed;
 	ProjectileMovement->InitialSpeed = MovementSpeed;
@@ -35,10 +37,12 @@ void AGrenade::Tick(float DeltaTime)
 
 void AGrenade::LaunchGrenade()
 {
+	//When grenade leaves player's hand set (triggered in blueprint)
 	Mesh->SetSimulatePhysics(true);
 	ProjectileMovement->bSimulationEnabled = true;
 	Mesh->SetNotifyRigidBodyCollision(true);
-	
+
+	//Stop grenade colliding with player & gun
 	ABaseCharacter* PlayerCharacter = Cast<ABaseCharacter>(GetOwner());
 	if (PlayerCharacter)
 	{
@@ -51,7 +55,8 @@ void AGrenade::OnHit(AActor * SelfActor, AActor * OtherActor, FVector NormalImpu
 {
 	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ExplosionEffect, GetActorLocation(), GetActorRotation());
 	UGameplayStatics::PlaySoundAtLocation(GetWorld(), ExplosionSound, Hit.Location);
-	
+
+	//When grenade hits an object, it explodes
 	TArray<AActor*> GrenadeActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AGrenade::StaticClass(), GrenadeActors);
 	GrenadeActors.Add(GetOwner());

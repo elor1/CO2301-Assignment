@@ -21,6 +21,7 @@ EBTNodeResult::Type UBTTask_Shoot::ExecuteTask(UBehaviorTreeComponent &OwnerComp
 		return EBTNodeResult::Failed;
 	}
 
+	//If player is found, shoot at player
 	Character->Shoot();
 
 	return EBTNodeResult::Succeeded;

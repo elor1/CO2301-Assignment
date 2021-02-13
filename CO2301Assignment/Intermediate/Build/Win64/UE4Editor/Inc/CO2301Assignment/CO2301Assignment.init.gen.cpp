@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeCO2301Assignment_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x0758E4A9,
+				0x83198417,
 				0xCF9B26D5,
 				METADATA_PARAMS(nullptr, 0)
 			};

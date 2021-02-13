@@ -22,11 +22,12 @@ void AGun::Shoot()
 {
 	if (bCanShoot) {
 		DisableShoot();
+		//Set timer so that gun isn't continuously fired
 		GetWorld()->GetTimerManager().SetTimer(ShootTimer, this, &AGun::EnableShoot, RateOfFire, false);
-		UE_LOG(LogTemp, Warning, TEXT("Shoot"));
 
 		UGameplayStatics::SpawnSoundAttached(ShootSound, Mesh, TEXT("Muzzle"));
 
+		//Check if shot hit
 		FHitResult Hit;
 		FVector ShotDirection;
 		bool bHitObject = GunTrace(Hit, ShotDirection);
@@ -39,6 +40,7 @@ void AGun::Shoot()
 				FPointDamageEvent DamageEvent(Damage, Hit, ShotDirection, nullptr);
 				AController* OwnerController = GetOwnerController();
 				if (OwnerController) {
+					//Do damage to hit actor
 					ActorHit->TakeDamage(Damage, DamageEvent, OwnerController, this);
 				}
 			}
@@ -74,6 +76,7 @@ void AGun::DisableShoot()
 
 bool AGun::GunTrace(FHitResult & Hit, FVector & ShotDirection)
 {
+	//Linetrace to see if shot hit something
 	AController* OwnerController = GetOwnerController();
 	if (OwnerController) {
 		FVector Location;

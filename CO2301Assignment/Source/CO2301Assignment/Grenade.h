@@ -40,7 +40,6 @@ private:
 		float Damage = 90.0f;
 	UPROPERTY(EditAnywhere)
 		float DamageRadius = 500.0f;
-
 	UPROPERTY(EditAnywhere)
 		UParticleSystem* ExplosionEffect;
 	UPROPERTY(EditAnywhere)

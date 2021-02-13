@@ -22,6 +22,7 @@ void UBTService_FollowPlayerLocation::TickNode(UBehaviorTreeComponent &OwnerComp
 		return;
 	}
 
+	//If AI has LOS to player, update player's location
 	if (OwnerComp.GetAIOwner()->LineOfSightTo(PlayerPawn)) {
 		OwnerComp.GetBlackboardComponent()->SetValueAsVector(GetSelectedBlackboardKey(), PlayerPawn->GetActorLocation());
 	}

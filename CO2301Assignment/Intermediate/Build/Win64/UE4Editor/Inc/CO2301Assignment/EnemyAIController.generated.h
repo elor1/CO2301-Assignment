@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CO2301ASSIGNMENT_EnemyAIController_generated_h
 
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_SPARSE_DATA
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_RPC_WRAPPERS
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_RPC_WRAPPERS_NO_PURE_DECLS
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_INCLASS_NO_PURE_DECLS \
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_SPARSE_DATA
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_RPC_WRAPPERS
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEnemyAIController(); \
 	friend struct Z_Construct_UClass_AEnemyAIController_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyAIController)
 
 
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_INCLASS \
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesAEnemyAIController(); \
 	friend struct Z_Construct_UClass_AEnemyAIController_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AEnemyAIController)
 
 
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_STANDARD_CONSTRUCTORS \
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemyAIController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemyAIController) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_ENHANCED_CONSTRUCTORS \
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AEnemyAIController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,31 +60,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyAIController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemyAIController)
 
 
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_PRIVATE_PROPERTY_OFFSET \
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__AIBehaviour() { return STRUCT_OFFSET(AEnemyAIController, AIBehaviour); }
 
 
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_23_PROLOG
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_GENERATED_BODY_LEGACY \
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_16_PROLOG
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_PRIVATE_PROPERTY_OFFSET \
-	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_SPARSE_DATA \
-	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_RPC_WRAPPERS \
-	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_INCLASS \
-	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_STANDARD_CONSTRUCTORS \
+	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_PRIVATE_PROPERTY_OFFSET \
+	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_SPARSE_DATA \
+	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_RPC_WRAPPERS \
+	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_INCLASS \
+	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_GENERATED_BODY \
+#define CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_PRIVATE_PROPERTY_OFFSET \
-	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_SPARSE_DATA \
-	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
-	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_INCLASS_NO_PURE_DECLS \
-	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_26_ENHANCED_CONSTRUCTORS \
+	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_PRIVATE_PROPERTY_OFFSET \
+	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_SPARSE_DATA \
+	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_INCLASS_NO_PURE_DECLS \
+	CO2301Assignment_Source_CO2301Assignment_EnemyAIController_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

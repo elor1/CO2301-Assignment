@@ -13,6 +13,7 @@ AMinimap::AMinimap()
 	MapCamera = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("Map Camera"));
 	MapCamera->SetupAttachment(RootComponent);
 
+	//Setup plane
 	Plane = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Plane"));
 	Plane->SetupAttachment(MapCamera);
 	Plane->SetRelativeRotation(FRotator(90.0f, 0.0f, 0.0f));
@@ -28,6 +29,7 @@ void AMinimap::BeginPlay()
 	APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
 	if (PlayerPawn)
 	{
+		//Attach minimap to player
 		FAttachmentTransformRules Rules(EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, EAttachmentRule::SnapToTarget, true);
 		AttachToComponent(PlayerPawn->GetRootComponent(), Rules);
 		SetActorRelativeLocation(FVector(0.0f, 0.0f, 1000.0f));

@@ -9,6 +9,7 @@ AEndZone::AEndZone()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	//Setup trigger box
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Trigger Box"));
 	RootComponent = CollisionBox;
 	CollisionBox->SetBoxExtent(FVector(50.0f, 150.0f, 200.0f));
@@ -38,6 +39,7 @@ void AEndZone::OnOverLapBegin(UPrimitiveComponent * OverlappedComp, AActor * Oth
 		AActor* PlayerActor = Cast<AActor>(PlayerPawn);
 		if (PlayerActor) {
 			if (PlayerActor == OtherActor) {
+				//If player triggers the end zone, they win the game
 				GameModeRef->EndGame(GetWorld()->GetFirstPlayerController(), true);
 			}
 		}

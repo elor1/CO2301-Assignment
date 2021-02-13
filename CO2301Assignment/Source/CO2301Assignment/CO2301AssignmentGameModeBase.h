@@ -16,8 +16,6 @@ class CO2301ASSIGNMENT_API ACO2301AssignmentGameModeBase : public AGameModeBase
 	GENERATED_BODY()
 	
 private:
-	
-
 	UFUNCTION()
 		void StartGame();
 

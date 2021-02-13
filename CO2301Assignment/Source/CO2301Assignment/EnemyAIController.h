@@ -10,13 +10,6 @@
 #include "AIController.h"
 #include "EnemyAIController.generated.h"
 
-//UENUM(BlueprintType)
-//enum EAIState {
-//	Follow,
-//	Investigate,
-//	Patrol
-//};
-
 /**
  * 
  */

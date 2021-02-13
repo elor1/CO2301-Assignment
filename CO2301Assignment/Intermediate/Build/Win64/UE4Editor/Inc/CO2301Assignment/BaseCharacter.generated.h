@@ -13,8 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CO2301ASSIGNMENT_BaseCharacter_generated_h
 
-#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_SPARSE_DATA
-#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_RPC_WRAPPERS \
+#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_SPARSE_DATA
+#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execIsDead); \
@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execThrowGrenade);
 
 
-#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetHealthPercent); \
 	DECLARE_FUNCTION(execIsDead); \
@@ -30,7 +30,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execThrowGrenade);
 
 
-#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_INCLASS_NO_PURE_DECLS \
+#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABaseCharacter(); \
 	friend struct Z_Construct_UClass_ABaseCharacter_Statics; \
@@ -39,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(ABaseCharacter)
 
 
-#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_INCLASS \
+#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesABaseCharacter(); \
 	friend struct Z_Construct_UClass_ABaseCharacter_Statics; \
@@ -48,7 +48,7 @@ public: \
 	DECLARE_SERIALIZER(ABaseCharacter)
 
 
-#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_STANDARD_CONSTRUCTORS \
+#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABaseCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABaseCharacter) \
@@ -61,7 +61,7 @@ private: \
 public:
 
 
-#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_ENHANCED_CONSTRUCTORS \
+#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABaseCharacter(ABaseCharacter&&); \
@@ -72,7 +72,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABaseCharacter)
 
 
-#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
+#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ABaseCharacter, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ABaseCharacter, Camera); } \
 	FORCEINLINE static uint32 __PPO__GunClass() { return STRUCT_OFFSET(ABaseCharacter, GunClass); } \
@@ -84,27 +84,27 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseCharacter); \
 	FORCEINLINE static uint32 __PPO__MapIcon() { return STRUCT_OFFSET(ABaseCharacter, MapIcon); }
 
 
-#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_17_PROLOG
-#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_GENERATED_BODY_LEGACY \
+#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_15_PROLOG
+#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
-	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_SPARSE_DATA \
-	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_RPC_WRAPPERS \
-	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_INCLASS \
-	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_STANDARD_CONSTRUCTORS \
+	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_SPARSE_DATA \
+	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_RPC_WRAPPERS \
+	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_INCLASS \
+	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_GENERATED_BODY \
+#define CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_PRIVATE_PROPERTY_OFFSET \
-	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_SPARSE_DATA \
-	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
-	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_INCLASS_NO_PURE_DECLS \
-	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_20_ENHANCED_CONSTRUCTORS \
+	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_SPARSE_DATA \
+	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_INCLASS_NO_PURE_DECLS \
+	CO2301Assignment_Source_CO2301Assignment_BaseCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

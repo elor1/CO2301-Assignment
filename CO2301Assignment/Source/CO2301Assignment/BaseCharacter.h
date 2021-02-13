@@ -9,8 +9,6 @@
 #include "Components/CapsuleComponent.h"
 #include "Gun.h"
 #include "Grenade.h"
-#include "Components/SceneCaptureComponent2D.h"
-#include "PaperSpriteComponent.h"
 #include "CO2301AssignmentGameModeBase.h"
 #include "BaseCharacter.generated.h"
 
@@ -33,9 +31,8 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
 	virtual float TakeDamage(float DamageAmount, FDamageEvent const &DamageEvent, class AController *EventInstigator, AActor *DamageCauser) override;
-
+	
 	void Shoot();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -52,8 +49,6 @@ public:
 	UFUNCTION(BlueprintPure)
 		float GetHealthPercent() const;
 private:
-	/*UPROPERTY(EditAnywhere)
-		USkeletalMeshComponent* CharacterMesh;*/
 	UPROPERTY(EditAnywhere)
 		USpringArmComponent* SpringArm;
 	UPROPERTY(EditAnywhere)

@@ -35,13 +35,15 @@ ABaseCharacter::ABaseCharacter()
 void ABaseCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	//Spawn gun and attach to character
 	Gun = GetWorld()->SpawnActor<AGun>(GunClass);
 	Gun->AttachToComponent(GetMesh(), FAttachmentTransformRules::KeepRelativeTransform, TEXT("weapon_l"));
 	Gun->SetOwner(this);
 	bCurrentlyShooting = false;
 	bCurrentlyThrowing = false;
 
+	//Reset health
 	Health = MaxHealth;
 }
 
@@ -49,6 +51,8 @@ void ABaseCharacter::BeginPlay()
 void ABaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	//If character is able to shoot, call shoot function on gun
 	if (Gun) {
 		if (bCurrentlyShooting && !IsDead()) {
 			Gun->Shoot();
@@ -65,23 +69,25 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAxis(TEXT("Strafe"), this, &ABaseCharacter::Strafe);
 	PlayerInputComponent->BindAxis(TEXT("LookUp"), this, &ABaseCharacter::LookUp);
 	PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ABaseCharacter::Turn);
+	
 	PlayerInputComponent->BindAction(TEXT("Jump"), IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Pressed, this, &ABaseCharacter::Shoot);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Released, this, &ABaseCharacter::StopShoot);
-	//PlayerInputComponent->BindAction(TEXT("ThrowGrenade"), IE_Pressed, this, &ABaseCharacter::SpawnGrenade);
 }
 
 float ABaseCharacter::TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser)
 {
 	float DamageApplied = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+
+	//Remove damage amount from health
 	DamageApplied = FMath::Min(Health, DamageApplied);
 	Health -= DamageApplied;
-	UE_LOG(LogTemp, Warning, TEXT("Health left %f"), Health);
 
 	if (IsDead()) {
+		//Remove icon from map when dead
 		MapIcon->UnregisterComponent();
 		
-		//Check if player is dead
+		//If player is dead, game over
 		APlayerController* PlayerController = Cast<APlayerController>(GetController());
 		if (PlayerController) {
 			ACO2301AssignmentGameModeBase* GameMode = GetWorld()->GetAuthGameMode<ACO2301AssignmentGameModeBase>();
@@ -92,7 +98,6 @@ float ABaseCharacter::TakeDamage(float DamageAmount, FDamageEvent const & Damage
 
 		DetachFromControllerPendingDestroy();
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-		
 	}
 
 	return DamageApplied;

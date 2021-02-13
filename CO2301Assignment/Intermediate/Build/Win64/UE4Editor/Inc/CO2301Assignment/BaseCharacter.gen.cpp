@@ -317,10 +317,8 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseCharacter_Statics::NewProp_SpringArm_MetaData[] = {
 		{ "Category", "BaseCharacter" },
-		{ "Comment", "/*UPROPERTY(EditAnywhere)\n\x09\x09USkeletalMeshComponent* CharacterMesh;*/" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "BaseCharacter.h" },
-		{ "ToolTip", "UPROPERTY(EditAnywhere)\n               USkeletalMeshComponent* CharacterMesh;" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABaseCharacter_Statics::NewProp_SpringArm = { "SpringArm", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseCharacter, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_SpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABaseCharacter_Statics::NewProp_SpringArm_MetaData)) };
@@ -381,7 +379,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseCharacter, 2732621717);
+	IMPLEMENT_CLASS(ABaseCharacter, 491473504);
 	template<> CO2301ASSIGNMENT_API UClass* StaticClass<ABaseCharacter>()
 	{
 		return ABaseCharacter::StaticClass();
