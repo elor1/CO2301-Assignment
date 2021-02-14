@@ -24,7 +24,7 @@ void AGun::Shoot()
 		DisableShoot();
 		//Set timer so that gun isn't continuously fired
 		GetWorld()->GetTimerManager().SetTimer(ShootTimer, this, &AGun::EnableShoot, RateOfFire, false);
-
+		
 		UGameplayStatics::SpawnSoundAttached(ShootSound, Mesh, TEXT("Muzzle"));
 
 		//Check if shot hit

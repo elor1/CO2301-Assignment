@@ -3,6 +3,8 @@
 
 #include "BaseCharacter.h"
 
+#include "GameFramework/PawnMovementComponent.h"
+
 // Sets default values
 ABaseCharacter::ABaseCharacter()
 {
@@ -45,6 +47,10 @@ void ABaseCharacter::BeginPlay()
 
 	//Reset health
 	Health = MaxHealth;
+
+	//Set start speed
+	EndWalking();
+	bIsWalking = false;
 }
 
 // Called every frame
@@ -73,6 +79,8 @@ void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 	PlayerInputComponent->BindAction(TEXT("Jump"), IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Pressed, this, &ABaseCharacter::Shoot);
 	PlayerInputComponent->BindAction(TEXT("Shoot"), IE_Released, this, &ABaseCharacter::StopShoot);
+	PlayerInputComponent->BindAction(TEXT("Walk"), IE_Pressed, this, &ABaseCharacter::StartWalking);
+	PlayerInputComponent->BindAction(TEXT("Walk"), IE_Released, this, &ABaseCharacter::EndWalking);
 }
 
 float ABaseCharacter::TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser)
@@ -159,4 +167,16 @@ bool ABaseCharacter::IsDead() const
 float ABaseCharacter::GetHealthPercent() const
 {
 	return Health / MaxHealth;
+}
+
+void ABaseCharacter::StartWalking()
+{
+	GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
+	bIsWalking = true;
+}
+
+void ABaseCharacter::EndWalking()
+{
+	GetCharacterMovement()->MaxWalkSpeed = RunSpeed;
+	bIsWalking = false;
 }
