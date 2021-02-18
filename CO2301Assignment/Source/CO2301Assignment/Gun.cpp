@@ -32,7 +32,6 @@ void AGun::Shoot()
 		FVector ShotDirection;
 		bool bHitObject = GunTrace(Hit, ShotDirection);
 		if (bHitObject) {
-			DrawDebugPoint(GetWorld(), Hit.Location, 20.0f, FColor::Red, true);
 			UGameplayStatics::PlaySoundAtLocation(GetWorld(), ImpactSound, Hit.Location);
 
 			AActor* ActorHit = Hit.GetActor();
