@@ -6,6 +6,7 @@
 #include "BehaviorTree/Services/BTService_BlackboardBase.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "BaseCharacter.h"
 #include "AIController.h"
 #include "BTService_FollowPlayerLocation.generated.h"
 
@@ -22,4 +23,7 @@ public:
 
 protected:
 	virtual void TickNode(UBehaviorTreeComponent &OwnerComp, uint8 *NodeMemory, float DeltaSeconds) override;
+
+private:
+	bool IsLookingAt(AActor* AIActor, APawn* PlayerPawn);
 };

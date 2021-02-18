@@ -10,6 +10,7 @@
 #include "Gun.h"
 #include "Grenade.h"
 #include "CO2301AssignmentGameModeBase.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "BaseCharacter.generated.h"
 
 UCLASS()
@@ -39,6 +40,8 @@ public:
 		bool bCurrentlyThrowing;
 	UPROPERTY()
 		AGun* Gun;
+	UPROPERTY(VisibleAnywhere)
+		bool bIsWalking = false;
 	
 	UFUNCTION(BlueprintCallable)
 		void ThrowGrenade();
@@ -67,11 +70,16 @@ private:
 		float Health;
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* MapIcon;
+	UPROPERTY(EditAnywhere)
+		float RunSpeed = 600.0f;
+	UPROPERTY(EditAnywhere)
+		float WalkSpeed = 100.0f;
 
 	void MoveForwards(float AxisValue);
 	void Strafe(float AxisValue);
 	void LookUp(float AxisValue);
 	void Turn(float AxisValue);
 	void StopShoot();
-	
+	void StartWalking();
+	void EndWalking();
 };
