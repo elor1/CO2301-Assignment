@@ -67,7 +67,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGun); \
 	FORCEINLINE static uint32 __PPO__RateOfFire() { return STRUCT_OFFSET(AGun, RateOfFire); } \
 	FORCEINLINE static uint32 __PPO__bCanShoot() { return STRUCT_OFFSET(AGun, bCanShoot); } \
 	FORCEINLINE static uint32 __PPO__ShootSound() { return STRUCT_OFFSET(AGun, ShootSound); } \
-	FORCEINLINE static uint32 __PPO__ImpactSound() { return STRUCT_OFFSET(AGun, ImpactSound); }
+	FORCEINLINE static uint32 __PPO__ImpactSound() { return STRUCT_OFFSET(AGun, ImpactSound); } \
+	FORCEINLINE static uint32 __PPO__MuzzleFlash() { return STRUCT_OFFSET(AGun, MuzzleFlash); } \
+	FORCEINLINE static uint32 __PPO__ImpactEffect() { return STRUCT_OFFSET(AGun, ImpactEffect); }
 
 
 #define CO2301Assignment_Source_CO2301Assignment_Gun_h_11_PROLOG

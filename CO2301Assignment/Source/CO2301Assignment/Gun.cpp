@@ -15,7 +15,6 @@ AGun::AGun()
 
 	Mesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Mesh"));
 	Mesh->SetupAttachment(Root);
-	//Mesh->SetRelativeRotation(FRotator(-250.0f, -30.0f, 150.0f));
 }
 
 void AGun::Shoot()
@@ -24,7 +23,8 @@ void AGun::Shoot()
 		DisableShoot();
 		//Set timer so that gun isn't continuously fired
 		GetWorld()->GetTimerManager().SetTimer(ShootTimer, this, &AGun::EnableShoot, RateOfFire, false);
-		
+
+		UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, Mesh, TEXT("Muzzle"));
 		UGameplayStatics::SpawnSoundAttached(ShootSound, Mesh, TEXT("Muzzle"));
 
 		//Check if shot hit
@@ -32,6 +32,7 @@ void AGun::Shoot()
 		FVector ShotDirection;
 		bool bHitObject = GunTrace(Hit, ShotDirection);
 		if (bHitObject) {
+			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, Hit.Location, ShotDirection.Rotation());
 			UGameplayStatics::PlaySoundAtLocation(GetWorld(), ImpactSound, Hit.Location);
 
 			AActor* ActorHit = Hit.GetActor();

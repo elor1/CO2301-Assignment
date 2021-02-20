@@ -46,6 +46,10 @@ private:
 		USoundBase* ShootSound;
 	UPROPERTY(EditAnywhere)
 		USoundBase* ImpactSound;
+	UPROPERTY(EditAnywhere)
+		UParticleSystem* MuzzleFlash;
+	UPROPERTY(EditAnywhere)
+		UParticleSystem* ImpactEffect;
 
 	void EnableShoot();
 	void DisableShoot();
