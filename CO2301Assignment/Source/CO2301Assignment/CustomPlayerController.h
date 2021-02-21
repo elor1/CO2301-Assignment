@@ -24,7 +24,6 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
 	
 private:
 	UPROPERTY(EditAnywhere)
