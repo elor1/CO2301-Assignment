@@ -2,7 +2,6 @@
 
 
 #include "Gun.h"
-#include "DrawDebugHelpers.h"
 
 // Sets default values
 AGun::AGun()
