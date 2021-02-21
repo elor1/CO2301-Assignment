@@ -23,6 +23,5 @@ EBTNodeResult::Type UBTTask_Shoot::ExecuteTask(UBehaviorTreeComponent &OwnerComp
 
 	//If player is found, shoot at player
 	Character->Shoot();
-	UE_LOG(LogTemp, Warning, TEXT("SHOOT"));
 	return EBTNodeResult::Succeeded;
 }

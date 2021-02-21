@@ -34,6 +34,7 @@ void UBTService_FollowPlayerLocation::TickNode(UBehaviorTreeComponent &OwnerComp
 	{
 		if (PlayerCharacter->bIsWalking)
 		{
+			//If player is walking, they must be in vision cone for AI to start following them
 			AActor* AIActor = OwnerComp.GetOwner();
 			if (AIActor)
 			{
@@ -52,24 +53,12 @@ void UBTService_FollowPlayerLocation::TickNode(UBehaviorTreeComponent &OwnerComp
 		}
 	}
 
+	//Update blackboard key
 	OwnerComp.GetBlackboardComponent()->ClearValue(GetSelectedBlackboardKey());
 }
 
 bool UBTService_FollowPlayerLocation::IsLookingAt(AActor* AIActor, APawn* PlayerPawn)
 {
-	//FVector LineToPlayer = PlayerPawn->GetActorLocation() - AIActor->GetActorLocation();
-	//LineToPlayer.Normalize();
-
-	////Calculate angle to player in degrees
-	//float Angle = acos(FVector::DotProduct(LineToPlayer, AIActor->GetActorForwardVector()));
-
-	//if (Angle < 60.0f)
-	//{
-	//	return true;
-	//}
-
-	//return false;
-
 	FVector DirectionToPlayer = (PlayerPawn->GetActorLocation() - AIActor->GetActorLocation()).GetSafeNormal();
 	return AIActor->GetActorForwardVector().CosineAngle2D(DirectionToPlayer) > FMath::Cos((FMath::DegreesToRadians(60)));
 }
