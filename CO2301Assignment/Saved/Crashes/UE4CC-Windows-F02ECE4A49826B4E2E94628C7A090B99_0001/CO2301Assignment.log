@@ -1,0 +1,2444 @@
+﻿Log file open, 01/30/21 02:13:20
+LogInit: Display: Running engine for game: CO2301Assignment
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.199331
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2070 SUPER
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Engine.ini]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Engine.ini]
+[2021.01.30-02.13.20:349][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Engine.ini]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Engine.ini]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.30-02.13.20:349][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Engine.ini]
+[2021.01.30-02.13.20:349][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Engine.ini]
+[2021.01.30-02.13.20:352][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.30-02.13.20:352][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.30-02.13.20:353][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.30-02.13.20:353][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.30-02.13.20:353][  0]LogHAL: Display: Platform has ~ 16 GB [17126490112 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.30-02.13.20:353][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.30-02.13.20:353][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.30-02.13.20:353][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Scalability.ini]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.30-02.13.20:354][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.30-02.13.20:355][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.30-02.13.20:355][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.30-02.13.20:355][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.30-02.13.20:355][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Config/Windows/Engine.ini]
+[2021.01.30-02.13.20:355][  0]LogInit: Computer: DESKTOP-SPF806M
+[2021.01.30-02.13.20:355][  0]LogInit: User: Emma
+[2021.01.30-02.13.20:355][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.01.30-02.13.20:355][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.30-02.13.20:355][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.01.30-02.13.20:355][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.30-02.13.20:355][  0]LogMemory: Process Physical Memory: 116.67 MB used, 116.68 MB peak
+[2021.01.30-02.13.20:355][  0]LogMemory: Process Virtual Memory: 106.44 MB used, 106.44 MB peak
+[2021.01.30-02.13.20:355][  0]LogMemory: Physical Memory: 9311.71 MB used,  7021.38 MB free, 16333.09 MB total
+[2021.01.30-02.13.20:355][  0]LogMemory: Virtual Memory: 5193.11 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2021.01.30-02.13.20:359][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.30-02.13.20:395][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.30-02.13.20:395][  0]LogInit: Using OS detected language (en-GB).
+[2021.01.30-02.13.20:395][  0]LogInit: Using OS detected locale (en-GB).
+[2021.01.30-02.13.20:398][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.01.30-02.13.20:535][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.30-02.13.20:559][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.30-02.13.20:559][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.30-02.13.20:656][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.30-02.13.20:656][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.30-02.13.20:656][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.30-02.13.20:656][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.30-02.13.20:712][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 SUPER' (Feature Level 11_0)
+[2021.01.30-02.13.20:712][  0]LogD3D11RHI:       8011/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.30-02.13.20:714][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.30-02.13.20:714][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.30-02.13.20:714][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.30-02.13.20:721][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.30-02.13.20:721][  0]LogD3D11RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.30-02.13.20:721][  0]LogWindows: EnumDisplayDevices:
+[2021.01.30-02.13.20:721][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
+[2021.01.30-02.13.20:722][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:1)
+[2021.01.30-02.13.20:722][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.01.30-02.13.20:722][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.01.30-02.13.20:722][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.01.30-02.13.20:722][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
+[2021.01.30-02.13.20:722][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.01.30-02.13.20:722][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.01.30-02.13.20:722][  0]LogRHI: Texture pool is 5607 MB (70% of 8011 MB)
+[2021.01.30-02.13.20:758][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.30-02.13.20:759][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2021.01.30-02.13.20:759][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.30-02.13.20:759][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.30-02.13.20:761][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
+[2021.01.30-02.13.20:776][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.30-02.13.20:989][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.30-02.13.21:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.30-02.13.21:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.30-02.13.21:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.30-02.13.21:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.30-02.13.21:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.30-02.13.21:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.30-02.13.21:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.30-02.13.21:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.30-02.13.21:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.30-02.13.21:007][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.30-02.13.21:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.30-02.13.21:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.30-02.13.21:037][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.30-02.13.21:045][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.30-02.13.21:052][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.30-02.13.21:060][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.30-02.13.21:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.30-02.13.21:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.30-02.13.21:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.30-02.13.21:107][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.30-02.13.21:107][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.30-02.13.21:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.30-02.13.21:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.30-02.13.21:128][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.30-02.13.21:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.30-02.13.21:144][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.30-02.13.21:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.30-02.13.21:152][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.30-02.13.21:158][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.30-02.13.21:203][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Intermediate/Shaders/WorkingDirectory/35636/).
+[2021.01.30-02.13.21:203][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Emma/AppData/Local/Temp/UnrealShaderWorkingDir/E7BC29264FDBA29A7D0481AFC2AD081C/'.
+[2021.01.30-02.13.21:203][  0]LogXGEController: Cleaning working directory: C:/Users/Emma/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.01.30-02.13.21:203][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.30-02.13.21:203][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.30-02.13.21:203][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.30-02.13.21:834][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.30-02.13.21:871][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/Emma/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.30-02.13.21:871][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Emma/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.30-02.13.21:872][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.30-02.13.21:872][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.30-02.13.21:872][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.30-02.13.21:872][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.30-02.13.21:881][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.30-02.13.21:881][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.30-02.13.21:881][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.30-02.13.21:882][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Emma/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.30-02.13.21:882][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.30-02.13.21:882][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.30-02.13.21:924][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.30-02.13.21:925][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.30-02.13.21:942][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2021.01.30-02.13.22:128][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.30-02.13.22:214][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.30-02.13.22:214][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.30-02.13.22:214][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.30-02.13.22:214][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.30-02.13.22:214][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.30-02.13.22:226][  0]LogNetVersion: CO2301Assignment 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 736346464)
+[2021.01.30-02.13.22:533][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000172B1437840), frame # 0
+[2021.01.30-02.13.22:533][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000172B14411C0), frame # 0
+[2021.01.30-02.13.22:535][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000172B1499E00), frame # 0
+[2021.01.30-02.13.22:575][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.035540 seconds
+[2021.01.30-02.13.22:579][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.01.30-02.13.22:579][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.01.30-02.13.22:579][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.30-02.13.22:835][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.30-02.13.22:838][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.30-02.13.22:917][  0]SourceControl: Source control is disabled
+[2021.01.30-02.13.22:917][  0]SourceControl: Source control is disabled
+[2021.01.30-02.13.22:919][  0]SourceControl: Source control is disabled
+[2021.01.30-02.13.22:921][  0]SourceControl: Source control is disabled
+[2021.01.30-02.13.22:926][  0]SourceControl: Source control is disabled
+[2021.01.30-02.13.23:107][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.30-02.13.23:122][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.30-02.13.23:122][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.30-02.13.23:159][  0]LogOcInput: OculusInput pre-init called
+[2021.01.30-02.13.23:167][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.30-02.13.23:167][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.30-02.13.23:220][  0]LogEngine: Initializing Engine...
+[2021.01.30-02.13.23:221][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.30-02.13.23:221][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.30-02.13.23:221][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.30-02.13.23:304][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.30-02.13.23:310][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.30-02.13.23:310][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000172B9232200), frame # 0
+[2021.01.30-02.13.23:310][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000172B9252200), frame # 0
+[2021.01.30-02.13.23:320][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-02.13.23:320][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-02.13.23:320][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-02.13.23:320][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-02.13.23:320][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-02.13.23:320][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-02.13.23:320][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-02.13.23:320][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-02.13.23:320][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-02.13.23:320][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-02.13.23:329][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-02.13.23:329][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-02.13.23:371][  0]LogAudioMixer: Display: Using Audio Device Speakers (Scarlett Solo USB)
+[2021.01.30-02.13.23:373][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-02.13.23:375][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-02.13.23:375][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-02.13.23:375][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-02.13.23:376][  0]LogInit: FAudioDevice initialized.
+[2021.01.30-02.13.23:376][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.30-02.13.23:414][  0]LogDerivedDataCache: Saved boot cache 0.04s 76MB C:/Users/Emma/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.30-02.13.23:418][  0]LogInit: Texture streaming: Enabled
+[2021.01.30-02.13.23:430][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.30-02.13.23:430][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.30-02.13.23:431][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.30-02.13.23:492][  0]LogInit: Transaction tracking system initialized
+[2021.01.30-02.13.23:509][  0]BlueprintLog: New page: Editor Load
+[2021.01.30-02.13.23:559][  0]LocalizationService: Localization service is disabled
+[2021.01.30-02.13.23:671][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.30-02.13.23:671][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.30-02.13.23:761][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Content/' took 0.01s
+[2021.01.30-02.13.23:883][  0]SourceControl: Source control is disabled
+[2021.01.30-02.13.23:883][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.653
+[2021.01.30-02.13.23:883][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Content/Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.30-02.13.23:883][  0]LightingResults: New page: Lighting Build
+[2021.01.30-02.13.23:883][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-02.13.23:884][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.13.23:884][  0]MapCheck: New page: Map Check
+[2021.01.30-02.13.23:884][  0]LightingResults: New page: Lighting Build
+[2021.01.30-02.13.23:913][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000172B9232200), frame # 0
+[2021.01.30-02.13.23:913][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000172B9252200), frame # 0
+[2021.01.30-02.13.23:914][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.01.30-02.13.24:224][  0]LogAIModule: Creating AISystem for world Level
+[2021.01.30-02.13.24:224][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000172A3EA1E00), frame # 0
+[2021.01.30-02.13.24:224][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000172A3EE1D00), frame # 0
+[2021.01.30-02.13.24:231][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.30-02.13.24:250][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.01.30-02.13.24:251][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.30-02.13.24:251][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.127ms to complete.
+[2021.01.30-02.13.24:251][  0]LogFileHelpers: Loading map 'Level' took 0.368
+[2021.01.30-02.13.24:253][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.023
+[2021.01.30-02.13.24:353][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.13.24:358][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.13.24:363][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.13.24:368][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.13.24:373][  0]LogCollectionManager: Loaded 0 collections in 0.001387 seconds
+[2021.01.30-02.13.24:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/Collections/' took 0.00s
+[2021.01.30-02.13.24:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Content/Developers/Emma/Collections/' took 0.00s
+[2021.01.30-02.13.24:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Content/Collections/' took 0.00s
+[2021.01.30-02.13.24:386][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 3446 classes and 828 folders.
+[2021.01.30-02.13.24:388][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.30-02.13.24:420][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.30-02.13.24:423][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.01.30-02.13.24:512][  0]LogSlate: Took 0.000095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.30-02.13.24:513][  0]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.30-02.13.24:517][  0]LogSlate: Took 0.000076 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.30-02.13.24:569][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2021.01.30-02.13.24:648][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.30-02.13.24:648][  0]LogLoad: (Engine Initialization) Total time: 5.42 seconds
+[2021.01.30-02.13.24:648][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.30-02.13.24:699][  0]LogAssetRegistry: Asset discovery search completed in 2.7580 seconds
+[2021.01.30-02.13.24:702][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2021.01.30-02.13.24:703][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.30-02.13.24:760][  2]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_MovementAnimations_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_MovementAnimations_C_0
+	Function /Game/ABP_MovementAnimations.ABP_MovementAnimations_C:ExecuteUbergraph_ABP_MovementAnimations:00D3
+[2021.01.30-02.13.24:760][  2]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_MovementAnimations_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_MovementAnimations_C_0
+	Function /Game/ABP_MovementAnimations.ABP_MovementAnimations_C:ExecuteUbergraph_ABP_MovementAnimations:0163
+[2021.01.30-02.13.24:761][  2]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_MovementAnimations_C /Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_MovementAnimations_C_0
+	Function /Game/ABP_MovementAnimations.ABP_MovementAnimations_C:ExecuteUbergraph_ABP_MovementAnimations:0195
+[2021.01.30-02.13.48:250][650]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.30-02.13.49:836][836]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-02.13.49:852][836]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-02.13.49:852][836]PIE: New page: PIE session: Level (30 Jan 2021, 02:13:49)
+[2021.01.30-02.13.49:853][836]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.30-02.13.49:854][836]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.30-02.13.49:854][836]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2021.01.30-02.13.49:884][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030147s)
+[2021.01.30-02.13.49:885][836]LogAIModule: Creating AISystem for world Level
+[2021.01.30-02.13.49:885][836]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017319DA3E00), frame # 2836
+[2021.01.30-02.13.49:885][836]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000172E29D5BC0), frame # 2836
+[2021.01.30-02.13.49:885][836]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2021.01.30-02.13.49:885][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.031243s)
+[2021.01.30-02.13.49:900][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.01.30-02.13.49:901][836]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-02.13.49:901][836]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-02.13.49:901][836]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-02.13.49:901][836]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-02.13.49:901][836]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-02.13.49:901][836]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-02.13.49:901][836]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-02.13.49:901][836]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-02.13.49:902][836]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-02.13.49:902][836]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-02.13.49:904][836]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-02.13.49:904][836]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-02.13.49:912][836]LogAudioMixer: Display: Using Audio Device Speakers (Scarlett Solo USB)
+[2021.01.30-02.13.49:912][836]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-02.13.49:912][836]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-02.13.49:912][836]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-02.13.49:912][836]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-02.13.49:923][836]LogInit: FAudioDevice initialized.
+[2021.01.30-02.13.49:933][836]LogLoad: Game class is 'BP_CO2301AssignmentGameModeBase_C'
+[2021.01.30-02.13.49:938][836]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2021.01.30-02.13.49
+[2021.01.30-02.13.49:939][836]LogWorld: Bringing up level for play took: 0.005722
+[2021.01.30-02.13.49:940][836]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.01.30-02.13.49:943][836]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.01.30-02.13.49:944][836]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.01.30-02.13.50:181][836]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.237 s
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: === Handled ensure: ===
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: 
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1132]
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: Unable to bind delegate to 'OnOverLapBegin' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: Stack: 
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbc2e60241 UE4Editor-CO2301Assignment.dll!DispatchCheckVerify<bool,<lambda_8feadb04c5a2a40030167da0830f185e> >() [c:\program files\epic games\ue_4.25\engine\source\runtime\core\public\misc\assertionmacros.h:161]
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbc2e57337 UE4Editor-CO2301Assignment.dll!AEndZone::BeginPlay() [c:\users\emma\documents\github\co2301-assignment\co2301assignment\source\co2301assignment\endzone.cpp:23]
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbdb8c02fc UE4Editor-Engine.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbdcb67fdd UE4Editor-Engine.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbdbfa2181 UE4Editor-Engine.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbdcb1247e UE4Editor-Engine.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbdbfc3519 UE4Editor-Engine.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbd9de3e9c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbd9e04d6c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbd9de4dd9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbd9e208fa UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbd9e23bbd UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbd9e23598 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbd98aa854 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffbda181d06 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ff708817800 UE4Editor.exe!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ff70882ba7c UE4Editor.exe!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ff70882bb5a UE4Editor.exe!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ff70883e31d UE4Editor.exe!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ff70884145a UE4Editor.exe!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffc54fe7bd4 KERNEL32.DLL!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: [Callstack] 0x00007ffc554cce51 ntdll.dll!UnknownFunction []
+[2021.01.30-02.13.50:181][836]LogOutputDevice: Error: 
+[2021.01.30-02.13.50:189][836]LogStats:                SubmitErrorReport -  0.000 s
+[2021.01.30-02.13.51:212][836]LogStats:                    SendNewReport -  1.022 s
+[2021.01.30-02.13.51:212][836]LogStats:             FDebug::EnsureFailed -  1.268 s
+[2021.01.30-02.13.51:214][836]PIE: Server logged in
+[2021.01.30-02.13.51:215][836]PIE: Play in editor total start time 1.363 seconds.
+[2021.01.30-02.13.54:885][274]LogTemp: Warning: Shoot
+[2021.01.30-02.13.56:943][521]LogTemp: Warning: Shoot
+[2021.01.30-02.13.57:050][534]LogTemp: Warning: Shoot
+[2021.01.30-02.13.57:158][547]LogTemp: Warning: Shoot
+[2021.01.30-02.13.57:267][560]LogTemp: Warning: Shoot
+[2021.01.30-02.13.57:375][573]LogTemp: Warning: Shoot
+[2021.01.30-02.13.57:484][586]LogTemp: Warning: Shoot
+[2021.01.30-02.13.59:051][774]LogTemp: Warning: Shoot
+[2021.01.30-02.13.59:158][787]LogTemp: Warning: Shoot
+[2021.01.30-02.13.59:267][800]LogTemp: Warning: Shoot
+[2021.01.30-02.13.59:375][813]LogTemp: Warning: Shoot
+[2021.01.30-02.13.59:375][813]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.13.59:483][826]LogTemp: Warning: Shoot
+[2021.01.30-02.13.59:483][826]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.13.59:591][839]LogTemp: Warning: Shoot
+[2021.01.30-02.13.59:701][852]LogTemp: Warning: Shoot
+[2021.01.30-02.13.59:701][852]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.13.59:808][865]LogTemp: Warning: Shoot
+[2021.01.30-02.13.59:809][865]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.13.59:917][878]LogTemp: Warning: Shoot
+[2021.01.30-02.13.59:917][878]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.14.00:025][891]LogTemp: Warning: Shoot
+[2021.01.30-02.14.00:134][904]LogTemp: Warning: Shoot
+[2021.01.30-02.14.00:134][904]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.14.00:242][917]LogTemp: Warning: Shoot
+[2021.01.30-02.14.00:242][917]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.14.00:350][930]LogTemp: Warning: Shoot
+[2021.01.30-02.14.00:350][930]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.14.00:458][943]LogTemp: Warning: Shoot
+[2021.01.30-02.14.00:458][943]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.14.00:567][956]LogTemp: Warning: Shoot
+[2021.01.30-02.14.00:567][956]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.00:675][969]LogTemp: Warning: Shoot
+[2021.01.30-02.14.00:675][969]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.00:783][982]LogTemp: Warning: Shoot
+[2021.01.30-02.14.00:783][982]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.00:892][995]LogTemp: Warning: Shoot
+[2021.01.30-02.14.00:892][995]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.03:334][288]LogTemp: Warning: Shoot
+[2021.01.30-02.14.03:442][301]LogTemp: Warning: Shoot
+[2021.01.30-02.14.03:442][301]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.14.03:550][314]LogTemp: Warning: Shoot
+[2021.01.30-02.14.03:658][327]LogTemp: Warning: Shoot
+[2021.01.30-02.14.03:766][340]LogTemp: Warning: Shoot
+[2021.01.30-02.14.03:875][353]LogTemp: Warning: Shoot
+[2021.01.30-02.14.03:984][366]LogTemp: Warning: Shoot
+[2021.01.30-02.14.04:092][379]LogTemp: Warning: Shoot
+[2021.01.30-02.14.04:200][392]LogTemp: Warning: Shoot
+[2021.01.30-02.14.04:308][405]LogTemp: Warning: Shoot
+[2021.01.30-02.14.04:417][418]LogTemp: Warning: Shoot
+[2021.01.30-02.14.04:525][431]LogTemp: Warning: Shoot
+[2021.01.30-02.14.04:634][444]LogTemp: Warning: Shoot
+[2021.01.30-02.14.04:742][457]LogTemp: Warning: Shoot
+[2021.01.30-02.14.04:850][470]LogTemp: Warning: Shoot
+[2021.01.30-02.14.04:959][483]LogTemp: Warning: Shoot
+[2021.01.30-02.14.05:067][496]LogTemp: Warning: Shoot
+[2021.01.30-02.14.05:293][523]LogTemp: Warning: Shoot
+[2021.01.30-02.14.05:400][536]LogTemp: Warning: Shoot
+[2021.01.30-02.14.05:508][549]LogTemp: Warning: Shoot
+[2021.01.30-02.14.05:617][562]LogTemp: Warning: Shoot
+[2021.01.30-02.14.05:726][575]LogTemp: Warning: Shoot
+[2021.01.30-02.14.05:726][575]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.14.05:834][588]LogTemp: Warning: Shoot
+[2021.01.30-02.14.05:834][588]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.14.05:942][601]LogTemp: Warning: Shoot
+[2021.01.30-02.14.05:942][601]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.14.06:050][614]LogTemp: Warning: Shoot
+[2021.01.30-02.14.06:159][627]LogTemp: Warning: Shoot
+[2021.01.30-02.14.06:267][640]LogTemp: Warning: Shoot
+[2021.01.30-02.14.06:267][640]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.14.06:376][653]LogTemp: Warning: Shoot
+[2021.01.30-02.14.06:376][653]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.14.06:483][666]LogTemp: Warning: Shoot
+[2021.01.30-02.14.06:483][666]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.14.06:593][679]LogTemp: Warning: Shoot
+[2021.01.30-02.14.06:593][679]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.14.06:700][692]LogTemp: Warning: Shoot
+[2021.01.30-02.14.06:700][692]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.14.06:808][705]LogTemp: Warning: Shoot
+[2021.01.30-02.14.06:808][705]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.06:916][718]LogTemp: Warning: Shoot
+[2021.01.30-02.14.07:025][731]LogTemp: Warning: Shoot
+[2021.01.30-02.14.07:025][731]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.07:134][744]LogTemp: Warning: Shoot
+[2021.01.30-02.14.07:134][744]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.07:242][757]LogTemp: Warning: Shoot
+[2021.01.30-02.14.07:242][757]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.07:350][770]LogTemp: Warning: Shoot
+[2021.01.30-02.14.07:350][770]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.08:551][914]LogTemp: Warning: Shoot
+[2021.01.30-02.14.08:658][927]LogTemp: Warning: Shoot
+[2021.01.30-02.14.08:768][940]LogTemp: Warning: Shoot
+[2021.01.30-02.14.08:875][953]LogTemp: Warning: Shoot
+[2021.01.30-02.14.08:875][953]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.14.08:983][966]LogTemp: Warning: Shoot
+[2021.01.30-02.14.08:983][966]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.14.09:092][979]LogTemp: Warning: Shoot
+[2021.01.30-02.14.09:092][979]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.14.09:200][992]LogTemp: Warning: Shoot
+[2021.01.30-02.14.09:200][992]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.14.09:308][  5]LogTemp: Warning: Shoot
+[2021.01.30-02.14.09:308][  5]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.14.09:417][ 18]LogTemp: Warning: Shoot
+[2021.01.30-02.14.09:417][ 18]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.14.09:525][ 31]LogTemp: Warning: Shoot
+[2021.01.30-02.14.09:525][ 31]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.14.09:633][ 44]LogTemp: Warning: Shoot
+[2021.01.30-02.14.09:633][ 44]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.14.09:741][ 57]LogTemp: Warning: Shoot
+[2021.01.30-02.14.09:742][ 57]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.14.09:851][ 70]LogTemp: Warning: Shoot
+[2021.01.30-02.14.09:851][ 70]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.09:958][ 83]LogTemp: Warning: Shoot
+[2021.01.30-02.14.09:958][ 83]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.10:067][ 96]LogTemp: Warning: Shoot
+[2021.01.30-02.14.10:067][ 96]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.10:175][109]LogTemp: Warning: Shoot
+[2021.01.30-02.14.10:284][122]LogTemp: Warning: Shoot
+[2021.01.30-02.14.10:392][135]LogTemp: Warning: Shoot
+[2021.01.30-02.14.14:168][588]LogTemp: Warning: Shoot
+[2021.01.30-02.14.14:168][588]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.14.14:276][601]LogTemp: Warning: Shoot
+[2021.01.30-02.14.14:384][614]LogTemp: Warning: Shoot
+[2021.01.30-02.14.14:493][627]LogTemp: Warning: Shoot
+[2021.01.30-02.14.14:601][640]LogTemp: Warning: Shoot
+[2021.01.30-02.14.14:708][653]LogTemp: Warning: Shoot
+[2021.01.30-02.14.14:817][666]LogTemp: Warning: Shoot
+[2021.01.30-02.14.14:925][679]LogTemp: Warning: Shoot
+[2021.01.30-02.14.15:033][692]LogTemp: Warning: Shoot
+[2021.01.30-02.14.15:143][705]LogTemp: Warning: Shoot
+[2021.01.30-02.14.15:250][718]LogTemp: Warning: Shoot
+[2021.01.30-02.14.15:250][718]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.14.15:359][731]LogTemp: Warning: Shoot
+[2021.01.30-02.14.15:359][731]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.14.15:467][744]LogTemp: Warning: Shoot
+[2021.01.30-02.14.15:467][744]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.14.15:575][757]LogTemp: Warning: Shoot
+[2021.01.30-02.14.15:575][757]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.14.15:684][770]LogTemp: Warning: Shoot
+[2021.01.30-02.14.15:684][770]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.14.15:793][783]LogTemp: Warning: Shoot
+[2021.01.30-02.14.15:793][783]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.14.15:901][796]LogTemp: Warning: Shoot
+[2021.01.30-02.14.15:901][796]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.14.16:009][809]LogTemp: Warning: Shoot
+[2021.01.30-02.14.16:009][809]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.14.16:118][822]LogTemp: Warning: Shoot
+[2021.01.30-02.14.16:118][822]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.16:226][835]LogTemp: Warning: Shoot
+[2021.01.30-02.14.16:226][835]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.16:334][848]LogTemp: Warning: Shoot
+[2021.01.30-02.14.16:334][848]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.16:442][861]LogTemp: Warning: Shoot
+[2021.01.30-02.14.16:442][861]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.14.16:551][874]LogTemp: Warning: Shoot
+[2021.01.30-02.15.52:147][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.15.52:147][339]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level
+[2021.01.30-02.15.52:147][339]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-02.15.52:148][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.15.52:152][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-02.15.52:153][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.15.52:175][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.15.52:177][339]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017319DA3E00), frame # 17339
+[2021.01.30-02.15.52:177][339]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000172E29D5BC0), frame # 17339
+[2021.01.30-02.15.52:178][339]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.01.30-02.15.52:235][341]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.01.30-02.16.35:206][855]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-02.16.35:223][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-02.16.35:223][855]PIE: New page: PIE session: Level (30 Jan 2021, 02:16:35)
+[2021.01.30-02.16.35:223][855]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2021.01.30-02.16.35:252][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029533s)
+[2021.01.30-02.16.35:253][855]LogAIModule: Creating AISystem for world Level
+[2021.01.30-02.16.35:253][855]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000173198BD600), frame # 17855
+[2021.01.30-02.16.35:253][855]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017319C7D6C0), frame # 17855
+[2021.01.30-02.16.35:253][855]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2021.01.30-02.16.35:253][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.030458s)
+[2021.01.30-02.16.35:263][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.01.30-02.16.35:263][855]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-02.16.35:263][855]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-02.16.35:263][855]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-02.16.35:263][855]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-02.16.35:263][855]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-02.16.35:263][855]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-02.16.35:264][855]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-02.16.35:264][855]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-02.16.35:264][855]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-02.16.35:264][855]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-02.16.35:266][855]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-02.16.35:267][855]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-02.16.35:276][855]LogAudioMixer: Display: Using Audio Device Speakers (Scarlett Solo USB)
+[2021.01.30-02.16.35:276][855]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-02.16.35:276][855]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-02.16.35:276][855]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-02.16.35:276][855]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-02.16.35:286][855]LogInit: FAudioDevice initialized.
+[2021.01.30-02.16.35:292][855]LogLoad: Game class is 'BP_CO2301AssignmentGameModeBase_C'
+[2021.01.30-02.16.35:297][855]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2021.01.30-02.16.35
+[2021.01.30-02.16.35:298][855]LogWorld: Bringing up level for play took: 0.005740
+[2021.01.30-02.16.35:299][855]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.01.30-02.16.35:302][855]PIE: Server logged in
+[2021.01.30-02.16.35:303][855]PIE: Play in editor total start time 0.081 seconds.
+[2021.01.30-02.16.36:755][ 28]LogTemp: Warning: Shoot
+[2021.01.30-02.16.39:913][407]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:021][420]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:021][420]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.16.40:130][433]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:238][446]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:346][459]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:454][472]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:454][472]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.16.40:563][485]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:563][485]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.16.40:671][498]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:754][508]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:754][508]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.16.40:779][511]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:862][521]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:863][521]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.16.40:888][524]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:971][534]LogTemp: Warning: Shoot
+[2021.01.30-02.16.40:971][534]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.16.40:996][537]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:080][547]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:105][550]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:105][550]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.16.41:188][560]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:213][563]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:213][563]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.16.41:296][573]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:296][573]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.16.41:321][576]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:322][576]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.16.41:405][586]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:430][589]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:430][589]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.16.41:513][599]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:538][602]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:538][602]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.16.41:621][612]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:646][615]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:646][615]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.16.41:730][625]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:730][625]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.16.41:755][628]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:755][628]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.16.41:838][638]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:863][641]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:947][651]LogTemp: Warning: Shoot
+[2021.01.30-02.16.41:971][654]LogTemp: Warning: Shoot
+[2021.01.30-02.16.42:055][664]LogTemp: Warning: Shoot
+[2021.01.30-02.16.42:080][667]LogTemp: Warning: Shoot
+[2021.01.30-02.16.42:163][677]LogTemp: Warning: Shoot
+[2021.01.30-02.16.42:271][690]LogTemp: Warning: Shoot
+[2021.01.30-02.16.42:380][703]LogTemp: Warning: Shoot
+[2021.01.30-02.16.42:488][716]LogTemp: Warning: Shoot
+[2021.01.30-02.16.42:596][729]LogTemp: Warning: Shoot
+[2021.01.30-02.16.42:705][742]LogTemp: Warning: Shoot
+[2021.01.30-02.16.42:813][755]LogTemp: Warning: Shoot
+[2021.01.30-02.16.42:921][768]LogTemp: Warning: Shoot
+[2021.01.30-02.16.43:029][781]LogTemp: Warning: Shoot
+[2021.01.30-02.16.43:138][794]LogTemp: Warning: Shoot
+[2021.01.30-02.16.43:246][807]LogTemp: Warning: Shoot
+[2021.01.30-02.16.43:355][820]LogTemp: Warning: Shoot
+[2021.01.30-02.16.43:463][833]LogTemp: Warning: Shoot
+[2021.01.30-02.16.43:571][846]LogTemp: Warning: Shoot
+[2021.01.30-02.16.43:680][859]LogTemp: Warning: Shoot
+[2021.01.30-02.16.43:787][872]LogTemp: Warning: Shoot
+[2021.01.30-02.16.43:896][885]LogTemp: Warning: Shoot
+[2021.01.30-02.16.44:004][898]LogTemp: Warning: Shoot
+[2021.01.30-02.16.44:113][911]LogTemp: Warning: Shoot
+[2021.01.30-02.16.44:221][924]LogTemp: Warning: Shoot
+[2021.01.30-02.16.44:330][937]LogTemp: Warning: Shoot
+[2021.01.30-02.16.44:438][950]LogTemp: Warning: Shoot
+[2021.01.30-02.16.44:546][963]LogTemp: Warning: Shoot
+[2021.01.30-02.16.44:655][976]LogTemp: Warning: Shoot
+[2021.01.30-02.16.44:763][989]LogTemp: Warning: Shoot
+[2021.01.30-02.16.44:871][  2]LogTemp: Warning: Shoot
+[2021.01.30-02.16.44:979][ 15]LogTemp: Warning: Shoot
+[2021.01.30-02.16.45:088][ 28]LogTemp: Warning: Shoot
+[2021.01.30-02.16.45:196][ 41]LogTemp: Warning: Shoot
+[2021.01.30-02.16.45:305][ 54]LogTemp: Warning: Shoot
+[2021.01.30-02.16.45:413][ 67]LogTemp: Warning: Shoot
+[2021.01.30-02.16.45:521][ 80]LogTemp: Warning: Shoot
+[2021.01.30-02.16.45:630][ 93]LogTemp: Warning: Shoot
+[2021.01.30-02.16.45:738][106]LogTemp: Warning: Shoot
+[2021.01.30-02.16.45:846][119]LogTemp: Warning: Shoot
+[2021.01.30-02.16.45:954][132]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:063][145]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:171][158]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:280][171]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:388][184]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:497][197]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:604][210]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:647][215]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:713][223]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:755][228]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:821][236]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:862][241]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:929][249]LogTemp: Warning: Shoot
+[2021.01.30-02.16.46:972][254]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:038][262]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:080][267]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:146][275]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:188][280]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:255][288]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:297][293]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:363][301]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:405][306]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:405][306]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.16.47:471][314]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:513][319]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:513][319]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.16.47:580][327]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:621][332]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:688][340]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:730][345]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:796][353]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:838][358]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:904][366]LogTemp: Warning: Shoot
+[2021.01.30-02.16.47:946][371]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:012][379]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:054][384]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:122][392]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:163][397]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:230][405]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:271][410]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:337][418]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:379][423]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:379][423]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.16.48:446][431]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:488][436]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:488][436]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.16.48:554][444]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:597][449]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:597][449]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.16.48:663][457]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:705][462]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:772][470]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:813][475]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:880][483]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:922][488]LogTemp: Warning: Shoot
+[2021.01.30-02.16.48:988][496]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:030][501]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:030][501]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.16.49:038][502]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:097][509]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:138][514]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:138][514]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.16.49:146][515]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:205][522]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:205][522]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:246][527]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:246][527]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.16.49:255][528]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:313][535]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:313][535]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:313][535]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.16.49:355][540]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:355][540]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.16.49:363][541]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:421][548]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:421][548]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:421][548]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.16.49:463][553]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:463][553]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.16.49:471][554]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:530][561]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:530][561]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:530][561]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.16.49:571][566]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:580][567]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:638][574]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:638][574]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:638][574]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.16.49:679][579]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:688][580]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:746][587]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:746][587]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:788][592]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:796][593]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:855][600]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:855][600]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:896][605]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:905][606]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:963][613]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:963][613]LogTemp: Warning: Shoot
+[2021.01.30-02.16.49:963][613]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.16.50:005][618]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:013][619]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:071][626]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:071][626]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:113][631]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:121][632]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:180][639]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:180][639]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:221][644]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:229][645]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:288][652]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:288][652]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:330][657]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:338][658]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:396][665]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:396][665]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:438][670]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:446][671]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:504][678]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:505][678]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:546][683]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:554][684]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:613][691]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:613][691]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:655][696]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:663][697]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:722][704]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:722][704]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:763][709]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:771][710]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:830][717]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:830][717]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:871][722]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:880][723]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:938][730]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:938][730]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:980][735]LogTemp: Warning: Shoot
+[2021.01.30-02.16.50:988][736]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:047][743]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:047][743]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:088][748]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:096][749]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:154][756]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:154][756]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:197][761]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:205][762]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:264][769]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:264][769]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:305][774]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:314][775]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:372][782]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:372][782]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:413][787]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:422][788]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:480][795]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:480][795]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:521][800]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:530][801]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:587][808]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:587][808]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:629][813]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:637][814]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:696][821]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:696][821]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:738][826]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:747][827]LogTemp: Warning: Shoot
+[2021.01.30-02.16.51:798][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.16.51:798][829]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level
+[2021.01.30-02.16.51:798][829]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-02.16.51:799][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.16.51:808][829]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-02.16.51:809][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.16.51:818][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.16.51:831][829]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017319C7D6C0), frame # 19829
+[2021.01.30-02.16.51:831][829]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000173198BD600), frame # 19829
+[2021.01.30-02.16.51:832][829]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.01.30-02.16.51:886][831]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.01.30-02.16.52:602][917]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-02.16.52:618][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-02.16.52:618][917]PIE: New page: PIE session: Level (30 Jan 2021, 02:16:52)
+[2021.01.30-02.16.52:618][917]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2021.01.30-02.16.52:647][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028692s)
+[2021.01.30-02.16.52:648][917]LogAIModule: Creating AISystem for world Level
+[2021.01.30-02.16.52:648][917]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000173198BDE00), frame # 19917
+[2021.01.30-02.16.52:648][917]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017319522700), frame # 19917
+[2021.01.30-02.16.52:648][917]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2021.01.30-02.16.52:648][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.029603s)
+[2021.01.30-02.16.52:657][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.01.30-02.16.52:658][917]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-02.16.52:658][917]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-02.16.52:658][917]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-02.16.52:658][917]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-02.16.52:658][917]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-02.16.52:658][917]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-02.16.52:658][917]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-02.16.52:658][917]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-02.16.52:659][917]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-02.16.52:659][917]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-02.16.52:661][917]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-02.16.52:661][917]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-02.16.52:668][917]LogAudioMixer: Display: Using Audio Device Speakers (Scarlett Solo USB)
+[2021.01.30-02.16.52:668][917]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-02.16.52:668][917]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-02.16.52:668][917]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-02.16.52:669][917]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-02.16.52:678][917]LogInit: FAudioDevice initialized.
+[2021.01.30-02.16.52:683][917]LogLoad: Game class is 'BP_CO2301AssignmentGameModeBase_C'
+[2021.01.30-02.16.52:688][917]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2021.01.30-02.16.52
+[2021.01.30-02.16.52:689][917]LogWorld: Bringing up level for play took: 0.005188
+[2021.01.30-02.16.52:690][917]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.01.30-02.16.52:693][917]PIE: Server logged in
+[2021.01.30-02.16.52:693][917]PIE: Play in editor total start time 0.076 seconds.
+[2021.01.30-02.16.52:959][948]LogTemp: Warning: Shoot
+[2021.01.30-02.16.54:483][131]LogTemp: Warning: Shoot
+[2021.01.30-02.16.54:591][144]LogTemp: Warning: Shoot
+[2021.01.30-02.16.54:700][157]LogTemp: Warning: Shoot
+[2021.01.30-02.16.54:809][170]LogTemp: Warning: Shoot
+[2021.01.30-02.16.54:916][183]LogTemp: Warning: Shoot
+[2021.01.30-02.16.55:025][196]LogTemp: Warning: Shoot
+[2021.01.30-02.16.55:133][209]LogTemp: Warning: Shoot
+[2021.01.30-02.16.55:242][222]LogTemp: Warning: Shoot
+[2021.01.30-02.16.55:350][235]LogTemp: Warning: Shoot
+[2021.01.30-02.16.55:458][248]LogTemp: Warning: Shoot
+[2021.01.30-02.16.55:566][261]LogTemp: Warning: Shoot
+[2021.01.30-02.16.55:675][274]LogTemp: Warning: Shoot
+[2021.01.30-02.16.55:784][287]LogTemp: Warning: Shoot
+[2021.01.30-02.16.55:784][287]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.16.55:892][300]LogTemp: Warning: Shoot
+[2021.01.30-02.16.56:000][313]LogTemp: Warning: Shoot
+[2021.01.30-02.16.56:109][326]LogTemp: Warning: Shoot
+[2021.01.30-02.16.56:217][339]LogTemp: Warning: Shoot
+[2021.01.30-02.16.56:217][339]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.16.56:325][352]LogTemp: Warning: Shoot
+[2021.01.30-02.16.56:434][365]LogTemp: Warning: Shoot
+[2021.01.30-02.16.56:542][378]LogTemp: Warning: Shoot
+[2021.01.30-02.16.56:650][391]LogTemp: Warning: Shoot
+[2021.01.30-02.16.56:758][404]LogTemp: Warning: Shoot
+[2021.01.30-02.16.56:758][404]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.16.56:867][417]LogTemp: Warning: Shoot
+[2021.01.30-02.16.56:867][417]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.16.56:975][430]LogTemp: Warning: Shoot
+[2021.01.30-02.16.56:975][430]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.16.57:083][443]LogTemp: Warning: Shoot
+[2021.01.30-02.16.57:083][443]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.16.57:192][456]LogTemp: Warning: Shoot
+[2021.01.30-02.16.57:300][469]LogTemp: Warning: Shoot
+[2021.01.30-02.16.57:409][482]LogTemp: Warning: Shoot
+[2021.01.30-02.16.57:518][495]LogTemp: Warning: Shoot
+[2021.01.30-02.16.57:626][508]LogTemp: Warning: Shoot
+[2021.01.30-02.16.57:626][508]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.16.57:734][521]LogTemp: Warning: Shoot
+[2021.01.30-02.16.57:734][521]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.16.57:842][534]LogTemp: Warning: Shoot
+[2021.01.30-02.16.57:843][534]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.16.57:951][547]LogTemp: Warning: Shoot
+[2021.01.30-02.16.57:951][547]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.16.58:059][560]LogTemp: Warning: Shoot
+[2021.01.30-02.16.58:059][560]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.16.58:167][573]LogTemp: Warning: Shoot
+[2021.01.30-02.16.58:167][573]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.16.58:275][586]LogTemp: Warning: Shoot
+[2021.01.30-02.16.58:275][586]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.16.58:383][599]LogTemp: Warning: Shoot
+[2021.01.30-02.16.58:383][599]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.16.58:492][612]LogTemp: Warning: Shoot
+[2021.01.30-02.16.58:492][612]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.16.58:600][625]LogTemp: Warning: Shoot
+[2021.01.30-02.16.58:600][625]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.16.58:709][638]LogTemp: Warning: Shoot
+[2021.01.30-02.16.58:709][638]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.16.59:793][768]LogTemp: Warning: Shoot
+[2021.01.30-02.16.59:901][781]LogTemp: Warning: Shoot
+[2021.01.30-02.17.00:009][794]LogTemp: Warning: Shoot
+[2021.01.30-02.17.00:009][794]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.17.00:117][807]LogTemp: Warning: Shoot
+[2021.01.30-02.17.00:117][807]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.17.00:225][820]LogTemp: Warning: Shoot
+[2021.01.30-02.17.00:225][820]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.17.00:334][833]LogTemp: Warning: Shoot
+[2021.01.30-02.17.00:334][833]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.17.00:442][846]LogTemp: Warning: Shoot
+[2021.01.30-02.17.00:442][846]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.17.00:550][859]LogTemp: Warning: Shoot
+[2021.01.30-02.17.00:551][859]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.17.00:659][872]LogTemp: Warning: Shoot
+[2021.01.30-02.17.00:659][872]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.17.00:767][885]LogTemp: Warning: Shoot
+[2021.01.30-02.17.00:767][885]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.17.00:875][898]LogTemp: Warning: Shoot
+[2021.01.30-02.17.00:876][898]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.17.00:984][911]LogTemp: Warning: Shoot
+[2021.01.30-02.17.00:984][911]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.17.01:092][924]LogTemp: Warning: Shoot
+[2021.01.30-02.17.01:092][924]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.17.01:201][937]LogTemp: Warning: Shoot
+[2021.01.30-02.17.01:309][950]LogTemp: Warning: Shoot
+[2021.01.30-02.17.04:502][333]LogTemp: Warning: Shoot
+[2021.01.30-02.17.04:609][346]LogTemp: Warning: Shoot
+[2021.01.30-02.17.04:717][359]LogTemp: Warning: Shoot
+[2021.01.30-02.17.05:101][405]LogTemp: Warning: Shoot
+[2021.01.30-02.17.05:209][418]LogTemp: Warning: Shoot
+[2021.01.30-02.17.05:317][431]LogTemp: Warning: Shoot
+[2021.01.30-02.17.05:426][444]LogTemp: Warning: Shoot
+[2021.01.30-02.17.05:534][457]LogTemp: Warning: Shoot
+[2021.01.30-02.17.05:642][470]LogTemp: Warning: Shoot
+[2021.01.30-02.17.05:750][483]LogTemp: Warning: Shoot
+[2021.01.30-02.17.05:859][496]LogTemp: Warning: Shoot
+[2021.01.30-02.17.05:967][509]LogTemp: Warning: Shoot
+[2021.01.30-02.17.07:376][678]LogTemp: Warning: Shoot
+[2021.01.30-02.17.07:484][691]LogTemp: Warning: Shoot
+[2021.01.30-02.17.07:592][704]LogTemp: Warning: Shoot
+[2021.01.30-02.17.07:701][717]LogTemp: Warning: Shoot
+[2021.01.30-02.17.07:809][730]LogTemp: Warning: Shoot
+[2021.01.30-02.17.07:917][743]LogTemp: Warning: Shoot
+[2021.01.30-02.17.08:025][756]LogTemp: Warning: Shoot
+[2021.01.30-02.17.08:133][769]LogTemp: Warning: Shoot
+[2021.01.30-02.17.08:242][782]LogTemp: Warning: Shoot
+[2021.01.30-02.17.08:242][782]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.17.08:350][795]LogTemp: Warning: Shoot
+[2021.01.30-02.17.08:350][795]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.17.08:458][808]LogTemp: Warning: Shoot
+[2021.01.30-02.17.08:567][821]LogTemp: Warning: Shoot
+[2021.01.30-02.17.08:675][834]LogTemp: Warning: Shoot
+[2021.01.30-02.17.08:783][847]LogTemp: Warning: Shoot
+[2021.01.30-02.17.08:892][860]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:000][873]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:000][873]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.17.09:108][886]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:109][886]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.17.09:217][899]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:217][899]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.17.09:326][912]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:326][912]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.17.09:434][925]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:434][925]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.17.09:434][925]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:434][925]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.17.09:542][938]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:542][938]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.17.09:542][938]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:542][938]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.17.09:650][951]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:650][951]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.17.09:650][951]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:650][951]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.17.09:759][964]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:759][964]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.17.09:759][964]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:867][977]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:867][977]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:867][977]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.17.09:975][990]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:975][990]LogTemp: Warning: Shoot
+[2021.01.30-02.17.09:975][990]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.17.10:083][  3]LogTemp: Warning: Shoot
+[2021.01.30-02.17.10:083][  3]LogTemp: Warning: Shoot
+[2021.01.30-02.17.10:083][  3]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.17.10:193][ 16]LogTemp: Warning: Shoot
+[2021.01.30-02.17.10:193][ 16]LogTemp: Warning: Shoot
+[2021.01.30-02.17.10:193][ 16]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.17.10:300][ 29]LogTemp: Warning: Shoot
+[2021.01.30-02.17.10:409][ 42]LogTemp: Warning: Shoot
+[2021.01.30-02.17.10:517][ 55]LogTemp: Warning: Shoot
+[2021.01.30-02.17.10:626][ 68]LogTemp: Warning: Shoot
+[2021.01.30-02.17.10:734][ 81]LogTemp: Warning: Shoot
+[2021.01.30-02.17.10:842][ 94]LogTemp: Warning: Shoot
+[2021.01.30-02.17.10:950][107]LogTemp: Warning: Shoot
+[2021.01.30-02.17.11:059][120]LogTemp: Warning: Shoot
+[2021.01.30-02.17.11:167][133]LogTemp: Warning: Shoot
+[2021.01.30-02.17.11:275][146]LogTemp: Warning: Shoot
+[2021.01.30-02.17.11:384][159]LogTemp: Warning: Shoot
+[2021.01.30-02.17.11:493][172]LogTemp: Warning: Shoot
+[2021.01.30-02.17.11:600][185]LogTemp: Warning: Shoot
+[2021.01.30-02.17.11:709][198]LogTemp: Warning: Shoot
+[2021.01.30-02.17.11:817][211]LogTemp: Warning: Shoot
+[2021.01.30-02.17.11:926][224]LogTemp: Warning: Shoot
+[2021.01.30-02.17.12:034][237]LogTemp: Warning: Shoot
+[2021.01.30-02.17.12:142][250]LogTemp: Warning: Shoot
+[2021.01.30-02.17.12:251][263]LogTemp: Warning: Shoot
+[2021.01.30-02.17.12:359][276]LogTemp: Warning: Shoot
+[2021.01.30-02.17.12:467][289]LogTemp: Warning: Shoot
+[2021.01.30-02.17.12:575][302]LogTemp: Warning: Shoot
+[2021.01.30-02.17.12:684][315]LogTemp: Warning: Shoot
+[2021.01.30-02.17.12:793][328]LogTemp: Warning: Shoot
+[2021.01.30-02.17.12:901][341]LogTemp: Warning: Shoot
+[2021.01.30-02.17.13:009][354]LogTemp: Warning: Shoot
+[2021.01.30-02.17.13:118][367]LogTemp: Warning: Shoot
+[2021.01.30-02.17.13:226][380]LogTemp: Warning: Shoot
+[2021.01.30-02.17.13:334][393]LogTemp: Warning: Shoot
+[2021.01.30-02.17.13:442][406]LogTemp: Warning: Shoot
+[2021.01.30-02.17.13:551][419]LogTemp: Warning: Shoot
+[2021.01.30-02.17.13:659][432]LogTemp: Warning: Shoot
+[2021.01.30-02.17.13:767][445]LogTemp: Warning: Shoot
+[2021.01.30-02.17.13:876][458]LogTemp: Warning: Shoot
+[2021.01.30-02.17.13:984][471]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:092][484]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:201][497]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:309][510]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:418][523]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:526][536]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:634][549]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:651][551]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:742][562]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:759][564]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:851][575]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:867][577]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:959][588]LogTemp: Warning: Shoot
+[2021.01.30-02.17.14:976][590]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:067][601]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:084][603]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:176][614]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:193][616]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:284][627]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:301][629]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:392][640]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:409][642]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:501][653]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:518][655]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:518][655]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.17.15:609][666]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:626][668]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:626][668]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.17.15:718][679]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:734][681]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:826][692]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:842][694]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:934][705]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:951][707]LogTemp: Warning: Shoot
+[2021.01.30-02.17.15:951][707]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.17.16:042][718]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:059][720]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:059][720]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.17.16:151][731]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:168][733]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:259][744]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:276][746]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:276][746]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.17.16:368][757]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:384][759]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:384][759]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.17.16:476][770]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:493][772]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:493][772]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.17.16:584][783]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:601][785]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:601][785]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.17.16:692][796]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:709][798]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:709][798]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.17.16:801][809]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:818][811]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:818][811]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.17.16:909][822]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:926][824]LogTemp: Warning: Shoot
+[2021.01.30-02.17.16:926][824]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.17.17:018][835]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:034][837]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:034][837]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.17.17:126][848]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:143][850]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:235][861]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:251][863]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:343][874]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:359][876]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:451][887]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:560][900]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:668][913]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:776][926]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:884][939]LogTemp: Warning: Shoot
+[2021.01.30-02.17.17:993][952]LogTemp: Warning: Shoot
+[2021.01.30-02.17.18:101][965]LogTemp: Warning: Shoot
+[2021.01.30-02.17.18:209][978]LogTemp: Warning: Shoot
+[2021.01.30-02.17.18:318][991]LogTemp: Warning: Shoot
+[2021.01.30-02.17.18:426][  4]LogTemp: Warning: Shoot
+[2021.01.30-02.17.18:535][ 17]LogTemp: Warning: Shoot
+[2021.01.30-02.17.18:643][ 30]LogTemp: Warning: Shoot
+[2021.01.30-02.17.18:751][ 43]LogTemp: Warning: Shoot
+[2021.01.30-02.17.18:859][ 56]LogTemp: Warning: Shoot
+[2021.01.30-02.17.18:968][ 69]LogTemp: Warning: Shoot
+[2021.01.30-02.17.19:076][ 82]LogTemp: Warning: Shoot
+[2021.01.30-02.17.19:185][ 95]LogTemp: Warning: Shoot
+[2021.01.30-02.17.19:293][108]LogTemp: Warning: Shoot
+[2021.01.30-02.17.19:401][121]LogTemp: Warning: Shoot
+[2021.01.30-02.17.19:509][134]LogTemp: Warning: Shoot
+[2021.01.30-02.17.19:618][147]LogTemp: Warning: Shoot
+[2021.01.30-02.17.19:726][160]LogTemp: Warning: Shoot
+[2021.01.30-02.17.19:834][173]LogTemp: Warning: Shoot
+[2021.01.30-02.17.19:943][186]LogTemp: Warning: Shoot
+[2021.01.30-02.17.20:051][199]LogTemp: Warning: Shoot
+[2021.01.30-02.17.20:160][212]LogTemp: Warning: Shoot
+[2021.01.30-02.17.20:268][225]LogTemp: Warning: Shoot
+[2021.01.30-02.17.20:376][238]LogTemp: Warning: Shoot
+[2021.01.30-02.17.20:485][251]LogTemp: Warning: Shoot
+[2021.01.30-02.17.20:593][264]LogTemp: Warning: Shoot
+[2021.01.30-02.17.20:702][277]LogTemp: Warning: Shoot
+[2021.01.30-02.17.20:810][290]LogTemp: Warning: Shoot
+[2021.01.30-02.17.20:918][303]LogTemp: Warning: Shoot
+[2021.01.30-02.17.21:026][316]LogTemp: Warning: Shoot
+[2021.01.30-02.17.21:135][329]LogTemp: Warning: Shoot
+[2021.01.30-02.17.21:243][342]LogTemp: Warning: Shoot
+[2021.01.30-02.17.21:351][355]LogTemp: Warning: Shoot
+[2021.01.30-02.17.21:460][368]LogTemp: Warning: Shoot
+[2021.01.30-02.17.21:568][381]LogTemp: Warning: Shoot
+[2021.01.30-02.17.21:676][394]LogTemp: Warning: Shoot
+[2021.01.30-02.17.21:784][407]LogTemp: Warning: Shoot
+[2021.01.30-02.17.21:893][420]LogTemp: Warning: Shoot
+[2021.01.30-02.17.22:001][433]LogTemp: Warning: Shoot
+[2021.01.30-02.17.22:110][446]LogTemp: Warning: Shoot
+[2021.01.30-02.17.22:218][459]LogTemp: Warning: Shoot
+[2021.01.30-02.17.22:326][472]LogTemp: Warning: Shoot
+[2021.01.30-02.17.22:435][485]LogTemp: Warning: Shoot
+[2021.01.30-02.17.22:543][498]LogTemp: Warning: Shoot
+[2021.01.30-02.17.22:651][511]LogTemp: Warning: Shoot
+[2021.01.30-02.17.22:759][524]LogTemp: Warning: Shoot
+[2021.01.30-02.17.22:867][537]LogTemp: Warning: Shoot
+[2021.01.30-02.17.22:976][550]LogTemp: Warning: Shoot
+[2021.01.30-02.17.23:085][563]LogTemp: Warning: Shoot
+[2021.01.30-02.17.23:193][576]LogTemp: Warning: Shoot
+[2021.01.30-02.17.23:301][589]LogTemp: Warning: Shoot
+[2021.01.30-02.17.23:410][602]LogTemp: Warning: Shoot
+[2021.01.30-02.17.23:517][615]LogTemp: Warning: Shoot
+[2021.01.30-02.17.23:626][628]LogTemp: Warning: Shoot
+[2021.01.30-02.17.23:734][641]LogTemp: Warning: Shoot
+[2021.01.30-02.17.23:843][654]LogTemp: Warning: Shoot
+[2021.01.30-02.17.23:951][667]LogTemp: Warning: Shoot
+[2021.01.30-02.17.24:059][680]LogTemp: Warning: Shoot
+[2021.01.30-02.17.24:168][693]LogTemp: Warning: Shoot
+[2021.01.30-02.17.24:277][706]LogTemp: Warning: Shoot
+[2021.01.30-02.17.24:384][719]LogTemp: Warning: Shoot
+[2021.01.30-02.17.24:493][732]LogTemp: Warning: Shoot
+[2021.01.30-02.17.24:601][745]LogTemp: Warning: Shoot
+[2021.01.30-02.17.24:710][758]LogTemp: Warning: Shoot
+[2021.01.30-02.17.24:818][771]LogTemp: Warning: Shoot
+[2021.01.30-02.17.24:926][784]LogTemp: Warning: Shoot
+[2021.01.30-02.17.25:034][797]LogTemp: Warning: Shoot
+[2021.01.30-02.17.25:142][810]LogTemp: Warning: Shoot
+[2021.01.30-02.17.25:251][823]LogTemp: Warning: Shoot
+[2021.01.30-02.17.25:360][836]LogTemp: Warning: Shoot
+[2021.01.30-02.17.25:468][849]LogTemp: Warning: Shoot
+[2021.01.30-02.17.25:576][862]LogTemp: Warning: Shoot
+[2021.01.30-02.17.25:685][875]LogTemp: Warning: Shoot
+[2021.01.30-02.17.25:792][888]LogTemp: Warning: Shoot
+[2021.01.30-02.17.25:902][901]LogTemp: Warning: Shoot
+[2021.01.30-02.17.26:010][914]LogTemp: Warning: Shoot
+[2021.01.30-02.17.26:118][927]LogTemp: Warning: Shoot
+[2021.01.30-02.17.26:226][940]LogTemp: Warning: Shoot
+[2021.01.30-02.17.26:334][953]LogTemp: Warning: Shoot
+[2021.01.30-02.17.26:443][966]LogTemp: Warning: Shoot
+[2021.01.30-02.17.26:551][979]LogTemp: Warning: Shoot
+[2021.01.30-02.17.26:659][992]LogTemp: Warning: Shoot
+[2021.01.30-02.17.26:768][  5]LogTemp: Warning: Shoot
+[2021.01.30-02.17.26:876][ 18]LogTemp: Warning: Shoot
+[2021.01.30-02.17.26:984][ 31]LogTemp: Warning: Shoot
+[2021.01.30-02.17.27:092][ 44]LogTemp: Warning: Shoot
+[2021.01.30-02.17.27:201][ 57]LogTemp: Warning: Shoot
+[2021.01.30-02.17.27:309][ 70]LogTemp: Warning: Shoot
+[2021.01.30-02.17.27:417][ 83]LogTemp: Warning: Shoot
+[2021.01.30-02.17.27:526][ 96]LogTemp: Warning: Shoot
+[2021.01.30-02.17.27:634][109]LogTemp: Warning: Shoot
+[2021.01.30-02.17.27:743][122]LogTemp: Warning: Shoot
+[2021.01.30-02.17.27:851][135]LogTemp: Warning: Shoot
+[2021.01.30-02.17.27:959][148]LogTemp: Warning: Shoot
+[2021.01.30-02.17.28:068][161]LogTemp: Warning: Shoot
+[2021.01.30-02.17.28:176][174]LogTemp: Warning: Shoot
+[2021.01.30-02.17.28:284][187]LogTemp: Warning: Shoot
+[2021.01.30-02.17.28:393][200]LogTemp: Warning: Shoot
+[2021.01.30-02.17.28:501][213]LogTemp: Warning: Shoot
+[2021.01.30-02.17.28:610][226]LogTemp: Warning: Shoot
+[2021.01.30-02.17.28:717][239]LogTemp: Warning: Shoot
+[2021.01.30-02.17.28:826][252]LogTemp: Warning: Shoot
+[2021.01.30-02.17.28:935][265]LogTemp: Warning: Shoot
+[2021.01.30-02.17.29:043][278]LogTemp: Warning: Shoot
+[2021.01.30-02.17.29:151][291]LogTemp: Warning: Shoot
+[2021.01.30-02.17.29:259][304]LogTemp: Warning: Shoot
+[2021.01.30-02.17.29:368][317]LogTemp: Warning: Shoot
+[2021.01.30-02.17.29:476][330]LogTemp: Warning: Shoot
+[2021.01.30-02.17.29:584][343]LogTemp: Warning: Shoot
+[2021.01.30-02.17.29:693][356]LogTemp: Warning: Shoot
+[2021.01.30-02.17.29:801][369]LogTemp: Warning: Shoot
+[2021.01.30-02.17.29:910][382]LogTemp: Warning: Shoot
+[2021.01.30-02.17.30:018][395]LogTemp: Warning: Shoot
+[2021.01.30-02.17.30:126][408]LogTemp: Warning: Shoot
+[2021.01.30-02.17.30:234][421]LogTemp: Warning: Shoot
+[2021.01.30-02.17.30:342][434]LogTemp: Warning: Shoot
+[2021.01.30-02.17.30:451][447]LogTemp: Warning: Shoot
+[2021.01.30-02.17.30:560][460]LogTemp: Warning: Shoot
+[2021.01.30-02.17.30:668][473]LogTemp: Warning: Shoot
+[2021.01.30-02.17.30:776][486]LogTemp: Warning: Shoot
+[2021.01.30-02.17.30:885][499]LogTemp: Warning: Shoot
+[2021.01.30-02.17.30:993][512]LogTemp: Warning: Shoot
+[2021.01.30-02.17.31:101][525]LogTemp: Warning: Shoot
+[2021.01.30-02.17.31:209][538]LogTemp: Warning: Shoot
+[2021.01.30-02.17.31:318][551]LogTemp: Warning: Shoot
+[2021.01.30-02.17.31:426][564]LogTemp: Warning: Shoot
+[2021.01.30-02.17.31:535][577]LogTemp: Warning: Shoot
+[2021.01.30-02.17.31:643][590]LogTemp: Warning: Shoot
+[2021.01.30-02.17.31:751][603]LogTemp: Warning: Shoot
+[2021.01.30-02.17.31:860][616]LogTemp: Warning: Shoot
+[2021.01.30-02.17.31:968][629]LogTemp: Warning: Shoot
+[2021.01.30-02.17.32:076][642]LogTemp: Warning: Shoot
+[2021.01.30-02.17.32:184][655]LogTemp: Warning: Shoot
+[2021.01.30-02.17.32:293][668]LogTemp: Warning: Shoot
+[2021.01.30-02.17.32:501][693]LogTemp: Warning: Shoot
+[2021.01.30-02.17.32:610][706]LogTemp: Warning: Shoot
+[2021.01.30-02.17.32:718][719]LogTemp: Warning: Shoot
+[2021.01.30-02.17.32:826][732]LogTemp: Warning: Shoot
+[2021.01.30-02.17.32:934][745]LogTemp: Warning: Shoot
+[2021.01.30-02.17.33:043][758]LogTemp: Warning: Shoot
+[2021.01.30-02.17.33:151][771]LogTemp: Warning: Shoot
+[2021.01.30-02.17.33:310][782]LogTemp: Warning: Shoot
+[2021.01.30-02.17.33:418][795]LogTemp: Warning: Shoot
+[2021.01.30-02.17.33:527][808]LogTemp: Warning: Shoot
+[2021.01.30-02.17.33:637][819]LogTemp: Warning: Shoot
+[2021.01.30-02.17.33:745][832]LogTemp: Warning: Shoot
+[2021.01.30-02.17.33:853][845]LogTemp: Warning: Shoot
+[2021.01.30-02.17.33:962][858]LogTemp: Warning: Shoot
+[2021.01.30-02.17.34:070][871]LogTemp: Warning: Shoot
+[2021.01.30-02.17.34:178][884]LogTemp: Warning: Shoot
+[2021.01.30-02.17.34:286][897]LogTemp: Warning: Shoot
+[2021.01.30-02.17.34:395][910]LogTemp: Warning: Shoot
+[2021.01.30-02.17.34:504][923]LogTemp: Warning: Shoot
+[2021.01.30-02.17.34:612][936]LogTemp: Warning: Shoot
+[2021.01.30-02.17.34:721][949]LogTemp: Warning: Shoot
+[2021.01.30-02.17.34:828][962]LogTemp: Warning: Shoot
+[2021.01.30-02.17.34:937][975]LogTemp: Warning: Shoot
+[2021.01.30-02.17.35:046][988]LogTemp: Warning: Shoot
+[2021.01.30-02.17.35:154][  1]LogTemp: Warning: Shoot
+[2021.01.30-02.17.35:262][ 14]LogTemp: Warning: Shoot
+[2021.01.30-02.17.35:370][ 27]LogTemp: Warning: Shoot
+[2021.01.30-02.17.35:479][ 40]LogTemp: Warning: Shoot
+[2021.01.30-02.17.35:587][ 53]LogTemp: Warning: Shoot
+[2021.01.30-02.17.35:697][ 66]LogTemp: Warning: Shoot
+[2021.01.30-02.17.35:804][ 79]LogTemp: Warning: Shoot
+[2021.01.30-02.17.35:913][ 92]LogTemp: Warning: Shoot
+[2021.01.30-02.17.36:022][105]LogTemp: Warning: Shoot
+[2021.01.30-02.17.36:130][118]LogTemp: Warning: Shoot
+[2021.01.30-02.17.36:238][131]LogTemp: Warning: Shoot
+[2021.01.30-02.17.36:346][144]LogTemp: Warning: Shoot
+[2021.01.30-02.17.36:454][157]LogTemp: Warning: Shoot
+[2021.01.30-02.17.36:562][170]LogTemp: Warning: Shoot
+[2021.01.30-02.17.36:671][183]LogTemp: Warning: Shoot
+[2021.01.30-02.17.36:779][196]LogTemp: Warning: Shoot
+[2021.01.30-02.17.36:888][209]LogTemp: Warning: Shoot
+[2021.01.30-02.17.36:996][222]LogTemp: Warning: Shoot
+[2021.01.30-02.17.37:105][235]LogTemp: Warning: Shoot
+[2021.01.30-02.17.37:217][248]LogTemp: Warning: Shoot
+[2021.01.30-02.17.37:325][261]LogTemp: Warning: Shoot
+[2021.01.30-02.17.37:434][274]LogTemp: Warning: Shoot
+[2021.01.30-02.17.37:542][287]LogTemp: Warning: Shoot
+[2021.01.30-02.17.37:650][300]LogTemp: Warning: Shoot
+[2021.01.30-02.17.37:759][313]LogTemp: Warning: Shoot
+[2021.01.30-02.17.37:867][326]LogTemp: Warning: Shoot
+[2021.01.30-02.17.37:976][339]LogTemp: Warning: Shoot
+[2021.01.30-02.17.38:084][352]LogTemp: Warning: Shoot
+[2021.01.30-02.17.38:192][365]LogTemp: Warning: Shoot
+[2021.01.30-02.17.38:301][378]LogTemp: Warning: Shoot
+[2021.01.30-02.17.38:409][391]LogTemp: Warning: Shoot
+[2021.01.30-02.17.38:517][404]LogTemp: Warning: Shoot
+[2021.01.30-02.17.38:625][417]LogTemp: Warning: Shoot
+[2021.01.30-02.17.38:734][430]LogTemp: Warning: Shoot
+[2021.01.30-02.17.38:842][443]LogTemp: Warning: Shoot
+[2021.01.30-02.17.38:951][456]LogTemp: Warning: Shoot
+[2021.01.30-02.17.39:059][469]LogTemp: Warning: Shoot
+[2021.01.30-02.17.39:167][482]LogTemp: Warning: Shoot
+[2021.01.30-02.17.39:275][495]LogTemp: Warning: Shoot
+[2021.01.30-02.17.39:384][508]LogTemp: Warning: Shoot
+[2021.01.30-02.17.39:493][521]LogTemp: Warning: Shoot
+[2021.01.30-02.17.39:601][534]LogTemp: Warning: Shoot
+[2021.01.30-02.17.39:709][547]LogTemp: Warning: Shoot
+[2021.01.30-02.17.39:817][560]LogTemp: Warning: Shoot
+[2021.01.30-02.17.39:925][573]LogTemp: Warning: Shoot
+[2021.01.30-02.17.40:034][586]LogTemp: Warning: Shoot
+[2021.01.30-02.17.40:142][599]LogTemp: Warning: Shoot
+[2021.01.30-02.17.40:250][612]LogTemp: Warning: Shoot
+[2021.01.30-02.17.40:359][625]LogTemp: Warning: Shoot
+[2021.01.30-02.17.40:467][638]LogTemp: Warning: Shoot
+[2021.01.30-02.17.40:576][651]LogTemp: Warning: Shoot
+[2021.01.30-02.17.40:684][664]LogTemp: Warning: Shoot
+[2021.01.30-02.17.40:792][677]LogTemp: Warning: Shoot
+[2021.01.30-02.17.40:900][690]LogTemp: Warning: Shoot
+[2021.01.30-02.17.41:009][703]LogTemp: Warning: Shoot
+[2021.01.30-02.17.41:117][716]LogTemp: Warning: Shoot
+[2021.01.30-02.17.41:226][729]LogTemp: Warning: Shoot
+[2021.01.30-02.17.41:334][742]LogTemp: Warning: Shoot
+[2021.01.30-02.17.41:442][755]LogTemp: Warning: Shoot
+[2021.01.30-02.17.41:551][768]LogTemp: Warning: Shoot
+[2021.01.30-02.17.41:659][781]LogTemp: Warning: Shoot
+[2021.01.30-02.17.41:767][794]LogTemp: Warning: Shoot
+[2021.01.30-02.17.41:875][807]LogTemp: Warning: Shoot
+[2021.01.30-02.17.41:984][820]LogTemp: Warning: Shoot
+[2021.01.30-02.17.42:092][833]LogTemp: Warning: Shoot
+[2021.01.30-02.17.42:201][846]LogTemp: Warning: Shoot
+[2021.01.30-02.17.42:309][859]LogTemp: Warning: Shoot
+[2021.01.30-02.17.42:417][872]LogTemp: Warning: Shoot
+[2021.01.30-02.17.42:526][885]LogTemp: Warning: Shoot
+[2021.01.30-02.17.42:634][898]LogTemp: Warning: Shoot
+[2021.01.30-02.17.42:743][911]LogTemp: Warning: Shoot
+[2021.01.30-02.17.42:851][924]LogTemp: Warning: Shoot
+[2021.01.30-02.17.42:959][937]LogTemp: Warning: Shoot
+[2021.01.30-02.17.43:067][950]LogTemp: Warning: Shoot
+[2021.01.30-02.17.43:176][963]LogTemp: Warning: Shoot
+[2021.01.30-02.17.43:284][976]LogTemp: Warning: Shoot
+[2021.01.30-02.17.43:392][989]LogTemp: Warning: Shoot
+[2021.01.30-02.17.43:501][  2]LogTemp: Warning: Shoot
+[2021.01.30-02.17.43:608][ 15]LogTemp: Warning: Shoot
+[2021.01.30-02.17.43:717][ 28]LogTemp: Warning: Shoot
+[2021.01.30-02.17.43:826][ 41]LogTemp: Warning: Shoot
+[2021.01.30-02.17.43:934][ 54]LogTemp: Warning: Shoot
+[2021.01.30-02.17.44:042][ 67]LogTemp: Warning: Shoot
+[2021.01.30-02.17.44:150][ 80]LogTemp: Warning: Shoot
+[2021.01.30-02.17.44:259][ 93]LogTemp: Warning: Shoot
+[2021.01.30-02.17.44:368][106]LogTemp: Warning: Shoot
+[2021.01.30-02.17.44:475][119]LogTemp: Warning: Shoot
+[2021.01.30-02.17.44:584][132]LogTemp: Warning: Shoot
+[2021.01.30-02.17.44:692][145]LogTemp: Warning: Shoot
+[2021.01.30-02.17.44:800][158]LogTemp: Warning: Shoot
+[2021.01.30-02.17.45:038][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.17.45:038][181]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level
+[2021.01.30-02.17.45:038][181]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-02.17.45:039][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.17.45:046][181]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-02.17.45:047][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.17.45:057][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.17.45:069][181]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017319522700), frame # 26181
+[2021.01.30-02.17.45:069][181]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000173198BDE00), frame # 26181
+[2021.01.30-02.17.45:070][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.01.30-02.17.45:094][182]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.01.30-02.17.57:483][457]Candidate modules for hot reload:
+[2021.01.30-02.17.57:483][457]  CO2301Assignment
+[2021.01.30-02.17.57:483][457]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CO2301Assignment,2183 CO2301AssignmentEditor Win64 Development -Project="C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/CO2301Assignment.uproject" "C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/CO2301Assignment.uproject"  -IgnoreJunk]
+[2021.01.30-02.17.57:489][457]Warning: Starting HotReload took  0.0s.
+[2021.01.30-02.18.06:799][544]CompilerResultsLog: New page: Compilation - 30 Jan 2021, 02:18:06
+[2021.01.30-02.18.06:799][544]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Emma\Documents\GitHub\CO2301-Assignment).
+[2021.01.30-02.18.06:799][544]CompilerResultsLog: Parsing headers for CO2301AssignmentEditor
+[2021.01.30-02.18.06:799][544]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\CO2301Assignment.uproject" "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\CO2301AssignmentEditor\Development\CO2301AssignmentEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Emma\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.30-02.18.06:799][544]CompilerResultsLog: Reflection code generated for CO2301AssignmentEditor in 5.3353603 seconds
+[2021.01.30-02.18.06:799][544]CompilerResultsLog: Building CO2301AssignmentEditor...
+[2021.01.30-02.18.06:799][544]CompilerResultsLog: Using Visual Studio 2017 14.16.27038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.30-02.18.06:799][544]CompilerResultsLog: Building 6 actions with 16 processes...
+[2021.01.30-02.18.06:799][544]CompilerResultsLog:   [1/6] EndZone.cpp
+[2021.01.30-02.18.06:799][544]CompilerResultsLog:   [2/6] CO2301Assignment.init.gen.cpp
+[2021.01.30-02.18.06:799][544]CompilerResultsLog:   [3/6] EndZone.gen.cpp
+[2021.01.30-02.18.06:800][544]CompilerResultsLog:   [4/6] UE4Editor-CO2301Assignment-2183.lib
+[2021.01.30-02.18.06:800][544]CompilerResultsLog:      Creating library C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-2183.lib and object C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-2183.exp
+[2021.01.30-02.18.06:800][544]CompilerResultsLog:   [5/6] UE4Editor-CO2301Assignment-2183.dll
+[2021.01.30-02.18.06:800][544]CompilerResultsLog:      Creating library C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-2183.suppressed.lib and object C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-2183.suppressed.exp
+[2021.01.30-02.18.06:800][544]CompilerResultsLog:   [6/6] CO2301AssignmentEditor.target
+[2021.01.30-02.18.06:800][544]CompilerResultsLog: Total time in Parallel executor: 3.30 seconds
+[2021.01.30-02.18.06:800][544]CompilerResultsLog: Total execution time: 9.22 seconds
+[2021.01.30-02.18.06:800][544]LogMainFrame: MainFrame: Module compiling took 9.320 seconds
+[2021.01.30-02.18.06:827][544]LogClass: Could not find existing class EndZone in package /Script/CO2301Assignment for HotReload, assuming new class
+[2021.01.30-02.18.06:827][544]LogClass: Function OnOverLapBegin is new.
+[2021.01.30-02.18.06:833][544]LogHotReload: Re-instancing EndZone after hot-reload.
+[2021.01.30-02.18.06:842][544]LogContentBrowser: Native class hierarchy updated for 'CO2301Assignment' in 0.0004 seconds. Added 10 classes and 2 folders.
+[2021.01.30-02.18.06:842][544]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.30-02.18.06:885][544]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3446 classes and 828 folders.
+[2021.01.30-02.18.06:885][544]Display: HotReload took  9.4s.
+[2021.01.30-02.18.08:533][741]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-02.18.08:552][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-02.18.08:552][741]PIE: New page: PIE session: Level (30 Jan 2021, 02:18:08)
+[2021.01.30-02.18.08:552][741]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2021.01.30-02.18.08:582][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030073s)
+[2021.01.30-02.18.08:583][741]LogAIModule: Creating AISystem for world Level
+[2021.01.30-02.18.08:583][741]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000173208D6E00), frame # 27741
+[2021.01.30-02.18.08:583][741]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017319B139C0), frame # 27741
+[2021.01.30-02.18.08:583][741]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2021.01.30-02.18.08:583][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.031155s)
+[2021.01.30-02.18.08:594][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.01.30-02.18.08:595][741]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-02.18.08:595][741]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-02.18.08:596][741]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-02.18.08:596][741]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-02.18.08:596][741]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-02.18.08:596][741]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-02.18.08:596][741]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-02.18.08:596][741]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-02.18.08:596][741]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-02.18.08:596][741]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-02.18.08:599][741]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-02.18.08:599][741]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-02.18.08:608][741]LogAudioMixer: Display: Using Audio Device Speakers (Scarlett Solo USB)
+[2021.01.30-02.18.08:608][741]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-02.18.08:608][741]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-02.18.08:608][741]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-02.18.08:609][741]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-02.18.08:619][741]LogInit: FAudioDevice initialized.
+[2021.01.30-02.18.08:625][741]LogLoad: Game class is 'BP_CO2301AssignmentGameModeBase_C'
+[2021.01.30-02.18.08:630][741]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2021.01.30-02.18.08
+[2021.01.30-02.18.08:631][741]LogWorld: Bringing up level for play took: 0.005300
+[2021.01.30-02.18.08:632][741]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.01.30-02.18.08:635][741]PIE: Server logged in
+[2021.01.30-02.18.08:636][741]PIE: Play in editor total start time 0.087 seconds.
+[2021.01.30-02.18.10:011][905]LogTemp: Warning: Shoot
+[2021.01.30-02.18.14:036][388]LogTemp: Warning: Shoot
+[2021.01.30-02.18.14:144][401]LogTemp: Warning: Shoot
+[2021.01.30-02.18.14:253][414]LogTemp: Warning: Shoot
+[2021.01.30-02.18.14:360][427]LogTemp: Warning: Shoot
+[2021.01.30-02.18.14:469][440]LogTemp: Warning: Shoot
+[2021.01.30-02.18.14:577][453]LogTemp: Warning: Shoot
+[2021.01.30-02.18.14:686][466]LogTemp: Warning: Shoot
+[2021.01.30-02.18.14:794][479]LogTemp: Warning: Shoot
+[2021.01.30-02.18.14:794][479]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.18.14:902][492]LogTemp: Warning: Shoot
+[2021.01.30-02.18.14:902][492]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.18.15:011][505]LogTemp: Warning: Shoot
+[2021.01.30-02.18.15:119][518]LogTemp: Warning: Shoot
+[2021.01.30-02.18.15:228][531]LogTemp: Warning: Shoot
+[2021.01.30-02.18.15:228][531]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.18.15:336][544]LogTemp: Warning: Shoot
+[2021.01.30-02.18.15:336][544]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.18.15:444][557]LogTemp: Warning: Shoot
+[2021.01.30-02.18.15:552][570]LogTemp: Warning: Shoot
+[2021.01.30-02.18.15:661][583]LogTemp: Warning: Shoot
+[2021.01.30-02.18.15:661][583]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.18.15:769][596]LogTemp: Warning: Shoot
+[2021.01.30-02.18.15:769][596]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.18.15:877][609]LogTemp: Warning: Shoot
+[2021.01.30-02.18.15:877][609]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.18.15:985][622]LogTemp: Warning: Shoot
+[2021.01.30-02.18.15:985][622]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.18.16:094][635]LogTemp: Warning: Shoot
+[2021.01.30-02.18.16:094][635]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.18.16:203][648]LogTemp: Warning: Shoot
+[2021.01.30-02.18.16:203][648]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.16:311][661]LogTemp: Warning: Shoot
+[2021.01.30-02.18.16:311][661]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.16:419][674]LogTemp: Warning: Shoot
+[2021.01.30-02.18.16:420][674]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.16:528][687]LogTemp: Warning: Shoot
+[2021.01.30-02.18.16:528][687]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.16:636][700]LogTemp: Warning: Shoot
+[2021.01.30-02.18.16:636][700]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.17:678][825]LogTemp: Warning: Shoot
+[2021.01.30-02.18.17:786][838]LogTemp: Warning: Shoot
+[2021.01.30-02.18.17:894][851]LogTemp: Warning: Shoot
+[2021.01.30-02.18.18:428][915]LogTemp: Warning: Shoot
+[2021.01.30-02.18.18:535][928]LogTemp: Warning: Shoot
+[2021.01.30-02.18.18:644][941]LogTemp: Warning: Shoot
+[2021.01.30-02.18.18:753][954]LogTemp: Warning: Shoot
+[2021.01.30-02.18.18:860][967]LogTemp: Warning: Shoot
+[2021.01.30-02.18.18:860][967]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.18.18:969][980]LogTemp: Warning: Shoot
+[2021.01.30-02.18.19:077][993]LogTemp: Warning: Shoot
+[2021.01.30-02.18.19:186][  6]LogTemp: Warning: Shoot
+[2021.01.30-02.18.19:294][ 19]LogTemp: Warning: Shoot
+[2021.01.30-02.18.19:402][ 32]LogTemp: Warning: Shoot
+[2021.01.30-02.18.19:510][ 45]LogTemp: Warning: Shoot
+[2021.01.30-02.18.19:619][ 58]LogTemp: Warning: Shoot
+[2021.01.30-02.18.20:178][125]LogTemp: Warning: Shoot
+[2021.01.30-02.18.20:178][125]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.18.20:285][138]LogTemp: Warning: Shoot
+[2021.01.30-02.18.20:285][138]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.18.20:395][151]LogTemp: Warning: Shoot
+[2021.01.30-02.18.20:502][164]LogTemp: Warning: Shoot
+[2021.01.30-02.18.20:502][164]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.18.20:611][177]LogTemp: Warning: Shoot
+[2021.01.30-02.18.20:719][190]LogTemp: Warning: Shoot
+[2021.01.30-02.18.20:827][203]LogTemp: Warning: Shoot
+[2021.01.30-02.18.20:935][216]LogTemp: Warning: Shoot
+[2021.01.30-02.18.21:045][229]LogTemp: Warning: Shoot
+[2021.01.30-02.18.21:152][242]LogTemp: Warning: Shoot
+[2021.01.30-02.18.21:260][255]LogTemp: Warning: Shoot
+[2021.01.30-02.18.21:260][255]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.18.21:369][268]LogTemp: Warning: Shoot
+[2021.01.30-02.18.21:369][268]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.18.21:478][281]LogTemp: Warning: Shoot
+[2021.01.30-02.18.21:478][281]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.18.21:585][294]LogTemp: Warning: Shoot
+[2021.01.30-02.18.21:585][294]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.18.21:694][307]LogTemp: Warning: Shoot
+[2021.01.30-02.18.21:694][307]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.18.21:802][320]LogTemp: Warning: Shoot
+[2021.01.30-02.18.21:803][320]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.21:911][333]LogTemp: Warning: Shoot
+[2021.01.30-02.18.22:019][346]LogTemp: Warning: Shoot
+[2021.01.30-02.18.22:127][359]LogTemp: Warning: Shoot
+[2021.01.30-02.18.23:928][575]LogTemp: Warning: Shoot
+[2021.01.30-02.18.24:036][588]LogTemp: Warning: Shoot
+[2021.01.30-02.18.24:144][601]LogTemp: Warning: Shoot
+[2021.01.30-02.18.24:253][614]LogTemp: Warning: Shoot
+[2021.01.30-02.18.24:361][627]LogTemp: Warning: Shoot
+[2021.01.30-02.18.24:469][640]LogTemp: Warning: Shoot
+[2021.01.30-02.18.24:578][653]LogTemp: Warning: Shoot
+[2021.01.30-02.18.24:578][653]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.18.24:686][666]LogTemp: Warning: Shoot
+[2021.01.30-02.18.24:686][666]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.18.24:794][679]LogTemp: Warning: Shoot
+[2021.01.30-02.18.24:902][692]LogTemp: Warning: Shoot
+[2021.01.30-02.18.25:010][705]LogTemp: Warning: Shoot
+[2021.01.30-02.18.25:010][705]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.18.25:120][718]LogTemp: Warning: Shoot
+[2021.01.30-02.18.25:120][718]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.18.25:227][731]LogTemp: Warning: Shoot
+[2021.01.30-02.18.25:227][731]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.18.25:336][744]LogTemp: Warning: Shoot
+[2021.01.30-02.18.25:336][744]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.18.25:444][757]LogTemp: Warning: Shoot
+[2021.01.30-02.18.25:444][757]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.18.25:552][770]LogTemp: Warning: Shoot
+[2021.01.30-02.18.25:552][770]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.18.25:660][783]LogTemp: Warning: Shoot
+[2021.01.30-02.18.25:660][783]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.18.25:769][796]LogTemp: Warning: Shoot
+[2021.01.30-02.18.25:769][796]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.25:877][809]LogTemp: Warning: Shoot
+[2021.01.30-02.18.25:877][809]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.25:986][822]LogTemp: Warning: Shoot
+[2021.01.30-02.18.25:986][822]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.26:094][835]LogTemp: Warning: Shoot
+[2021.01.30-02.18.26:094][835]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.26:202][848]LogTemp: Warning: Shoot
+[2021.01.30-02.18.26:202][848]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.26:310][861]LogTemp: Warning: Shoot
+[2021.01.30-02.18.26:310][861]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.32:145][561]LogTemp: Warning: Shoot
+[2021.01.30-02.18.42:864][838]LogTemp: Warning: Shoot
+[2021.01.30-02.18.44:220][  1]LogTemp: Warning: END
+[2021.01.30-02.18.45:262][126]LogTemp: Warning: Shoot
+[2021.01.30-02.18.45:370][139]LogTemp: Warning: Shoot
+[2021.01.30-02.18.45:479][152]LogTemp: Warning: Shoot
+[2021.01.30-02.18.45:587][165]LogTemp: Warning: Shoot
+[2021.01.30-02.18.45:695][178]LogTemp: Warning: Shoot
+[2021.01.30-02.18.45:804][191]LogTemp: Warning: Shoot
+[2021.01.30-02.18.45:912][204]LogTemp: Warning: Shoot
+[2021.01.30-02.18.46:021][217]LogTemp: Warning: Shoot
+[2021.01.30-02.18.46:129][230]LogTemp: Warning: Shoot
+[2021.01.30-02.18.46:129][230]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.18.46:237][243]LogTemp: Warning: Shoot
+[2021.01.30-02.18.46:237][243]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.18.46:345][256]LogTemp: Warning: Shoot
+[2021.01.30-02.18.46:346][256]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.18.46:454][269]LogTemp: Warning: Shoot
+[2021.01.30-02.18.46:454][269]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.18.46:562][282]LogTemp: Warning: Shoot
+[2021.01.30-02.18.46:562][282]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.18.46:670][295]LogTemp: Warning: Shoot
+[2021.01.30-02.18.46:670][295]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.18.46:779][308]LogTemp: Warning: Shoot
+[2021.01.30-02.18.46:779][308]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.18.46:887][321]LogTemp: Warning: Shoot
+[2021.01.30-02.18.46:887][321]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.18.46:995][334]LogTemp: Warning: Shoot
+[2021.01.30-02.18.46:995][334]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.18.47:104][347]LogTemp: Warning: Shoot
+[2021.01.30-02.18.47:212][360]LogTemp: Warning: Shoot
+[2021.01.30-02.18.47:212][360]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.18.47:320][373]LogTemp: Warning: Shoot
+[2021.01.30-02.18.47:428][386]LogTemp: Warning: Shoot
+[2021.01.30-02.18.47:536][399]LogTemp: Warning: Shoot
+[2021.01.30-02.18.47:646][412]LogTemp: Warning: Shoot
+[2021.01.30-02.18.52:162][954]LogTemp: Warning: END
+[2021.01.30-02.18.53:449][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.18.53:449][104]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level
+[2021.01.30-02.18.53:449][104]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-02.18.53:450][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.18.53:455][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-02.18.53:457][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.18.53:479][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.18.53:479][104]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017319B139C0), frame # 33104
+[2021.01.30-02.18.53:480][104]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000173208D6E00), frame # 33104
+[2021.01.30-02.18.53:481][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.01.30-02.18.53:537][106]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.01.30-02.19.42:418][976]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.30-02.19.42:428][976]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/CO2301Assignment.CO2301AssignmentGameModeBase
+[2021.01.30-02.19.42:514][976]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Source/CO2301Assignment/CO2301AssignmentGameModeBase.h'
+[2021.01.30-02.19.42:581][976]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Source/CO2301Assignment/CO2301AssignmentGameModeBase.cpp'
+[2021.01.30-02.44.03:490][298]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.30-02.44.03:493][298]LogSlate: Window 'Project Settings' being destroyed
+[2021.01.30-02.44.04:588][425]Candidate modules for hot reload:
+[2021.01.30-02.44.04:588][425]  CO2301Assignment
+[2021.01.30-02.44.04:588][425]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CO2301Assignment,4861 CO2301AssignmentEditor Win64 Development -Project="C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/CO2301Assignment.uproject" "C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/CO2301Assignment.uproject"  -IgnoreJunk]
+[2021.01.30-02.44.04:597][425]Warning: Starting HotReload took  0.0s.
+[2021.01.30-02.44.19:177][140]CompilerResultsLog: New page: Compilation - 30 Jan 2021, 02:44:19
+[2021.01.30-02.44.19:177][140]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Emma\Documents\GitHub\CO2301-Assignment).
+[2021.01.30-02.44.19:177][140]CompilerResultsLog: Parsing headers for CO2301AssignmentEditor
+[2021.01.30-02.44.19:177][140]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\CO2301Assignment.uproject" "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\CO2301AssignmentEditor\Development\CO2301AssignmentEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Emma\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.30-02.44.19:177][140]CompilerResultsLog: Reflection code generated for CO2301AssignmentEditor in 5.6343404 seconds
+[2021.01.30-02.44.19:177][140]CompilerResultsLog: Building CO2301AssignmentEditor...
+[2021.01.30-02.44.19:177][140]CompilerResultsLog: Using Visual Studio 2017 14.16.27038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.30-02.44.19:178][140]CompilerResultsLog: Building 12 actions with 16 processes...
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:   [1/12] CO2301Assignment.init.gen.cpp
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:   [2/12] CO2301AssignmentGameModeBase.cpp
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:   [3/12] EndZone.cpp
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:   [4/12] CO2301AssignmentGameModeBase.gen.cpp
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:   [5/12] EndZone.gen.cpp
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:   [6/12] BaseCharacter.cpp
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:   [7/12] BaseCharacter.gen.cpp
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:   [8/12] BTTask_Shoot.cpp
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:   [9/12] BTTask_Shoot.gen.cpp
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:   [10/12] UE4Editor-CO2301Assignment-4861.lib
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:      Creating library C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-4861.lib and object C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-4861.exp
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:   [11/12] UE4Editor-CO2301Assignment-4861.dll
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:      Creating library C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-4861.suppressed.lib and object C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-4861.suppressed.exp
+[2021.01.30-02.44.19:178][140]CompilerResultsLog:   [12/12] CO2301AssignmentEditor.target
+[2021.01.30-02.44.19:178][140]CompilerResultsLog: Total time in Parallel executor: 8.26 seconds
+[2021.01.30-02.44.19:178][140]CompilerResultsLog: Total execution time: 14.49 seconds
+[2021.01.30-02.44.19:178][140]LogMainFrame: MainFrame: Module compiling took 14.592 seconds
+[2021.01.30-02.44.19:198][140]LogClass: Could not find existing class BaseCharacter in package /Script/CO2301Assignment for HotReload, assuming new class
+[2021.01.30-02.44.19:198][140]LogClass: Function IsDead is new.
+[2021.01.30-02.44.19:198][140]LogClass: Function SpawnGrenade is new.
+[2021.01.30-02.44.19:198][140]LogClass: Function ThrowGrenade is new.
+[2021.01.30-02.44.19:199][140]LogClass: Could not find existing class CO2301AssignmentGameModeBase in package /Script/CO2301Assignment for HotReload, assuming new class
+[2021.01.30-02.44.19:199][140]LogClass: Function EndGame is new.
+[2021.01.30-02.44.19:199][140]LogClass: Function StartGame is new.
+[2021.01.30-02.44.19:199][140]LogClass: Could not find existing class EndZone in package /Script/CO2301Assignment for HotReload, assuming new class
+[2021.01.30-02.44.19:199][140]LogClass: Function OnOverLapBegin is new.
+[2021.01.30-02.44.19:205][140]LogHotReload: Re-instancing BaseCharacter after hot-reload.
+[2021.01.30-02.44.19:223][140]LogHotReload: Re-instancing CO2301AssignmentGameModeBase after hot-reload.
+[2021.01.30-02.44.19:228][140]LogHotReload: Re-instancing EndZone after hot-reload.
+[2021.01.30-02.44.19:235][140]LogContentBrowser: Native class hierarchy updated for 'CO2301Assignment' in 0.0004 seconds. Added 10 classes and 2 folders.
+[2021.01.30-02.44.19:236][140]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2021.01.30-02.44.19:268][140]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3446 classes and 828 folders.
+[2021.01.30-02.44.19:268][140]Display: HotReload took 14.7s.
+[2021.01.30-02.44.22:886][571]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-02.44.22:906][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-02.44.22:907][571]PIE: New page: PIE session: Level (30 Jan 2021, 02:44:22)
+[2021.01.30-02.44.22:950][571]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2021.01.30-02.44.22:985][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034942s)
+[2021.01.30-02.44.22:986][571]LogAIModule: Creating AISystem for world Level
+[2021.01.30-02.44.22:986][571]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000172E5801600), frame # 45571
+[2021.01.30-02.44.22:986][571]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017319C7E0C0), frame # 45571
+[2021.01.30-02.44.22:986][571]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2021.01.30-02.44.22:986][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.036045s)
+[2021.01.30-02.44.22:997][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.01.30-02.44.22:998][571]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-02.44.22:999][571]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-02.44.22:999][571]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-02.44.22:999][571]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-02.44.22:999][571]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-02.44.22:999][571]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-02.44.22:999][571]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-02.44.22:999][571]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-02.44.22:999][571]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-02.44.22:999][571]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-02.44.23:002][571]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-02.44.23:002][571]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-02.44.23:010][571]LogAudioMixer: Display: Using Audio Device Speakers (Scarlett Solo USB)
+[2021.01.30-02.44.23:010][571]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-02.44.23:010][571]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-02.44.23:010][571]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-02.44.23:011][571]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-02.44.23:021][571]LogInit: FAudioDevice initialized.
+[2021.01.30-02.44.23:029][571]LogLoad: Game class is 'BP_CO2301AssignmentGameModeBase_C'
+[2021.01.30-02.44.23:035][571]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2021.01.30-02.44.23
+[2021.01.30-02.44.23:036][571]LogWorld: Bringing up level for play took: 0.006014
+[2021.01.30-02.44.23:037][571]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.01.30-02.44.23:040][571]PIE: Server logged in
+[2021.01.30-02.44.23:040][571]PIE: Play in editor total start time 0.136 seconds.
+[2021.01.30-02.44.23:357][608]LogTemp: Warning: Shoot
+[2021.01.30-02.44.24:814][783]LogTemp: Warning: Shoot
+[2021.01.30-02.44.24:922][796]LogTemp: Warning: Shoot
+[2021.01.30-02.44.25:030][809]LogTemp: Warning: Shoot
+[2021.01.30-02.44.25:139][822]LogTemp: Warning: Shoot
+[2021.01.30-02.44.25:246][835]LogTemp: Warning: Shoot
+[2021.01.30-02.44.25:356][848]LogTemp: Warning: Shoot
+[2021.01.30-02.44.25:463][861]LogTemp: Warning: Shoot
+[2021.01.30-02.44.25:572][874]LogTemp: Warning: Shoot
+[2021.01.30-02.44.25:680][887]LogTemp: Warning: Shoot
+[2021.01.30-02.44.25:789][900]LogTemp: Warning: Shoot
+[2021.01.30-02.44.25:897][913]LogTemp: Warning: Shoot
+[2021.01.30-02.44.26:006][926]LogTemp: Warning: Shoot
+[2021.01.30-02.44.26:114][939]LogTemp: Warning: Shoot
+[2021.01.30-02.44.26:222][952]LogTemp: Warning: Shoot
+[2021.01.30-02.44.26:331][965]LogTemp: Warning: Shoot
+[2021.01.30-02.44.26:438][978]LogTemp: Warning: Shoot
+[2021.01.30-02.44.26:438][978]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.44.26:547][991]LogTemp: Warning: Shoot
+[2021.01.30-02.44.26:655][  4]LogTemp: Warning: Shoot
+[2021.01.30-02.44.26:763][ 17]LogTemp: Warning: Shoot
+[2021.01.30-02.44.26:872][ 30]LogTemp: Warning: Shoot
+[2021.01.30-02.44.26:980][ 43]LogTemp: Warning: Shoot
+[2021.01.30-02.44.27:089][ 56]LogTemp: Warning: Shoot
+[2021.01.30-02.44.27:197][ 69]LogTemp: Warning: Shoot
+[2021.01.30-02.44.27:305][ 82]LogTemp: Warning: Shoot
+[2021.01.30-02.44.27:414][ 95]LogTemp: Warning: Shoot
+[2021.01.30-02.44.27:522][108]LogTemp: Warning: Shoot
+[2021.01.30-02.44.27:630][121]LogTemp: Warning: Shoot
+[2021.01.30-02.44.27:739][134]LogTemp: Warning: Shoot
+[2021.01.30-02.44.27:847][147]LogTemp: Warning: Shoot
+[2021.01.30-02.44.27:956][160]LogTemp: Warning: Shoot
+[2021.01.30-02.44.28:064][173]LogTemp: Warning: Shoot
+[2021.01.30-02.44.28:172][186]LogTemp: Warning: Shoot
+[2021.01.30-02.44.28:172][186]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.44.28:280][199]LogTemp: Warning: Shoot
+[2021.01.30-02.44.28:280][199]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.44.28:389][212]LogTemp: Warning: Shoot
+[2021.01.30-02.44.28:389][212]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.44.28:497][225]LogTemp: Warning: Shoot
+[2021.01.30-02.44.28:497][225]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.44.28:605][238]LogTemp: Warning: Shoot
+[2021.01.30-02.44.28:605][238]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.44.28:713][251]LogTemp: Warning: Shoot
+[2021.01.30-02.44.28:713][251]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.44.28:821][264]LogTemp: Warning: Shoot
+[2021.01.30-02.44.28:822][264]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.44.28:930][277]LogTemp: Warning: Shoot
+[2021.01.30-02.44.28:930][277]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.44.29:038][290]LogTemp: Warning: Shoot
+[2021.01.30-02.44.29:038][290]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.44.29:147][303]LogTemp: Warning: Shoot
+[2021.01.30-02.44.29:147][303]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.44.29:255][316]LogTemp: Warning: Shoot
+[2021.01.30-02.44.29:255][316]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.44.29:363][329]LogTemp: Warning: Shoot
+[2021.01.30-02.44.29:363][329]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.44.37:326][284]LogTemp: Warning: Shoot
+[2021.01.30-02.44.37:326][284]LogTemp: Warning: Health left 90.000000
+[2021.01.30-02.44.37:434][297]LogTemp: Warning: Shoot
+[2021.01.30-02.44.37:434][297]LogTemp: Warning: Health left 80.000000
+[2021.01.30-02.44.37:543][310]LogTemp: Warning: Shoot
+[2021.01.30-02.44.37:543][310]LogTemp: Warning: Health left 70.000000
+[2021.01.30-02.44.37:652][323]LogTemp: Warning: Shoot
+[2021.01.30-02.44.37:652][323]LogTemp: Warning: Health left 60.000000
+[2021.01.30-02.44.37:760][336]LogTemp: Warning: Shoot
+[2021.01.30-02.44.37:760][336]LogTemp: Warning: Health left 50.000000
+[2021.01.30-02.44.37:868][349]LogTemp: Warning: Shoot
+[2021.01.30-02.44.37:868][349]LogTemp: Warning: Health left 40.000000
+[2021.01.30-02.44.37:976][362]LogTemp: Warning: Shoot
+[2021.01.30-02.44.37:976][362]LogTemp: Warning: Health left 30.000000
+[2021.01.30-02.44.38:085][375]LogTemp: Warning: Shoot
+[2021.01.30-02.44.38:085][375]LogTemp: Warning: Health left 20.000000
+[2021.01.30-02.44.38:193][388]LogTemp: Warning: Shoot
+[2021.01.30-02.44.38:193][388]LogTemp: Warning: Health left 10.000000
+[2021.01.30-02.44.38:302][401]LogTemp: Warning: Shoot
+[2021.01.30-02.44.38:302][401]LogTemp: Warning: Health left 0.000000
+[2021.01.30-02.44.38:302][401]LogTemp: Warning: END
+[2021.01.30-02.44.38:410][414]LogTemp: Warning: Shoot
+[2021.01.30-02.44.38:518][427]LogTemp: Warning: Shoot
+[2021.01.30-02.44.38:626][440]LogTemp: Warning: Shoot
+[2021.01.30-02.44.38:734][453]LogTemp: Warning: Shoot
+[2021.01.30-02.44.38:843][466]LogTemp: Warning: Shoot
+[2021.01.30-02.44.38:951][479]LogTemp: Warning: Shoot
+[2021.01.30-02.44.39:060][492]LogTemp: Warning: Shoot
+[2021.01.30-02.44.39:168][505]LogTemp: Warning: Shoot
+[2021.01.30-02.44.39:276][518]LogTemp: Warning: Shoot
+[2021.01.30-02.44.39:385][531]LogTemp: Warning: Shoot
+[2021.01.30-02.44.39:493][544]LogTemp: Warning: Shoot
+[2021.01.30-02.44.39:602][557]LogTemp: Warning: Shoot
+[2021.01.30-02.44.39:710][570]LogTemp: Warning: Shoot
+[2021.01.30-02.44.39:818][583]LogTemp: Warning: Shoot
+[2021.01.30-02.44.39:926][596]LogTemp: Warning: Shoot
+[2021.01.30-02.44.40:034][609]LogTemp: Warning: Shoot
+[2021.01.30-02.44.40:143][622]LogTemp: Warning: Shoot
+[2021.01.30-02.44.40:181][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.44.40:181][624]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Level
+[2021.01.30-02.44.40:181][624]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-02.44.40:182][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.44.40:189][624]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.30-02.44.40:190][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.44.40:211][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.30-02.44.40:213][624]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000172E5801600), frame # 47624
+[2021.01.30-02.44.40:213][624]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017319C7E0C0), frame # 47624
+[2021.01.30-02.44.40:213][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.01.30-02.44.40:266][626]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.01.30-02.47.02:531][212]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/WBP_LoseScreen.WBP_LoseScreen
+[2021.01.30-02.47.02:712][212]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2021.01.30-02.47.03:749][212]LogSlate: Took 0.000398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.30-02.47.30:186][914]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.30-02.47.41:732][583]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 54583
+[2021.01.30-02.47.41:733][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.47.41:738][584]LogSlate: Took 0.000497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.30-02.47.41:743][584]LogSlate: Took 0.000669 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.30-02.47.41:747][584]LogSlate: Took 0.000526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.30-02.47.41:751][584]LogSlate: Took 0.000431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.30-02.47.41:753][584]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.30-02.47.41:972][608]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 25
+[2021.01.30-02.47.41:972][608]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.47.41:976][609]LogSlate: Took 0.000084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.30-02.47.41:980][609]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.30-02.47.41:984][609]LogSlate: Took 0.000078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.30-02.47.41:988][609]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.30-02.47.41:990][609]LogSlate: Took 0.000069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.30-02.50.43:540][105]LogSlate: Window 'Color Picker' being destroyed
+[2021.01.30-02.53.06:012][459]BlueprintLog: New page: Compile WBP_LoseScreen
+[2021.01.30-02.53.06:062][459]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.01.30-02.53.06:725][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WBP_LoseScreen" FILE="../../../../../../Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Content/WBP_LoseScreen.uasset" SILENT=true
+[2021.01.30-02.53.06:743][534]LogSavePackage: Moving '../../../../../../Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/WBP_LoseScreen80A174E64ED259F0C4CBEFBA8D744D5F.tmp' to '../../../../../../Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Content/WBP_LoseScreen.uasset'
+[2021.01.30-02.53.06:758][534]AssetCheck: New page: Asset Save: WBP_LoseScreen
+[2021.01.30-02.53.06:758][534]LogContentValidation: Display: Validating WidgetBlueprint /Game/WBP_LoseScreen.WBP_LoseScreen
+[2021.01.30-02.53.08:220][704]LogSlate: Window 'WBP_LoseScreen' being destroyed
+[2021.01.30-02.53.08:224][704]LogSlate: Window 'WBP_LoseScreen' being destroyed
+[2021.01.30-02.53.08:264][704]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-02.53.08:264][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.53.08:289][704]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-02.53.08:289][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-02.59.04:397][424]Candidate modules for hot reload:
+[2021.01.30-02.59.04:397][424]  CO2301Assignment
+[2021.01.30-02.59.04:397][424]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CO2301Assignment,3748 CO2301AssignmentEditor Win64 Development -Project="C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/CO2301Assignment.uproject" "C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/CO2301Assignment.uproject"  -IgnoreJunk]
+[2021.01.30-02.59.04:405][424]Warning: Starting HotReload took  0.0s.
+[2021.01.30-02.59.22:840][243]CompilerResultsLog: New page: Compilation - 30 Jan 2021, 02:59:22
+[2021.01.30-02.59.22:840][243]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Emma\Documents\GitHub\CO2301-Assignment).
+[2021.01.30-02.59.22:840][243]CompilerResultsLog: Invalidating makefile for CO2301AssignmentEditor (CO2301Assignment.Build.cs modified)
+[2021.01.30-02.59.22:840][243]CompilerResultsLog: Parsing headers for CO2301AssignmentEditor
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\CO2301Assignment.uproject" "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\CO2301AssignmentEditor\Development\CO2301AssignmentEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Emma\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.30-02.59.22:840][243]CompilerResultsLog: Reflection code generated for CO2301AssignmentEditor in 5.8348039 seconds
+[2021.01.30-02.59.22:840][243]CompilerResultsLog: Building CO2301AssignmentEditor...
+[2021.01.30-02.59.22:840][243]CompilerResultsLog: Using Visual Studio 2017 14.16.27038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.30-02.59.22:840][243]CompilerResultsLog: Building 12 actions with 16 processes...
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:   [1/12] CO2301Assignment.init.gen.cpp
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:   [2/12] CO2301AssignmentGameModeBase.cpp
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:    C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h(1429) : error C2338: The given OwningObject is not of a supported type for use with CreateWidget.
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:   C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Source\CO2301Assignment\CO2301AssignmentGameModeBase.cpp(14): note: see reference to function template instantiation 'WidgetT *CreateWidget<UUserWidget,ACO2301AssignmentGameModeBase>(OwnerT *,TSubclassOf<UUserWidget>,FName)' being compiled
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:           with
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:           [
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:               WidgetT=UUserWidget,
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:               OwnerT=ACO2301AssignmentGameModeBase
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:           ]
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:    C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h(1435) : error C2665: 'UUserWidget::CreateWidgetInstance': none of the 5 overloads could convert all the argument types
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h(1102): note: could be 'UUserWidget *UUserWidget::CreateWidgetInstance(UWorld &,TSubclassOf<UUserWidget>,FName)'
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h(1101): note: or       'UUserWidget *UUserWidget::CreateWidgetInstance(UGameInstance &,TSubclassOf<UUserWidget>,FName)'
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h(1100): note: or       'UUserWidget *UUserWidget::CreateWidgetInstance(APlayerController &,TSubclassOf<UUserWidget>,FName)'
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h(1099): note: or       'UUserWidget *UUserWidget::CreateWidgetInstance(UWidgetTree &,TSubclassOf<UUserWidget>,FName)'
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h(1098): note: or       'UUserWidget *UUserWidget::CreateWidgetInstance(UWidget &,TSubclassOf<UUserWidget>,FName)'
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h(1435): note: while trying to match the argument list '(OwnerT, TSubclassOf<UUserWidget>, FName)'
+[2021.01.30-02.59.22:840][243]CompilerResultsLog:           with
+[2021.01.30-02.59.22:841][243]CompilerResultsLog:           [
+[2021.01.30-02.59.22:841][243]CompilerResultsLog:               OwnerT=ACO2301AssignmentGameModeBase
+[2021.01.30-02.59.22:841][243]CompilerResultsLog:           ]
+[2021.01.30-02.59.22:841][243]CompilerResultsLog:   [3/12] EndZone.cpp
+[2021.01.30-02.59.22:841][243]CompilerResultsLog:   [4/12] EndZone.gen.cpp
+[2021.01.30-02.59.22:841][243]CompilerResultsLog:   [5/12] CO2301AssignmentGameModeBase.gen.cpp
+[2021.01.30-02.59.22:841][243]CompilerResultsLog:   [6/12] BaseCharacter.gen.cpp
+[2021.01.30-02.59.22:841][243]CompilerResultsLog:   [7/12] BaseCharacter.cpp
+[2021.01.30-02.59.22:841][243]CompilerResultsLog:   [8/12] BTTask_Shoot.cpp
+[2021.01.30-02.59.22:841][243]CompilerResultsLog:   [9/12] BTTask_Shoot.gen.cpp
+[2021.01.30-02.59.22:841][243]LogMainFrame: MainFrame: Module compiling took 18.446 seconds
+[2021.01.30-02.59.22:841][243]Warning: HotReload failed, recompile failed
+[2021.01.30-02.59.25:207][249]LogSlate: Took 0.000757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.30-02.59.44:853][603]LogSlate: Window 'Message Log' being destroyed
+[2021.01.30-02.59.44:857][603]LogSlate: Window 'Message Log' being destroyed
+[2021.01.30-03.02.43:745][657]Candidate modules for hot reload:
+[2021.01.30-03.02.43:745][657]  CO2301Assignment
+[2021.01.30-03.02.43:745][657]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CO2301Assignment,1242 CO2301AssignmentEditor Win64 Development -Project="C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/CO2301Assignment.uproject" "C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/CO2301Assignment.uproject"  -IgnoreJunk]
+[2021.01.30-03.02.43:757][657]Warning: Starting HotReload took  0.0s.
+[2021.01.30-03.03.22:364][254]CompilerResultsLog: New page: Compilation - 30 Jan 2021, 03:03:22
+[2021.01.30-03.03.22:364][254]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Emma\Documents\GitHub\CO2301-Assignment).
+[2021.01.30-03.03.22:364][254]CompilerResultsLog: Invalidating makefile for CO2301AssignmentEditor (CO2301Assignment.Build.cs modified)
+[2021.01.30-03.03.22:364][254]CompilerResultsLog: Parsing headers for CO2301AssignmentEditor
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\CO2301Assignment.uproject" "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\CO2301AssignmentEditor\Development\CO2301AssignmentEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Emma\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.30-03.03.22:364][254]CompilerResultsLog: Reflection code generated for CO2301AssignmentEditor in 5.9926471 seconds
+[2021.01.30-03.03.22:364][254]CompilerResultsLog: Building CO2301AssignmentEditor...
+[2021.01.30-03.03.22:364][254]CompilerResultsLog: Using Visual Studio 2017 14.16.27038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.30-03.03.22:364][254]CompilerResultsLog: Building 11 actions with 16 processes...
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   [1/11] BaseCharacter.cpp
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2021.01.30-03.03.22:364][254]CompilerResultsLog: 
+[2021.01.30-03.03.22:364][254]CompilerResultsLog: 
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   [2/11] CO2301AssignmentGameModeBase.cpp
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:    C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Source\CO2301Assignment\CO2301AssignmentGameModeBase.cpp(19) : error C2065: 'LoseScreen': undeclared identifier
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:    C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Source\CO2301Assignment\CO2301AssignmentGameModeBase.cpp(20) : error C2065: 'LoseScreen': undeclared identifier
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   [3/11] EndZone.cpp
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   [4/11] CO2301AssignmentGameModeBase.gen.cpp
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   [5/11] BTTask_Shoot.cpp
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   [6/11] EndZone.gen.cpp
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   [7/11] BaseCharacter.gen.cpp
+[2021.01.30-03.03.22:364][254]CompilerResultsLog:   [8/11] BTTask_Shoot.gen.cpp
+[2021.01.30-03.03.22:364][254]LogMainFrame: MainFrame: Module compiling took 38.622 seconds
+[2021.01.30-03.03.22:364][254]Warning: HotReload failed, recompile failed
+[2021.01.30-03.04.39:266][609]Candidate modules for hot reload:
+[2021.01.30-03.04.39:266][609]  CO2301Assignment
+[2021.01.30-03.04.39:267][609]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CO2301Assignment,4577 CO2301AssignmentEditor Win64 Development -Project="C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/CO2301Assignment.uproject" "C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/CO2301Assignment.uproject"  -IgnoreJunk]
+[2021.01.30-03.04.39:274][609]Warning: Starting HotReload took  0.0s.
+[2021.01.30-03.04.44:869][242]CompilerResultsLog: New page: Compilation - 30 Jan 2021, 03:04:44
+[2021.01.30-03.04.44:870][242]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Emma\Documents\GitHub\CO2301-Assignment).
+[2021.01.30-03.04.44:870][242]CompilerResultsLog: Building CO2301AssignmentEditor...
+[2021.01.30-03.04.44:870][242]CompilerResultsLog: Using Visual Studio 2017 14.16.27038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.30-03.04.44:870][242]CompilerResultsLog: Building 5 actions with 16 processes...
+[2021.01.30-03.04.44:870][242]CompilerResultsLog:   [1/5] CO2301AssignmentGameModeBase.cpp
+[2021.01.30-03.04.44:870][242]CompilerResultsLog:   [2/5] BaseCharacter.cpp
+[2021.01.30-03.04.44:870][242]CompilerResultsLog:   [3/5] UE4Editor-CO2301Assignment-4577.lib
+[2021.01.30-03.04.44:870][242]CompilerResultsLog:      Creating library C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-4577.lib and object C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-4577.exp
+[2021.01.30-03.04.44:870][242]CompilerResultsLog:   [4/5] UE4Editor-CO2301Assignment-4577.dll
+[2021.01.30-03.04.44:870][242]CompilerResultsLog:      Creating library C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-4577.suppressed.lib and object C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-4577.suppressed.exp
+[2021.01.30-03.04.44:870][242]CompilerResultsLog: Error:   CO2301AssignmentGameModeBase.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) private: static class UClass * __cdecl UUserWidget::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UUserWidget@@CAPEAVUClass@@XZ) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class APlayerController>(class APlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAPlayerController@@@@YAPEAVUUserWidget@@PEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2021.01.30-03.04.44:870][242]CompilerResultsLog: Error:   CO2301AssignmentGameModeBase.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl UUserWidget::AddToViewport(int)" (__imp_?AddToViewport@UUserWidget@@QEAAXH@Z) referenced in function "public: void __cdecl ACO2301AssignmentGameModeBase::EndGame(void)" (?EndGame@ACO2301AssignmentGameModeBase@@QEAAXXZ)
+[2021.01.30-03.04.44:870][242]CompilerResultsLog: Error:   CO2301AssignmentGameModeBase.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class UUserWidget * __cdecl UUserWidget::CreateWidgetInstance(class APlayerController &,class TSubclassOf<class UUserWidget>,class FName)" (__imp_?CreateWidgetInstance@UUserWidget@@SAPEAV1@AEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z) referenced in function "class UUserWidget * __cdecl CreateWidget<class UUserWidget,class APlayerController>(class APlayerController *,class TSubclassOf<class UUserWidget>,class FName)" (??$CreateWidget@VUUserWidget@@VAPlayerController@@@@YAPEAVUUserWidget@@PEAVAPlayerController@@V?$TSubclassOf@VUUserWidget@@@@VFName@@@Z)
+[2021.01.30-03.04.44:870][242]CompilerResultsLog: Error:   CO2301AssignmentGameModeBase.gen.cpp.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UUserWidget_NoRegister(void)" (__imp_?Z_Construct_UClass_UUserWidget_NoRegister@@YAPEAVUClass@@XZ) referenced in function "void __cdecl `dynamic initializer for 'public: static struct UE4CodeGen_Private::FClassPropertyParams const Z_Construct_UClass_ACO2301AssignmentGameModeBase_Statics::NewProp_LoseScreenClass''(void)" (??__E?NewProp_LoseScreenClass@Z_Construct_UClass_ACO2301AssignmentGameModeBase_Statics@@2UFClassPropertyParams@UE4CodeGen_Private@@B@@YAXXZ)
+[2021.01.30-03.04.44:870][242]CompilerResultsLog: Error:   C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Binaries\Win64\UE4Editor-CO2301Assignment-4577.dll : fatal error LNK1120: 4 unresolved externals
+[2021.01.30-03.04.44:870][242]LogMainFrame: MainFrame: Module compiling took 5.607 seconds
+[2021.01.30-03.04.44:870][242]Warning: HotReload failed, recompile failed
+[2021.01.30-03.04.56:214][855]Candidate modules for hot reload:
+[2021.01.30-03.04.56:214][855]  CO2301Assignment
+[2021.01.30-03.04.56:214][855]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CO2301Assignment,9883 CO2301AssignmentEditor Win64 Development -Project="C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/CO2301Assignment.uproject" "C:/Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/CO2301Assignment.uproject"  -IgnoreJunk]
+[2021.01.30-03.04.56:219][855]Warning: Starting HotReload took  0.0s.
+[2021.01.30-03.05.18:858][537]CompilerResultsLog: New page: Compilation - 30 Jan 2021, 03:05:18
+[2021.01.30-03.05.18:859][537]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Emma\Documents\GitHub\CO2301-Assignment).
+[2021.01.30-03.05.18:859][537]CompilerResultsLog: Invalidating makefile for CO2301AssignmentEditor (CO2301Assignment.Build.cs modified)
+[2021.01.30-03.05.18:859][537]CompilerResultsLog: Parsing headers for CO2301AssignmentEditor
+[2021.01.30-03.05.18:859][537]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\CO2301Assignment.uproject" "C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\CO2301AssignmentEditor\Development\CO2301AssignmentEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Emma\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.30-03.05.18:859][537]CompilerResultsLog: Reflection code generated for CO2301AssignmentEditor in 17.6871723 seconds
+[2021.01.30-03.05.18:859][537]CompilerResultsLog: Building CO2301AssignmentEditor...
+[2021.01.30-03.05.18:859][537]CompilerResultsLog: Using Visual Studio 2017 14.16.27038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.30-03.05.18:859][537]CompilerResultsLog: Building 3 actions with 16 processes...
+[2021.01.30-03.05.18:859][537]CompilerResultsLog:   [1/3] UE4Editor-CO2301Assignment-9883.lib
+[2021.01.30-03.05.18:859][537]CompilerResultsLog:      Creating library C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-9883.lib and object C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-9883.exp
+[2021.01.30-03.05.18:859][537]CompilerResultsLog:   [2/3] UE4Editor-CO2301Assignment-9883.dll
+[2021.01.30-03.05.18:859][537]CompilerResultsLog:      Creating library C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-9883.suppressed.lib and object C:\Users\Emma\Documents\GitHub\CO2301-Assignment\CO2301Assignment\Intermediate\Build\Win64\UE4Editor\Development\CO2301Assignment\UE4Editor-CO2301Assignment-9883.suppressed.exp
+[2021.01.30-03.05.18:859][537]CompilerResultsLog:   [3/3] CO2301AssignmentEditor.target
+[2021.01.30-03.05.18:859][537]CompilerResultsLog: Total time in Parallel executor: 1.79 seconds
+[2021.01.30-03.05.18:859][537]CompilerResultsLog: Total execution time: 22.56 seconds
+[2021.01.30-03.05.18:859][537]LogMainFrame: MainFrame: Module compiling took 22.647 seconds
+[2021.01.30-03.05.18:891][537]LogClass: Could not find existing class CO2301AssignmentGameModeBase in package /Script/CO2301Assignment for HotReload, assuming new class
+[2021.01.30-03.05.18:891][537]LogClass: Function EndGame is new.
+[2021.01.30-03.05.18:891][537]LogClass: Function StartGame is new.
+[2021.01.30-03.05.18:904][537]LogHotReload: Re-instancing CO2301AssignmentGameModeBase after hot-reload.
+[2021.01.30-03.05.18:919][537]LogContentBrowser: Native class hierarchy updated for 'CO2301Assignment' in 0.0004 seconds. Added 10 classes and 2 folders.
+[2021.01.30-03.05.18:922][537]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2021.01.30-03.05.18:977][537]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 3446 classes and 828 folders.
+[2021.01.30-03.05.18:977][537]Display: HotReload took 22.8s.
+[2021.01.30-03.05.22:300][905]LogSlate: Window 'Message Log' being destroyed
+[2021.01.30-03.05.22:304][905]LogSlate: Window 'Message Log' being destroyed
+[2021.01.30-03.05.23:960][102]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_CO2301AssignmentGameModeBase.BP_CO2301AssignmentGameModeBase
+[2021.01.30-03.05.29:757][715]BlueprintLog: New page: Compile BP_CO2301AssignmentGameModeBase
+[2021.01.30-03.05.29:848][715]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2021.01.30-03.05.30:782][819]LogSavePackage: Moving '../../../../../../Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Saved/BP_CO2301AssignmentGameModeBase9448E3304DB1BBCEE4C7E6B638E8C9B1.tmp' to '../../../../../../Users/Emma/Documents/GitHub/CO2301-Assignment/CO2301Assignment/Content/BP_CO2301AssignmentGameModeBase.uasset'
+[2021.01.30-03.05.30:796][819]AssetCheck: New page: Asset Save: BP_CO2301AssignmentGameModeBase
+[2021.01.30-03.05.30:796][819]LogContentValidation: Display: Validating Blueprint /Game/BP_CO2301AssignmentGameModeBase.BP_CO2301AssignmentGameModeBase
+[2021.01.30-03.05.31:729][928]LogSlate: Window 'BP_CO2301AssignmentGameModeBase' being destroyed
+[2021.01.30-03.05.31:732][928]LogSlate: Window 'BP_CO2301AssignmentGameModeBase' being destroyed
+[2021.01.30-03.05.31:780][928]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.01.30-03.05.31:780][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.30-03.05.32:594][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.30-03.05.32:612][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.30-03.05.32:612][ 19]PIE: New page: PIE session: Level (30 Jan 2021, 03:05:32)
+[2021.01.30-03.05.32:650][ 19]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level
+[2021.01.30-03.05.32:804][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.154427s)
+[2021.01.30-03.05.32:805][ 19]LogAIModule: Creating AISystem for world Level
+[2021.01.30-03.05.32:805][ 19]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017334E47A00), frame # 100019
+[2021.01.30-03.05.32:805][ 19]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000173186CA200), frame # 100019
+[2021.01.30-03.05.32:805][ 19]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2021.01.30-03.05.32:805][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level.Level to /Game/UEDPIE_0_Level.Level (0.155462s)
+[2021.01.30-03.05.32:855][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2021.01.30-03.05.32:857][ 19]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.30-03.05.32:857][ 19]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.30-03.05.32:857][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.30-03.05.32:858][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.30-03.05.32:858][ 19]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.30-03.05.32:858][ 19]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.30-03.05.32:858][ 19]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.30-03.05.32:858][ 19]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.30-03.05.32:858][ 19]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.30-03.05.32:858][ 19]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.30-03.05.32:861][ 19]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.30-03.05.32:861][ 19]LogAudioMixer: Display: 1: FrontRight
+[2021.01.30-03.05.32:871][ 19]LogAudioMixer: Display: Using Audio Device Speakers (Scarlett Solo USB)
+[2021.01.30-03.05.32:871][ 19]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.30-03.05.32:871][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.30-03.05.32:871][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.30-03.05.32:872][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.30-03.05.32:883][ 19]LogInit: FAudioDevice initialized.
+[2021.01.30-03.05.32:886][ 19]LogLoad: Game class is 'BP_CO2301AssignmentGameModeBase_C'
+[2021.01.30-03.05.32:891][ 19]LogWorld: Bringing World /Game/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2021.01.30-03.05.32
+[2021.01.30-03.05.32:892][ 19]LogWorld: Bringing up level for play took: 0.004791
+[2021.01.30-03.05.32:892][ 19]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.01.30-03.05.32:896][ 19]PIE: Server logged in
+[2021.01.30-03.05.32:897][ 19]PIE: Play in editor total start time 0.287 seconds.
+[2021.01.30-03.05.34:057][157]LogTemp: Warning: Shoot
+[2021.01.30-03.05.36:690][473]LogTemp: Warning: Shoot
+[2021.01.30-03.05.36:798][486]LogTemp: Warning: Shoot
+[2021.01.30-03.05.36:906][499]LogTemp: Warning: Shoot
+[2021.01.30-03.05.37:307][547]LogTemp: Warning: Shoot
+[2021.01.30-03.05.37:414][560]LogTemp: Warning: Shoot
+[2021.01.30-03.05.37:522][573]LogTemp: Warning: Shoot
+[2021.01.30-03.05.37:523][573]LogTemp: Warning: Health left 90.000000
+[2021.01.30-03.05.37:631][586]LogTemp: Warning: Shoot
+[2021.01.30-03.05.38:564][698]LogTemp: Warning: Shoot
+[2021.01.30-03.05.38:564][698]LogTemp: Warning: Health left 80.000000
+[2021.01.30-03.05.38:673][711]LogTemp: Warning: Shoot
+[2021.01.30-03.05.38:673][711]LogTemp: Warning: Health left 70.000000
+[2021.01.30-03.05.38:781][724]LogTemp: Warning: Shoot
+[2021.01.30-03.05.38:781][724]LogTemp: Warning: Health left 60.000000
+[2021.01.30-03.05.38:889][737]LogTemp: Warning: Shoot
+[2021.01.30-03.05.38:889][737]LogTemp: Warning: Health left 50.000000
+[2021.01.30-03.05.38:998][750]LogTemp: Warning: Shoot
+[2021.01.30-03.05.38:998][750]LogTemp: Warning: Health left 40.000000
+[2021.01.30-03.05.39:081][760]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:081][760]LogTemp: Warning: Health left 90.000000
+[2021.01.30-03.05.39:106][763]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:190][773]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:190][773]LogTemp: Warning: Health left 80.000000
+[2021.01.30-03.05.39:214][776]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:298][786]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:298][786]LogTemp: Warning: Health left 70.000000
+[2021.01.30-03.05.39:323][789]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:323][789]LogTemp: Warning: Health left 30.000000
+[2021.01.30-03.05.39:406][799]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:406][799]LogTemp: Warning: Health left 60.000000
+[2021.01.30-03.05.39:431][802]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:431][802]LogTemp: Warning: Health left 20.000000
+[2021.01.30-03.05.39:514][812]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:514][812]LogTemp: Warning: Health left 50.000000
+[2021.01.30-03.05.39:539][815]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:539][815]LogTemp: Warning: Health left 10.000000
+[2021.01.30-03.05.39:622][825]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:622][825]LogTemp: Warning: Health left 40.000000
+[2021.01.30-03.05.39:647][828]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:731][838]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:731][838]LogTemp: Warning: Health left 30.000000
+[2021.01.30-03.05.39:755][841]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:755][841]LogTemp: Warning: Health left 0.000000
+[2021.01.30-03.05.39:840][851]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:864][854]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:947][864]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:973][867]LogTemp: Warning: Shoot
+[2021.01.30-03.05.39:973][867]LogTemp: Warning: Health left 0.000000
+[2021.01.30-03.05.40:056][877]LogTemp: Warning: Shoot
+[2021.01.30-03.05.40:081][880]LogTemp: Warning: Shoot
+[2021.01.30-03.05.40:081][880]LogTemp: Warning: Health left 0.000000
+[2021.01.30-03.05.40:164][890]LogTemp: Warning: Shoot
+[2021.01.30-03.05.40:189][893]LogTemp: Warning: Shoot
+[2021.01.30-03.05.40:189][893]LogTemp: Warning: Health left 0.000000
+[2021.01.30-03.05.40:273][903]LogTemp: Warning: Shoot
+[2021.01.30-03.05.40:273][903]LogTemp: Warning: Health left 20.000000
+[2021.01.30-03.05.40:381][916]LogTemp: Warning: Shoot
+[2021.01.30-03.05.40:381][916]LogTemp: Warning: Health left 10.000000
+[2021.01.30-03.05.40:490][929]LogTemp: Warning: Shoot
+[2021.01.30-03.05.40:490][929]LogTemp: Warning: Health left 0.000000
+[2021.01.30-03.05.40:490][929]LogTemp: Warning: END
